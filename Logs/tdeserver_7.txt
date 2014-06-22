@@ -1,0 +1,1909 @@
+2014-06-21 12:40:45.276 (3328): -----------------------------------------------------------------------------
+2014-06-21 12:40:45.276 (3328): Initializing fault reporting
+2014-06-21 12:40:45.276 (3328): Fault reporting log pathname: C:\Users\John\Desktop\Dropbox\Logs\tdeserver64-error00000d0c.log
+2014-06-21 12:40:45.276 (3328): Initializing MiniDump
+2014-06-21 12:40:45.276 (3328): Loading 'DbgHelp.dll'
+2014-06-21 12:40:45.276 (3328): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-06-21 12:40:45.276 (3328):   Product Name: Microsoft® Windows® Operating System
+2014-06-21 12:40:45.276 (3328):   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 12:40:45.276 (3328):   Product Version: 6.1.7600.16385
+2014-06-21 12:40:45.276 (3328): Finding function 'MiniDumpWriteDump'
+2014-06-21 12:40:45.276 (3328): Success
+2014-06-21 12:40:45.276 (3328): Registering unhandled exception filter
+2014-06-21 12:40:45.276 (3328): -----------------------------------------------------------------------------
+2014-06-21 12:40:45.276 (3328): Machine Configuration
+2014-06-21 12:40:45.276 (3328):   Max Descriptors: -1
+2014-06-21 12:40:45.277 (3328): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.277 (3328): tdeserver: accepting new connection
+2014-06-21 12:40:45.277 (3328): tdeserver: new connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.277 (2840): beginthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.277 (2840): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=1
+2014-06-21 12:40:45.277 (4116): beginthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.277 (4708): Session1: QueryExecute:
+2014-06-21 12:40:45.277 (4708): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:40:45.277 (4708): Session1: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 12:40:45.278 (4336): Session1: QueryExecute:
+2014-06-21 12:40:45.278 (4336): (database null)
+2014-06-21 12:40:45.278 (4336): Session1: QueryExecute: OK
+2014-06-21 12:40:45.278 (2840): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=1
+2014-06-21 12:40:45.278 (2840): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 12:40:45.278 (2840):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 12:40:45.278 (2840): tdeserver: closing connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.278 (2840): endthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.278 (4116): endthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.293 (3328): tdeserver: accepting new connection
+2014-06-21 12:40:45.293 (3784): beginthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.293 (3328): tdeserver: new connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.293 (2420): beginthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.293 (3784): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=2
+2014-06-21 12:40:45.293 (4708): Session2: QueryExecute:
+2014-06-21 12:40:45.293 (4708): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:40:45.293 (4708): Session2: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 12:40:45.294 (4336): Session2: QueryExecute:
+2014-06-21 12:40:45.294 (4336): (database null)
+2014-06-21 12:40:45.294 (4336): Session2: QueryExecute: OK
+2014-06-21 12:40:45.294 (3784): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=2
+2014-06-21 12:40:45.294 (3784): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 12:40:45.294 (3784):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 12:40:45.294 (3784): tdeserver: closing connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (3784): endthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (2420): endthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (3328): tdeserver: accepting new connection
+2014-06-21 12:40:45.294 (1436): beginthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (3328): tdeserver: new connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (3776): beginthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.294 (1436): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=3
+2014-06-21 12:40:45.294 (1436): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=4
+2014-06-21 12:40:45.295 (4336): Session3: StatementPrepare: sess_guid=3 stmt_guid=1
+2014-06-21 12:40:45.295 (4336): (create database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:40:45.872 (4336): Session3: StatementPrepare: OK
+2014-06-21 12:40:45.872 (4708): Session3: StatementExecute: sess_guid=3 stmt_guid=1
+2014-06-21 12:40:45.872 (4708): Session3: StatementExecute: OK
+2014-06-21 12:40:45.872 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.872 (4708): Compilation time:0.577 sec
+2014-06-21 12:40:45.872 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.873 (4336): Session3: StatementClose: sess_guid=3 stmt_guid=1
+2014-06-21 12:40:45.873 (4708): Session3: QueryExecute:
+2014-06-21 12:40:45.873 (4708): (database null)
+2014-06-21 12:40:45.873 (4708): Session3: QueryExecute: OK
+2014-06-21 12:40:45.873 (1436): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=3
+2014-06-21 12:40:45.873 (4336): Session4: QueryExecute:
+2014-06-21 12:40:45.873 (4336): (database null)
+2014-06-21 12:40:45.873 (4336): Session4: QueryExecute: OK
+2014-06-21 12:40:45.873 (1436): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=4
+2014-06-21 12:40:45.874 (1436): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 12:40:45.874 (1436):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 12:40:45.874 (1436): tdeserver: closing connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (1436): endthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (3776): endthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (3328): tdeserver: accepting new connection
+2014-06-21 12:40:45.874 (4852): beginthread: recv, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (3328): tdeserver: new connection, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (3732): beginthread: send, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}
+2014-06-21 12:40:45.874 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=5
+2014-06-21 12:40:45.874 (4708): Session5: QueryExecute:
+2014-06-21 12:40:45.874 (4708): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:40:45.875 (4708): Session5: QueryExecute: OK
+2014-06-21 12:40:45.875 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=6
+2014-06-21 12:40:45.876 (4336): Session5: QueryExecute:
+2014-06-21 12:40:45.876 (4336): (show schemas)
+2014-06-21 12:40:45.876 (4336): Elapsed time:0.001 sec
+2014-06-21 12:40:45.876 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:45.876 (4336): Execution time:0.001 sec
+2014-06-21 12:40:45.876 (4336): Session5: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 12:40:45.877 (4336): Session5: QueryExecute:
+2014-06-21 12:40:45.877 (4336): (show schemas)
+2014-06-21 12:40:45.877 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:45.877 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:45.877 (4336): Execution time:0.000 sec
+2014-06-21 12:40:45.877 (4336): Session5: QueryExecute: OK rowset_guid=2 n_columns=1
+2014-06-21 12:40:45.878 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=3
+2014-06-21 12:40:45.878 (4708): (create schema [Extract])
+2014-06-21 12:40:45.878 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.879 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=3
+2014-06-21 12:40:45.894 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:45.894 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:45.894 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:45.894 (4336): Execution time:0.000 sec
+2014-06-21 12:40:45.894 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=3
+2014-06-21 12:40:45.921 (4336): Session5: QueryExecute:
+2014-06-21 12:40:45.921 (4336): (show tables [Extract])
+2014-06-21 12:40:45.922 (4336): Elapsed time:0.002 sec
+2014-06-21 12:40:45.922 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:45.922 (4336): Execution time:0.002 sec
+2014-06-21 12:40:45.922 (4336): Session5: QueryExecute: OK rowset_guid=4 n_columns=1
+2014-06-21 12:40:45.924 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=5
+2014-06-21 12:40:45.924 (4336): (create table [Extract].[Extract])
+2014-06-21 12:40:45.924 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.925 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=5
+2014-06-21 12:40:45.940 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:45.940 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.940 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:45.940 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.940 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=5
+2014-06-21 12:40:45.941 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=6
+2014-06-21 12:40:45.941 (4336): (create column [Extract].[Extract].[Number of Records] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ) )
+2014-06-21 12:40:45.942 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.943 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=6
+2014-06-21 12:40:45.961 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:45.961 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.961 (4708): Compilation time:0.002 sec
+2014-06-21 12:40:45.961 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.961 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=6
+2014-06-21 12:40:45.961 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=7
+2014-06-21 12:40:45.961 (4336): (create column [Extract].[Extract].[Protected Areas km2] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Summary-Tableau$'" ) ( "ordinal" "1" ) ) )
+2014-06-21 12:40:45.961 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.961 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=7
+2014-06-21 12:40:45.972 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:45.972 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.972 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:45.972 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.972 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=7
+2014-06-21 12:40:45.972 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=8
+2014-06-21 12:40:45.972 (4336): (create column [Extract].[Extract].[Region] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "family-name" "'Summary-Tableau$'" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:40:45.973 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.973 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=8
+2014-06-21 12:40:45.983 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:45.983 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.983 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:45.983 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.983 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=8
+2014-06-21 12:40:45.984 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=9
+2014-06-21 12:40:45.984 (4336): (create column [Extract].[Extract].[Year] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Summary-Tableau$'" ) ( "ordinal" "3" ) ) )
+2014-06-21 12:40:45.984 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:45.984 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=9
+2014-06-21 12:40:45.994 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:45.994 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:45.994 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:45.994 (4708): Execution time:0.000 sec
+2014-06-21 12:40:45.995 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=9
+2014-06-21 12:40:45.995 (4708): Session5: InsertOpen: table="Extract schema="Extract"
+2014-06-21 12:40:45.995 (4708):   column[0]="Number of Records"
+2014-06-21 12:40:45.995 (4708):   column[1]="Protected Areas km2"
+2014-06-21 12:40:45.995 (4708):   column[2]="Region"
+2014-06-21 12:40:45.995 (4708):   column[3]="Year"
+2014-06-21 12:40:45.996 (4708): Session5: InsertCommit: insert_guid=10
+2014-06-21 12:40:46.029 (4708): Session5: InsertCommit: OK
+2014-06-21 12:40:46.029 (4336): Session5: InsertClose: insert_guid=10
+2014-06-21 12:40:46.029 (4336): Session5: InsertClose: OK
+2014-06-21 12:40:46.030 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=11
+2014-06-21 12:40:46.030 (4336): (alter column [Extract].[Extract].[Number of Records] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.030 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.030 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=11
+2014-06-21 12:40:46.039 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:46.039 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.039 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.039 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.039 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=11
+2014-06-21 12:40:46.039 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=12
+2014-06-21 12:40:46.039 (4336): (alter column [Extract].[Extract].[Protected Areas km2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.040 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.040 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=12
+2014-06-21 12:40:46.051 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:46.051 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.051 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.051 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.051 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=12
+2014-06-21 12:40:46.052 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=13
+2014-06-21 12:40:46.052 (4336): (alter column [Extract].[Extract].[Region] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.052 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.052 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=13
+2014-06-21 12:40:46.062 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:46.062 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.062 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.062 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.063 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=13
+2014-06-21 12:40:46.063 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=14
+2014-06-21 12:40:46.063 (4336): (alter column [Extract].[Extract].[Year] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.063 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.064 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=14
+2014-06-21 12:40:46.075 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:46.075 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.075 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.075 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.076 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=14
+2014-06-21 12:40:46.076 (4708): Session5: QueryExecute:
+2014-06-21 12:40:46.076 (4708): (describe [Extract].[Extract])
+2014-06-21 12:40:46.076 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.076 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.076 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.076 (4708): Session5: QueryExecute: OK rowset_guid=15 n_columns=4
+2014-06-21 12:40:46.077 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=16
+2014-06-21 12:40:46.077 (4708): (sort [Extract].[Extract]
+2014-06-21 12:40:46.077 (4708):   ( ([Region] asc) ([Year] asc) ([Protected Areas km2] asc) ) )
+2014-06-21 12:40:46.078 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.079 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=16
+2014-06-21 12:40:46.110 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.110 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.110 (4336): Compilation time:0.001 sec
+2014-06-21 12:40:46.110 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.111 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=16
+2014-06-21 12:40:46.112 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=17
+2014-06-21 12:40:46.112 (4708): (create table [Extract].[$TableauMetadata])
+2014-06-21 12:40:46.112 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.112 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=17
+2014-06-21 12:40:46.121 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.121 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.121 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:46.121 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.121 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=17
+2014-06-21 12:40:46.121 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=18
+2014-06-21 12:40:46.121 (4708): (create column [Extract].[$TableauMetadata].[key] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "precision" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:40:46.122 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.123 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=18
+2014-06-21 12:40:46.134 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.134 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.134 (4336): Compilation time:0.001 sec
+2014-06-21 12:40:46.134 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.134 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=18
+2014-06-21 12:40:46.134 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=19
+2014-06-21 12:40:46.134 (4708): (create column [Extract].[$TableauMetadata].[value] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:40:46.135 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.135 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=19
+2014-06-21 12:40:46.195 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.195 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.195 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:46.195 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.196 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=19
+2014-06-21 12:40:46.197 (4336): Session5: InsertOpen: table="$TableauMetadata schema="Extract"
+2014-06-21 12:40:46.197 (4336):   column[0]="key"
+2014-06-21 12:40:46.197 (4336):   column[1]="value"
+2014-06-21 12:40:46.199 (4336): Session5: InsertCommit: insert_guid=20
+2014-06-21 12:40:46.226 (4336): Session5: InsertCommit: OK
+2014-06-21 12:40:46.227 (4708): Session5: InsertClose: insert_guid=20
+2014-06-21 12:40:46.227 (4708): Session5: InsertClose: OK
+2014-06-21 12:40:46.227 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=21
+2014-06-21 12:40:46.227 (4708): (alter column [Extract].[$TableauMetadata].[key] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.228 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.228 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=21
+2014-06-21 12:40:46.239 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.239 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.239 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:46.239 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.240 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=21
+2014-06-21 12:40:46.240 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=22
+2014-06-21 12:40:46.240 (4708): (alter column [Extract].[$TableauMetadata].[value] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:40:46.241 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.241 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=22
+2014-06-21 12:40:46.251 (4336): Session5: StatementExecute: OK
+2014-06-21 12:40:46.251 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.251 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:46.251 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.251 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=22
+2014-06-21 12:40:46.251 (4336): Session5: QueryExecute:
+2014-06-21 12:40:46.251 (4336): (describe [Extract].[$TableauMetadata])
+2014-06-21 12:40:46.252 (4336): Elapsed time:0.000 sec
+2014-06-21 12:40:46.252 (4336): Compilation time:0.000 sec
+2014-06-21 12:40:46.252 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.252 (4336): Session5: QueryExecute: OK rowset_guid=23 n_columns=2
+2014-06-21 12:40:46.253 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=24
+2014-06-21 12:40:46.253 (4336): (package)
+2014-06-21 12:40:46.253 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.254 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=24
+2014-06-21 12:40:46.254 (4708): PackageDatabase: in-place package of "C:\Users\John\Documents\GitHub\First_Draft\Tableau_Extracts\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde"
+2014-06-21 12:40:46.275 (4708): PackageDatabase: finished
+2014-06-21 12:40:46.275 (4708): Session5: StatementExecute: OK
+2014-06-21 12:40:46.275 (4708): Elapsed time:0.000 sec
+2014-06-21 12:40:46.275 (4708): Compilation time:0.000 sec
+2014-06-21 12:40:46.275 (4708): Execution time:0.000 sec
+2014-06-21 12:40:46.275 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=24
+2014-06-21 12:40:46.275 (4708): Session5: QueryExecute:
+2014-06-21 12:40:46.275 (4708): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Summary-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:40:46.276 (4708): Session5: QueryExecute: OK
+2014-06-21 12:40:46.276 (4336): Session5: QueryExecute:
+2014-06-21 12:40:46.276 (4336): (describe [Extract].[Extract])
+2014-06-21 12:40:46.281 (4336): Elapsed time:0.005 sec
+2014-06-21 12:40:46.281 (4336): Compilation time:0.005 sec
+2014-06-21 12:40:46.281 (4336): Execution time:0.000 sec
+2014-06-21 12:40:46.282 (4336): Session5: QueryExecute: OK rowset_guid=25 n_columns=4
+2014-06-21 12:40:46.283 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=26
+2014-06-21 12:40:46.283 (4336): (restrict
+2014-06-21 12:40:46.283 (4336):   (aggregate
+2014-06-21 12:40:46.283 (4336):     (table [Extract].[Extract])
+2014-06-21 12:40:46.283 (4336):     ()
+2014-06-21 12:40:46.283 (4336):     (
+2014-06-21 12:40:46.283 (4336):       ([cnt:TEMP(one)(290714814)(0):qk]
+2014-06-21 12:40:46.283 (4336):         (count 1)
+2014-06-21 12:40:46.283 (4336):         )
+2014-06-21 12:40:46.283 (4336):       )
+2014-06-21 12:40:46.283 (4336):     )
+2014-06-21 12:40:46.283 (4336):   ([cnt:TEMP(one)(290714814)(0):qk])
+2014-06-21 12:40:46.283 (4336):   )
+2014-06-21 12:40:46.283 (4336): 
+2014-06-21 12:40:46.286 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:40:46.286 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=26
+2014-06-21 12:40:46.290 (4708): Session5: StatementExecute: OK rowset_guid=27 n_columns=1
+2014-06-21 12:40:46.290 (4708): Elapsed time:0.006 sec
+2014-06-21 12:40:46.290 (4708): Compilation time:0.002 sec
+2014-06-21 12:40:46.290 (4708): Execution time:0.004 sec
+2014-06-21 12:40:46.291 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=26
+2014-06-21 12:41:11.305 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=28
+2014-06-21 12:41:11.305 (4708): (aggregate
+2014-06-21 12:41:11.305 (4708):   (restrict
+2014-06-21 12:41:11.305 (4708):     (project
+2014-06-21 12:41:11.305 (4708):       (table [Extract].[Extract])
+2014-06-21 12:41:11.305 (4708):       (
+2014-06-21 12:41:11.305 (4708):         ([none:Year:qk] [Year])
+2014-06-21 12:41:11.305 (4708):         )
+2014-06-21 12:41:11.305 (4708):       )
+2014-06-21 12:41:11.305 (4708):     ([none:Year:qk])
+2014-06-21 12:41:11.305 (4708):     )
+2014-06-21 12:41:11.305 (4708):   ()
+2014-06-21 12:41:11.305 (4708):   (
+2014-06-21 12:41:11.305 (4708):     ([TEMP(none:Year:qk lower)(290714814)(0)]
+2014-06-21 12:41:11.305 (4708):       (min [none:Year:qk])
+2014-06-21 12:41:11.305 (4708):       )
+2014-06-21 12:41:11.305 (4708):     ([TEMP(none:Year:qk upper)(290714814)(0)]
+2014-06-21 12:41:11.305 (4708):       (max [none:Year:qk])
+2014-06-21 12:41:11.305 (4708):       )
+2014-06-21 12:41:11.305 (4708):     )
+2014-06-21 12:41:11.305 (4708):   )
+2014-06-21 12:41:11.305 (4708): 
+2014-06-21 12:41:11.308 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:41:11.308 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=28
+2014-06-21 12:41:11.310 (4336): Session5: StatementExecute: OK rowset_guid=29 n_columns=2
+2014-06-21 12:41:11.310 (4336): Elapsed time:0.004 sec
+2014-06-21 12:41:11.310 (4336): Compilation time:0.002 sec
+2014-06-21 12:41:11.310 (4336): Execution time:0.001 sec
+2014-06-21 12:41:11.311 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=28
+2014-06-21 12:41:52.874 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=30
+2014-06-21 12:41:52.874 (4336): (restrict
+2014-06-21 12:41:52.874 (4336):   (aggregate
+2014-06-21 12:41:52.874 (4336):     (project
+2014-06-21 12:41:52.874 (4336):       (table [Extract].[Extract])
+2014-06-21 12:41:52.874 (4336):       (
+2014-06-21 12:41:52.874 (4336):         ([none:Year:ok] [Year])
+2014-06-21 12:41:52.874 (4336):         )
+2014-06-21 12:41:52.874 (4336):       )
+2014-06-21 12:41:52.874 (4336):     (
+2014-06-21 12:41:52.874 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:41:52.874 (4336):       )
+2014-06-21 12:41:52.874 (4336):     ()
+2014-06-21 12:41:52.874 (4336):     )
+2014-06-21 12:41:52.874 (4336):   ([none:Year:ok])
+2014-06-21 12:41:52.874 (4336):   )
+2014-06-21 12:41:52.874 (4336): 
+2014-06-21 12:41:52.876 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:41:52.877 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=30
+2014-06-21 12:41:52.877 (4708): Session5: StatementExecute: OK rowset_guid=31 n_columns=1
+2014-06-21 12:41:52.877 (4708): Elapsed time:0.002 sec
+2014-06-21 12:41:52.877 (4708): Compilation time:0.002 sec
+2014-06-21 12:41:52.877 (4708): Execution time:0.000 sec
+2014-06-21 12:41:52.878 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=30
+2014-06-21 12:41:59.879 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=32
+2014-06-21 12:41:59.879 (4708): (restrict
+2014-06-21 12:41:59.879 (4708):   (aggregate
+2014-06-21 12:41:59.879 (4708):     (project
+2014-06-21 12:41:59.879 (4708):       (table [Extract].[Extract])
+2014-06-21 12:41:59.879 (4708):       (
+2014-06-21 12:41:59.879 (4708):         ([none:Year:ok] [Year])
+2014-06-21 12:41:59.879 (4708):         )
+2014-06-21 12:41:59.879 (4708):       )
+2014-06-21 12:41:59.879 (4708):     (
+2014-06-21 12:41:59.879 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:41:59.879 (4708):       )
+2014-06-21 12:41:59.879 (4708):     (
+2014-06-21 12:41:59.879 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:41:59.879 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:41:59.879 (4708):         )
+2014-06-21 12:41:59.879 (4708):       )
+2014-06-21 12:41:59.879 (4708):     )
+2014-06-21 12:41:59.879 (4708):   ([none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:41:59.879 (4708):   )
+2014-06-21 12:41:59.879 (4708): 
+2014-06-21 12:41:59.886 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:41:59.887 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=32
+2014-06-21 12:41:59.889 (4336): Session5: StatementExecute: OK rowset_guid=33 n_columns=2
+2014-06-21 12:41:59.889 (4336): Elapsed time:0.009 sec
+2014-06-21 12:41:59.889 (4336): Compilation time:0.007 sec
+2014-06-21 12:41:59.889 (4336): Execution time:0.002 sec
+2014-06-21 12:41:59.890 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=32
+2014-06-21 12:42:36.248 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=34
+2014-06-21 12:42:36.248 (4336): (restrict
+2014-06-21 12:42:36.248 (4336):   (order
+2014-06-21 12:42:36.248 (4336):     (aggregate
+2014-06-21 12:42:36.248 (4336):       (project
+2014-06-21 12:42:36.248 (4336):         (table [Extract].[Extract])
+2014-06-21 12:42:36.248 (4336):         (
+2014-06-21 12:42:36.248 (4336):           ([none:Region:nk] [Region])
+2014-06-21 12:42:36.248 (4336):           )
+2014-06-21 12:42:36.248 (4336):         )
+2014-06-21 12:42:36.248 (4336):       (
+2014-06-21 12:42:36.248 (4336):         ([none:Region:nk] [none:Region:nk])
+2014-06-21 12:42:36.248 (4336):         )
+2014-06-21 12:42:36.248 (4336):       ()
+2014-06-21 12:42:36.248 (4336):       )
+2014-06-21 12:42:36.248 (4336):     (
+2014-06-21 12:42:36.248 (4336):       ([none:Region:nk] asc)
+2014-06-21 12:42:36.248 (4336):       )
+2014-06-21 12:42:36.248 (4336):     )
+2014-06-21 12:42:36.248 (4336):   ([none:Region:nk])
+2014-06-21 12:42:36.248 (4336):   )
+2014-06-21 12:42:36.248 (4336): 
+2014-06-21 12:42:36.249 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:42:36.250 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=34
+2014-06-21 12:42:36.250 (4708): Session5: StatementExecute: OK rowset_guid=35 n_columns=1
+2014-06-21 12:42:36.250 (4708): Elapsed time:0.002 sec
+2014-06-21 12:42:36.250 (4708): Compilation time:0.002 sec
+2014-06-21 12:42:36.250 (4708): Execution time:0.000 sec
+2014-06-21 12:42:36.251 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=34
+2014-06-21 12:42:44.309 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=36
+2014-06-21 12:42:44.309 (4708): (restrict
+2014-06-21 12:42:44.309 (4708):   (aggregate
+2014-06-21 12:42:44.309 (4708):     (select
+2014-06-21 12:42:44.309 (4708):       (project
+2014-06-21 12:42:44.309 (4708):         (table [Extract].[Extract])
+2014-06-21 12:42:44.309 (4708):         (
+2014-06-21 12:42:44.309 (4708):           ([none:Year:ok] [Year])
+2014-06-21 12:42:44.309 (4708):           )
+2014-06-21 12:42:44.309 (4708):         )
+2014-06-21 12:42:44.309 (4708):       false)
+2014-06-21 12:42:44.309 (4708):     (
+2014-06-21 12:42:44.309 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:42:44.309 (4708):       )
+2014-06-21 12:42:44.309 (4708):     (
+2014-06-21 12:42:44.309 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:42:44.309 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:42:44.309 (4708):         )
+2014-06-21 12:42:44.309 (4708):       )
+2014-06-21 12:42:44.309 (4708):     )
+2014-06-21 12:42:44.309 (4708):   ([none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:42:44.309 (4708):   )
+2014-06-21 12:42:44.309 (4708): 
+2014-06-21 12:42:44.313 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:42:44.313 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=36
+2014-06-21 12:42:44.315 (4336): Session5: StatementExecute: OK rowset_guid=37 n_columns=2
+2014-06-21 12:42:44.315 (4336): Elapsed time:0.005 sec
+2014-06-21 12:42:44.315 (4336): Compilation time:0.003 sec
+2014-06-21 12:42:44.315 (4336): Execution time:0.001 sec
+2014-06-21 12:42:44.316 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=36
+2014-06-21 12:42:44.817 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=38
+2014-06-21 12:42:44.817 (4708): (restrict
+2014-06-21 12:42:44.817 (4708):   (aggregate
+2014-06-21 12:42:44.817 (4708):     (select
+2014-06-21 12:42:44.817 (4708):       (project
+2014-06-21 12:42:44.817 (4708):         (table [Extract].[Extract])
+2014-06-21 12:42:44.817 (4708):         (
+2014-06-21 12:42:44.817 (4708):           ([none:Region:nk] [Region])
+2014-06-21 12:42:44.817 (4708):           ([none:Year:ok] [Year])
+2014-06-21 12:42:44.817 (4708):           )
+2014-06-21 12:42:44.817 (4708):         )
+2014-06-21 12:42:44.817 (4708):       (= [none:Region:nk] "Caribbean")
+2014-06-21 12:42:44.817 (4708):       )
+2014-06-21 12:42:44.817 (4708):     (
+2014-06-21 12:42:44.817 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:42:44.817 (4708):       )
+2014-06-21 12:42:44.817 (4708):     (
+2014-06-21 12:42:44.817 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:42:44.817 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:42:44.817 (4708):         )
+2014-06-21 12:42:44.817 (4708):       )
+2014-06-21 12:42:44.817 (4708):     )
+2014-06-21 12:42:44.817 (4708):   ([none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:42:44.817 (4708):   )
+2014-06-21 12:42:44.817 (4708): 
+2014-06-21 12:42:44.830 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:42:44.830 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=38
+2014-06-21 12:42:44.834 (4336): Session5: StatementExecute: OK rowset_guid=39 n_columns=2
+2014-06-21 12:42:44.834 (4336): Elapsed time:0.016 sec
+2014-06-21 12:42:44.834 (4336): Compilation time:0.012 sec
+2014-06-21 12:42:44.834 (4336): Execution time:0.004 sec
+2014-06-21 12:42:44.835 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=38
+2014-06-21 12:42:45.447 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=40
+2014-06-21 12:42:45.447 (4336): (restrict
+2014-06-21 12:42:45.447 (4336):   (aggregate
+2014-06-21 12:42:45.447 (4336):     (select
+2014-06-21 12:42:45.447 (4336):       (project
+2014-06-21 12:42:45.447 (4336):         (table [Extract].[Extract])
+2014-06-21 12:42:45.447 (4336):         (
+2014-06-21 12:42:45.447 (4336):           ([none:Region:nk] [Region])
+2014-06-21 12:42:45.447 (4336):           ([none:Year:ok] [Year])
+2014-06-21 12:42:45.447 (4336):           )
+2014-06-21 12:42:45.447 (4336):         )
+2014-06-21 12:42:45.447 (4336):       (or
+2014-06-21 12:42:45.447 (4336):         (= [none:Region:nk] "Caribbean")
+2014-06-21 12:42:45.447 (4336):         (= [none:Region:nk] "Central & Southern Africa")
+2014-06-21 12:42:45.447 (4336):         )
+2014-06-21 12:42:45.447 (4336):       )
+2014-06-21 12:42:45.447 (4336):     (
+2014-06-21 12:42:45.447 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:42:45.447 (4336):       )
+2014-06-21 12:42:45.447 (4336):     (
+2014-06-21 12:42:45.447 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:42:45.447 (4336):         (sum [Protected Areas km2])
+2014-06-21 12:42:45.447 (4336):         )
+2014-06-21 12:42:45.447 (4336):       )
+2014-06-21 12:42:45.447 (4336):     )
+2014-06-21 12:42:45.447 (4336):   ([none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:42:45.447 (4336):   )
+2014-06-21 12:42:45.447 (4336): 
+2014-06-21 12:42:45.455 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:42:45.455 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=40
+2014-06-21 12:42:45.460 (4708): Session5: StatementExecute: OK rowset_guid=41 n_columns=2
+2014-06-21 12:42:45.460 (4708): Elapsed time:0.012 sec
+2014-06-21 12:42:45.460 (4708): Compilation time:0.007 sec
+2014-06-21 12:42:45.460 (4708): Execution time:0.004 sec
+2014-06-21 12:42:45.461 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=40
+2014-06-21 12:42:46.257 (4708): Session5: StatementPrepare: sess_guid=5 stmt_guid=42
+2014-06-21 12:42:46.257 (4708): (restrict
+2014-06-21 12:42:46.257 (4708):   (aggregate
+2014-06-21 12:42:46.257 (4708):     (select
+2014-06-21 12:42:46.257 (4708):       (project
+2014-06-21 12:42:46.257 (4708):         (table [Extract].[Extract])
+2014-06-21 12:42:46.257 (4708):         (
+2014-06-21 12:42:46.257 (4708):           ([none:Region:nk] [Region])
+2014-06-21 12:42:46.257 (4708):           ([none:Year:ok] [Year])
+2014-06-21 12:42:46.257 (4708):           )
+2014-06-21 12:42:46.257 (4708):         )
+2014-06-21 12:42:46.257 (4708):       (= [none:Region:nk] "Central & Southern Africa")
+2014-06-21 12:42:46.257 (4708):       )
+2014-06-21 12:42:46.257 (4708):     (
+2014-06-21 12:42:46.257 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:42:46.257 (4708):       )
+2014-06-21 12:42:46.257 (4708):     (
+2014-06-21 12:42:46.257 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:42:46.257 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:42:46.257 (4708):         )
+2014-06-21 12:42:46.257 (4708):       )
+2014-06-21 12:42:46.257 (4708):     )
+2014-06-21 12:42:46.257 (4708):   ([none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:42:46.257 (4708):   )
+2014-06-21 12:42:46.257 (4708): 
+2014-06-21 12:42:46.270 (4708): Session5: StatementPrepare: OK
+2014-06-21 12:42:46.271 (4336): Session5: StatementExecute: sess_guid=5 stmt_guid=42
+2014-06-21 12:42:46.275 (4336): Session5: StatementExecute: OK rowset_guid=43 n_columns=2
+2014-06-21 12:42:46.275 (4336): Elapsed time:0.017 sec
+2014-06-21 12:42:46.275 (4336): Compilation time:0.013 sec
+2014-06-21 12:42:46.275 (4336): Execution time:0.005 sec
+2014-06-21 12:42:46.276 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=42
+2014-06-21 12:43:21.035 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=44
+2014-06-21 12:43:21.035 (4336): (restrict
+2014-06-21 12:43:21.035 (4336):   (aggregate
+2014-06-21 12:43:21.035 (4336):     (select
+2014-06-21 12:43:21.035 (4336):       (project
+2014-06-21 12:43:21.035 (4336):         (table [Extract].[Extract])
+2014-06-21 12:43:21.035 (4336):         (
+2014-06-21 12:43:21.035 (4336):           ([none:Region:nk] [Region])
+2014-06-21 12:43:21.035 (4336):           ([none:Year:ok] [Year])
+2014-06-21 12:43:21.035 (4336):           )
+2014-06-21 12:43:21.035 (4336):         )
+2014-06-21 12:43:21.035 (4336):       false)
+2014-06-21 12:43:21.035 (4336):     (
+2014-06-21 12:43:21.035 (4336):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 12:43:21.035 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:43:21.035 (4336):       )
+2014-06-21 12:43:21.035 (4336):     (
+2014-06-21 12:43:21.035 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:43:21.035 (4336):         (sum [Protected Areas km2])
+2014-06-21 12:43:21.035 (4336):         )
+2014-06-21 12:43:21.035 (4336):       )
+2014-06-21 12:43:21.035 (4336):     )
+2014-06-21 12:43:21.035 (4336):   ([none:Region:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:43:21.035 (4336):   )
+2014-06-21 12:43:21.035 (4336): 
+2014-06-21 12:43:21.041 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:43:21.041 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=44
+2014-06-21 12:43:21.043 (4708): Session5: StatementExecute: OK rowset_guid=45 n_columns=3
+2014-06-21 12:43:21.043 (4708): Elapsed time:0.007 sec
+2014-06-21 12:43:21.043 (4708): Compilation time:0.005 sec
+2014-06-21 12:43:21.043 (4708): Execution time:0.002 sec
+2014-06-21 12:43:21.043 (4708): Session5: StatementClose: sess_guid=5 stmt_guid=44
+2014-06-21 12:43:26.019 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=46
+2014-06-21 12:43:26.019 (4336): (restrict
+2014-06-21 12:43:26.019 (4336):   (aggregate
+2014-06-21 12:43:26.019 (4336):     (project
+2014-06-21 12:43:26.019 (4336):       (table [Extract].[Extract])
+2014-06-21 12:43:26.019 (4336):       (
+2014-06-21 12:43:26.019 (4336):         ([none:Region:nk] [Region])
+2014-06-21 12:43:26.019 (4336):         ([none:Year:ok] [Year])
+2014-06-21 12:43:26.019 (4336):         )
+2014-06-21 12:43:26.019 (4336):       )
+2014-06-21 12:43:26.019 (4336):     (
+2014-06-21 12:43:26.019 (4336):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 12:43:26.019 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:43:26.019 (4336):       )
+2014-06-21 12:43:26.019 (4336):     (
+2014-06-21 12:43:26.019 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:43:26.019 (4336):         (sum [Protected Areas km2])
+2014-06-21 12:43:26.019 (4336):         )
+2014-06-21 12:43:26.019 (4336):       )
+2014-06-21 12:43:26.019 (4336):     )
+2014-06-21 12:43:26.019 (4336):   ([none:Region:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:43:26.019 (4336):   )
+2014-06-21 12:43:26.019 (4336): 
+2014-06-21 12:43:26.036 (4336): Session5: StatementPrepare: OK
+2014-06-21 12:43:26.037 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=46
+2014-06-21 12:43:26.043 (4708): Session5: StatementExecute: OK rowset_guid=47 n_columns=3
+2014-06-21 12:43:26.044 (4708): Elapsed time:0.023 sec
+2014-06-21 12:43:26.044 (4708): Compilation time:0.017 sec
+2014-06-21 12:43:26.044 (4708): Execution time:0.006 sec
+2014-06-21 12:43:26.046 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=46
+2014-06-21 12:45:34.911 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=7
+2014-06-21 12:45:34.911 (4336): Session7: QueryExecute:
+2014-06-21 12:45:34.911 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Formatted_Excel_Files\\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:45:34.911 (4336): Session7: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 12:45:34.911 (4708): Session7: QueryExecute:
+2014-06-21 12:45:34.911 (4708): (database null)
+2014-06-21 12:45:34.912 (4708): Session7: QueryExecute: OK
+2014-06-21 12:45:34.912 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=7
+2014-06-21 12:45:34.931 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=8
+2014-06-21 12:45:34.931 (4336): Session8: QueryExecute:
+2014-06-21 12:45:34.931 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Formatted_Excel_Files\\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:45:34.931 (4336): Session8: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 12:45:34.931 (4708): Session8: QueryExecute:
+2014-06-21 12:45:34.931 (4708): (database null)
+2014-06-21 12:45:34.931 (4708): Session8: QueryExecute: OK
+2014-06-21 12:45:34.931 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=8
+2014-06-21 12:45:34.932 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=9
+2014-06-21 12:45:34.932 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=10
+2014-06-21 12:45:34.932 (4708): Session9: StatementPrepare: sess_guid=9 stmt_guid=1
+2014-06-21 12:45:34.932 (4708): (create database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Formatted_Excel_Files\\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:45:35.249 (4708): Session9: StatementPrepare: OK
+2014-06-21 12:45:35.249 (4336): Session9: StatementExecute: sess_guid=9 stmt_guid=1
+2014-06-21 12:45:35.249 (4336): Session9: StatementExecute: OK
+2014-06-21 12:45:35.249 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.249 (4336): Compilation time:0.317 sec
+2014-06-21 12:45:35.249 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.250 (4708): Session9: StatementClose: sess_guid=9 stmt_guid=1
+2014-06-21 12:45:35.250 (4336): Session9: QueryExecute:
+2014-06-21 12:45:35.250 (4336): (database null)
+2014-06-21 12:45:35.250 (4336): Session9: QueryExecute: OK
+2014-06-21 12:45:35.250 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=9
+2014-06-21 12:45:35.250 (4708): Session10: QueryExecute:
+2014-06-21 12:45:35.250 (4708): (database null)
+2014-06-21 12:45:35.250 (4708): Session10: QueryExecute: OK
+2014-06-21 12:45:35.250 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=10
+2014-06-21 12:45:35.251 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=11
+2014-06-21 12:45:35.251 (4336): Session11: QueryExecute:
+2014-06-21 12:45:35.251 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Formatted_Excel_Files\\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:45:35.251 (4336): Session11: QueryExecute: OK
+2014-06-21 12:45:35.251 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=12
+2014-06-21 12:45:35.252 (4708): Session11: QueryExecute:
+2014-06-21 12:45:35.252 (4708): (show schemas)
+2014-06-21 12:45:35.252 (4708): Elapsed time:0.001 sec
+2014-06-21 12:45:35.252 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.252 (4708): Execution time:0.001 sec
+2014-06-21 12:45:35.253 (4708): Session11: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 12:45:35.253 (4708): Session11: QueryExecute:
+2014-06-21 12:45:35.253 (4708): (show schemas)
+2014-06-21 12:45:35.253 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.253 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.253 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.253 (4708): Session11: QueryExecute: OK rowset_guid=2 n_columns=1
+2014-06-21 12:45:35.254 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=3
+2014-06-21 12:45:35.254 (4336): (create schema [Extract])
+2014-06-21 12:45:35.254 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.254 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=3
+2014-06-21 12:45:35.269 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.269 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.269 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.269 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.269 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=3
+2014-06-21 12:45:35.294 (4708): Session11: QueryExecute:
+2014-06-21 12:45:35.294 (4708): (show tables [Extract])
+2014-06-21 12:45:35.296 (4708): Elapsed time:0.002 sec
+2014-06-21 12:45:35.296 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.296 (4708): Execution time:0.002 sec
+2014-06-21 12:45:35.296 (4708): Session11: QueryExecute: OK rowset_guid=4 n_columns=1
+2014-06-21 12:45:35.298 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=5
+2014-06-21 12:45:35.298 (4708): (create table [Extract].[Extract])
+2014-06-21 12:45:35.298 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.298 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=5
+2014-06-21 12:45:35.314 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.314 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.314 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.314 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.314 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=5
+2014-06-21 12:45:35.314 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=6
+2014-06-21 12:45:35.314 (4708): (create column [Extract].[Extract].[Major area, region, country or area] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "family-name" "'Rest of the World-Tableau$'" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:45:35.316 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.316 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=6
+2014-06-21 12:45:35.356 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.356 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.356 (4336): Compilation time:0.002 sec
+2014-06-21 12:45:35.356 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.357 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=6
+2014-06-21 12:45:35.357 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=7
+2014-06-21 12:45:35.357 (4708): (create column [Extract].[Extract].[Number of Records] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2014-06-21 12:45:35.357 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.357 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=7
+2014-06-21 12:45:35.368 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.368 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.368 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.368 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.368 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=7
+2014-06-21 12:45:35.368 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=8
+2014-06-21 12:45:35.368 (4708): (create column [Extract].[Extract].[Protected Areas km2] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Rest of the World-Tableau$'" ) ( "ordinal" "2" ) ) )
+2014-06-21 12:45:35.368 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.368 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=8
+2014-06-21 12:45:35.379 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.379 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.379 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.379 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.379 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=8
+2014-06-21 12:45:35.379 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=9
+2014-06-21 12:45:35.379 (4708): (create column [Extract].[Extract].[Year] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Rest of the World-Tableau$'" ) ( "ordinal" "3" ) ) )
+2014-06-21 12:45:35.379 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.380 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=9
+2014-06-21 12:45:35.391 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.391 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.391 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.391 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.391 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=9
+2014-06-21 12:45:35.391 (4336): Session11: InsertOpen: table="Extract schema="Extract"
+2014-06-21 12:45:35.391 (4336):   column[0]="Major area, region, country or area"
+2014-06-21 12:45:35.391 (4336):   column[1]="Number of Records"
+2014-06-21 12:45:35.391 (4336):   column[2]="Protected Areas km2"
+2014-06-21 12:45:35.391 (4336):   column[3]="Year"
+2014-06-21 12:45:35.393 (4336): Session11: InsertCommit: insert_guid=10
+2014-06-21 12:45:35.426 (4336): Session11: InsertCommit: OK
+2014-06-21 12:45:35.426 (4708): Session11: InsertClose: insert_guid=10
+2014-06-21 12:45:35.426 (4708): Session11: InsertClose: OK
+2014-06-21 12:45:35.426 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=11
+2014-06-21 12:45:35.426 (4708): (alter column [Extract].[Extract].[Major area, region, country or area] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.426 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.427 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=11
+2014-06-21 12:45:35.437 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.437 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.437 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.437 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.437 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=11
+2014-06-21 12:45:35.437 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=12
+2014-06-21 12:45:35.437 (4708): (alter column [Extract].[Extract].[Number of Records] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.438 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.438 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=12
+2014-06-21 12:45:35.446 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.446 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.446 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.446 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.446 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=12
+2014-06-21 12:45:35.447 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=13
+2014-06-21 12:45:35.447 (4708): (alter column [Extract].[Extract].[Protected Areas km2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.447 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.447 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=13
+2014-06-21 12:45:35.459 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.459 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.459 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.459 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.459 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=13
+2014-06-21 12:45:35.459 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=14
+2014-06-21 12:45:35.459 (4708): (alter column [Extract].[Extract].[Year] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.460 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.460 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=14
+2014-06-21 12:45:35.471 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.471 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.471 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.472 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.472 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=14
+2014-06-21 12:45:35.472 (4336): Session11: QueryExecute:
+2014-06-21 12:45:35.472 (4336): (describe [Extract].[Extract])
+2014-06-21 12:45:35.472 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.472 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.472 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.473 (4336): Session11: QueryExecute: OK rowset_guid=15 n_columns=4
+2014-06-21 12:45:35.473 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=16
+2014-06-21 12:45:35.473 (4336): (sort [Extract].[Extract]
+2014-06-21 12:45:35.473 (4336):   ( ([Year] asc) ([Major area, region, country or area] asc) ([Protected Areas km2] asc) ) )
+2014-06-21 12:45:35.475 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.475 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=16
+2014-06-21 12:45:35.509 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.509 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.509 (4708): Compilation time:0.001 sec
+2014-06-21 12:45:35.509 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.509 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=16
+2014-06-21 12:45:35.511 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=17
+2014-06-21 12:45:35.511 (4336): (create table [Extract].[$TableauMetadata])
+2014-06-21 12:45:35.511 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.511 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=17
+2014-06-21 12:45:35.519 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.520 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.520 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.520 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.520 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=17
+2014-06-21 12:45:35.520 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=18
+2014-06-21 12:45:35.520 (4336): (create column [Extract].[$TableauMetadata].[key] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "precision" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:45:35.521 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.521 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=18
+2014-06-21 12:45:35.533 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.533 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.533 (4708): Compilation time:0.001 sec
+2014-06-21 12:45:35.533 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.533 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=18
+2014-06-21 12:45:35.533 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=19
+2014-06-21 12:45:35.533 (4336): (create column [Extract].[$TableauMetadata].[value] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 12:45:35.533 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.534 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=19
+2014-06-21 12:45:35.603 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.603 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.604 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.604 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.604 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=19
+2014-06-21 12:45:35.604 (4708): Session11: InsertOpen: table="$TableauMetadata schema="Extract"
+2014-06-21 12:45:35.604 (4708):   column[0]="key"
+2014-06-21 12:45:35.604 (4708):   column[1]="value"
+2014-06-21 12:45:35.605 (4708): Session11: InsertCommit: insert_guid=20
+2014-06-21 12:45:35.622 (4708): Session11: InsertCommit: OK
+2014-06-21 12:45:35.622 (4336): Session11: InsertClose: insert_guid=20
+2014-06-21 12:45:35.622 (4336): Session11: InsertClose: OK
+2014-06-21 12:45:35.623 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=21
+2014-06-21 12:45:35.623 (4336): (alter column [Extract].[$TableauMetadata].[key] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.623 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.623 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=21
+2014-06-21 12:45:35.633 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.633 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.633 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.633 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.633 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=21
+2014-06-21 12:45:35.633 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=22
+2014-06-21 12:45:35.633 (4336): (alter column [Extract].[$TableauMetadata].[value] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 12:45:35.633 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.634 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=22
+2014-06-21 12:45:35.643 (4708): Session11: StatementExecute: OK
+2014-06-21 12:45:35.643 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.643 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.643 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.643 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=22
+2014-06-21 12:45:35.644 (4708): Session11: QueryExecute:
+2014-06-21 12:45:35.644 (4708): (describe [Extract].[$TableauMetadata])
+2014-06-21 12:45:35.644 (4708): Elapsed time:0.000 sec
+2014-06-21 12:45:35.644 (4708): Compilation time:0.000 sec
+2014-06-21 12:45:35.644 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.644 (4708): Session11: QueryExecute: OK rowset_guid=23 n_columns=2
+2014-06-21 12:45:35.645 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=24
+2014-06-21 12:45:35.645 (4708): (package)
+2014-06-21 12:45:35.645 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.645 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=24
+2014-06-21 12:45:35.645 (4336): PackageDatabase: in-place package of "C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde"
+2014-06-21 12:45:35.667 (4336): PackageDatabase: finished
+2014-06-21 12:45:35.667 (4336): Session11: StatementExecute: OK
+2014-06-21 12:45:35.667 (4336): Elapsed time:0.000 sec
+2014-06-21 12:45:35.667 (4336): Compilation time:0.000 sec
+2014-06-21 12:45:35.667 (4336): Execution time:0.000 sec
+2014-06-21 12:45:35.667 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=24
+2014-06-21 12:45:35.667 (4336): Session11: QueryExecute:
+2014-06-21 12:45:35.667 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Formatted_Excel_Files\\Rest of the World-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:45:35.668 (4336): Session11: QueryExecute: OK
+2014-06-21 12:45:35.668 (4708): Session11: QueryExecute:
+2014-06-21 12:45:35.668 (4708): (describe [Extract].[Extract])
+2014-06-21 12:45:35.673 (4708): Elapsed time:0.005 sec
+2014-06-21 12:45:35.673 (4708): Compilation time:0.005 sec
+2014-06-21 12:45:35.673 (4708): Execution time:0.000 sec
+2014-06-21 12:45:35.674 (4708): Session11: QueryExecute: OK rowset_guid=25 n_columns=4
+2014-06-21 12:45:35.675 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=26
+2014-06-21 12:45:35.675 (4708): (restrict
+2014-06-21 12:45:35.675 (4708):   (aggregate
+2014-06-21 12:45:35.675 (4708):     (table [Extract].[Extract])
+2014-06-21 12:45:35.675 (4708):     ()
+2014-06-21 12:45:35.675 (4708):     (
+2014-06-21 12:45:35.675 (4708):       ([cnt:TEMP(one)(290714814)(0):qk]
+2014-06-21 12:45:35.675 (4708):         (count 1)
+2014-06-21 12:45:35.675 (4708):         )
+2014-06-21 12:45:35.675 (4708):       )
+2014-06-21 12:45:35.675 (4708):     )
+2014-06-21 12:45:35.675 (4708):   ([cnt:TEMP(one)(290714814)(0):qk])
+2014-06-21 12:45:35.675 (4708):   )
+2014-06-21 12:45:35.675 (4708): 
+2014-06-21 12:45:35.677 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:35.678 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=26
+2014-06-21 12:45:35.682 (4336): Session11: StatementExecute: OK rowset_guid=27 n_columns=1
+2014-06-21 12:45:35.682 (4336): Elapsed time:0.006 sec
+2014-06-21 12:45:35.682 (4336): Compilation time:0.002 sec
+2014-06-21 12:45:35.682 (4336): Execution time:0.004 sec
+2014-06-21 12:45:35.682 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=26
+2014-06-21 12:45:43.664 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=28
+2014-06-21 12:45:43.664 (4336): (restrict
+2014-06-21 12:45:43.664 (4336):   (aggregate
+2014-06-21 12:45:43.664 (4336):     (project
+2014-06-21 12:45:43.664 (4336):       (table [Extract].[Extract])
+2014-06-21 12:45:43.664 (4336):       (
+2014-06-21 12:45:43.664 (4336):         ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 12:45:43.664 (4336):         )
+2014-06-21 12:45:43.664 (4336):       )
+2014-06-21 12:45:43.664 (4336):     (
+2014-06-21 12:45:43.664 (4336):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 12:45:43.664 (4336):       )
+2014-06-21 12:45:43.664 (4336):     ()
+2014-06-21 12:45:43.664 (4336):     )
+2014-06-21 12:45:43.664 (4336):   ([none:Major area, region, country or area:nk])
+2014-06-21 12:45:43.664 (4336):   )
+2014-06-21 12:45:43.664 (4336): 
+2014-06-21 12:45:43.667 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:45:43.668 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=28
+2014-06-21 12:45:43.668 (4708): Session11: StatementExecute: OK rowset_guid=29 n_columns=1
+2014-06-21 12:45:43.668 (4708): Elapsed time:0.004 sec
+2014-06-21 12:45:43.669 (4708): Compilation time:0.004 sec
+2014-06-21 12:45:43.669 (4708): Execution time:0.001 sec
+2014-06-21 12:45:43.670 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=28
+2014-06-21 12:45:55.970 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=30
+2014-06-21 12:45:55.970 (4708): (restrict
+2014-06-21 12:45:55.970 (4708):   (aggregate
+2014-06-21 12:45:55.970 (4708):     (project
+2014-06-21 12:45:55.970 (4708):       (table [Extract].[Extract])
+2014-06-21 12:45:55.970 (4708):       (
+2014-06-21 12:45:55.970 (4708):         ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 12:45:55.970 (4708):         )
+2014-06-21 12:45:55.970 (4708):       )
+2014-06-21 12:45:55.970 (4708):     (
+2014-06-21 12:45:55.970 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 12:45:55.970 (4708):       )
+2014-06-21 12:45:55.970 (4708):     (
+2014-06-21 12:45:55.970 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:45:55.970 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:45:55.970 (4708):         )
+2014-06-21 12:45:55.970 (4708):       )
+2014-06-21 12:45:55.970 (4708):     )
+2014-06-21 12:45:55.970 (4708):   ([none:Major area, region, country or area:nk] [sum:Protected Areas km2:ok])
+2014-06-21 12:45:55.970 (4708):   )
+2014-06-21 12:45:55.970 (4708): 
+2014-06-21 12:45:55.975 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:45:55.975 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=30
+2014-06-21 12:45:55.978 (4336): Session11: StatementExecute: OK rowset_guid=31 n_columns=2
+2014-06-21 12:45:55.978 (4336): Elapsed time:0.008 sec
+2014-06-21 12:45:55.978 (4336): Compilation time:0.005 sec
+2014-06-21 12:45:55.978 (4336): Execution time:0.003 sec
+2014-06-21 12:45:55.979 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=30
+2014-06-21 12:46:42.067 (4336): Session11: StatementPrepare: sess_guid=11 stmt_guid=32
+2014-06-21 12:46:42.067 (4336): (restrict
+2014-06-21 12:46:42.067 (4336):   (aggregate
+2014-06-21 12:46:42.067 (4336):     (project
+2014-06-21 12:46:42.067 (4336):       (table [Extract].[Extract])
+2014-06-21 12:46:42.067 (4336):       (
+2014-06-21 12:46:42.067 (4336):         ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 12:46:42.067 (4336):         ([none:Year:ok] [Year])
+2014-06-21 12:46:42.067 (4336):         )
+2014-06-21 12:46:42.067 (4336):       )
+2014-06-21 12:46:42.067 (4336):     (
+2014-06-21 12:46:42.067 (4336):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 12:46:42.067 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:46:42.067 (4336):       )
+2014-06-21 12:46:42.067 (4336):     ()
+2014-06-21 12:46:42.067 (4336):     )
+2014-06-21 12:46:42.067 (4336):   ([none:Major area, region, country or area:nk] [none:Year:ok])
+2014-06-21 12:46:42.067 (4336):   )
+2014-06-21 12:46:42.067 (4336): 
+2014-06-21 12:46:42.070 (4336): Session11: StatementPrepare: OK
+2014-06-21 12:46:42.070 (4708): Session11: StatementExecute: sess_guid=11 stmt_guid=32
+2014-06-21 12:46:42.071 (4708): Session11: StatementExecute: OK rowset_guid=33 n_columns=2
+2014-06-21 12:46:42.071 (4708): Elapsed time:0.003 sec
+2014-06-21 12:46:42.071 (4708): Compilation time:0.003 sec
+2014-06-21 12:46:42.071 (4708): Execution time:0.001 sec
+2014-06-21 12:46:42.072 (4336): Session11: StatementClose: sess_guid=11 stmt_guid=32
+2014-06-21 12:46:43.137 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=34
+2014-06-21 12:46:43.137 (4708): (restrict
+2014-06-21 12:46:43.137 (4708):   (aggregate
+2014-06-21 12:46:43.137 (4708):     (project
+2014-06-21 12:46:43.137 (4708):       (table [Extract].[Extract])
+2014-06-21 12:46:43.137 (4708):       (
+2014-06-21 12:46:43.137 (4708):         ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 12:46:43.137 (4708):         ([none:Year:ok] [Year])
+2014-06-21 12:46:43.137 (4708):         )
+2014-06-21 12:46:43.137 (4708):       )
+2014-06-21 12:46:43.137 (4708):     (
+2014-06-21 12:46:43.137 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 12:46:43.137 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 12:46:43.137 (4708):       )
+2014-06-21 12:46:43.137 (4708):     (
+2014-06-21 12:46:43.137 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 12:46:43.137 (4708):         (sum [Protected Areas km2])
+2014-06-21 12:46:43.137 (4708):         )
+2014-06-21 12:46:43.137 (4708):       )
+2014-06-21 12:46:43.137 (4708):     )
+2014-06-21 12:46:43.137 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 12:46:43.137 (4708):   )
+2014-06-21 12:46:43.137 (4708): 
+2014-06-21 12:46:43.144 (4708): Session11: StatementPrepare: OK
+2014-06-21 12:46:43.144 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=34
+2014-06-21 12:46:43.147 (4336): Session11: StatementExecute: OK rowset_guid=35 n_columns=3
+2014-06-21 12:46:43.147 (4336): Elapsed time:0.009 sec
+2014-06-21 12:46:43.147 (4336): Compilation time:0.007 sec
+2014-06-21 12:46:43.147 (4336): Execution time:0.002 sec
+2014-06-21 12:46:43.149 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=34
+2014-06-21 12:48:09.973 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=13
+2014-06-21 12:48:09.974 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=14
+2014-06-21 12:48:09.974 (4336): Session13: StatementPrepare: sess_guid=13 stmt_guid=1
+2014-06-21 12:48:09.974 (4336): (drop database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:48:09.974 (4336): Session13: StatementPrepare: OK
+2014-06-21 12:48:09.975 (4708): Session13: StatementExecute: sess_guid=13 stmt_guid=1
+2014-06-21 12:48:10.137 (4708): Session13: StatementExecute: FAILED, error=The process cannot access the file because it is being used by another process.
+2014-06-21 12:48:10.137 (4708):  - OS::unlink(path="C:\Users\John\Documents\GitHub\First_Draft\Tableau_Extracts\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 12:48:10.137 (4708): Elapsed time:0.000 sec
+2014-06-21 12:48:10.137 (4708): Compilation time:0.000 sec
+2014-06-21 12:48:10.137 (4708): Execution time:0.000 sec
+2014-06-21 12:48:10.174 (4336): Session13: StatementClose: sess_guid=13 stmt_guid=1
+2014-06-21 12:48:10.190 (4708): Session13: QueryExecute:
+2014-06-21 12:48:10.190 (4708): (database null)
+2014-06-21 12:48:10.190 (4708): Session13: QueryExecute: OK
+2014-06-21 12:48:10.190 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=13
+2014-06-21 12:48:10.191 (4336): Session14: QueryExecute:
+2014-06-21 12:48:10.191 (4336): (database null)
+2014-06-21 12:48:10.191 (4336): Session14: QueryExecute: OK
+2014-06-21 12:48:10.191 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=14
+2014-06-21 13:07:14.140 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=48
+2014-06-21 13:07:14.140 (4336): (restrict
+2014-06-21 13:07:14.140 (4336):   (aggregate
+2014-06-21 13:07:14.140 (4336):     (project
+2014-06-21 13:07:14.140 (4336):       (table [Extract].[Extract])
+2014-06-21 13:07:14.140 (4336):       (
+2014-06-21 13:07:14.140 (4336):         ([none:Region:nk] [Region])
+2014-06-21 13:07:14.140 (4336):         ([none:Year:ok] [Year])
+2014-06-21 13:07:14.140 (4336):         )
+2014-06-21 13:07:14.140 (4336):       )
+2014-06-21 13:07:14.140 (4336):     (
+2014-06-21 13:07:14.140 (4336):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 13:07:14.140 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 13:07:14.140 (4336):       )
+2014-06-21 13:07:14.140 (4336):     (
+2014-06-21 13:07:14.140 (4336):       ([sum:Number of Records:ok]
+2014-06-21 13:07:14.140 (4336):         (sum [Number of Records])
+2014-06-21 13:07:14.140 (4336):         )
+2014-06-21 13:07:14.140 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 13:07:14.140 (4336):         (sum [Protected Areas km2])
+2014-06-21 13:07:14.140 (4336):         )
+2014-06-21 13:07:14.140 (4336):       )
+2014-06-21 13:07:14.140 (4336):     )
+2014-06-21 13:07:14.140 (4336):   ([none:Region:nk] [none:Year:ok] [sum:Number of Records:ok] [sum:Protected Areas km2:ok])
+2014-06-21 13:07:14.140 (4336):   )
+2014-06-21 13:07:14.140 (4336): 
+2014-06-21 13:07:14.144 (4336): Session5: StatementPrepare: OK
+2014-06-21 13:07:14.145 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=48
+2014-06-21 13:07:14.147 (4708): Session5: StatementExecute: OK rowset_guid=49 n_columns=4
+2014-06-21 13:07:14.147 (4708): Elapsed time:0.006 sec
+2014-06-21 13:07:14.147 (4708): Compilation time:0.004 sec
+2014-06-21 13:07:14.147 (4708): Execution time:0.002 sec
+2014-06-21 13:07:14.148 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=48
+2014-06-21 14:34:17.980 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=15
+2014-06-21 14:34:17.981 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=16
+2014-06-21 14:34:17.981 (4708): Session15: StatementPrepare: sess_guid=15 stmt_guid=1
+2014-06-21 14:34:17.981 (4708): (drop database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:17.982 (4708): Session15: StatementPrepare: OK
+2014-06-21 14:34:17.982 (4336): Session15: StatementExecute: sess_guid=15 stmt_guid=1
+2014-06-21 14:34:17.982 (4336): Session15: StatementExecute: OK
+2014-06-21 14:34:17.982 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:17.982 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:17.982 (4336): Execution time:0.000 sec
+2014-06-21 14:34:17.982 (4708): Session15: StatementClose: sess_guid=15 stmt_guid=1
+2014-06-21 14:34:17.983 (4336): Session15: QueryExecute:
+2014-06-21 14:34:17.983 (4336): (database null)
+2014-06-21 14:34:17.983 (4336): Session15: QueryExecute: OK
+2014-06-21 14:34:17.983 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=15
+2014-06-21 14:34:17.983 (4708): Session16: QueryExecute:
+2014-06-21 14:34:17.983 (4708): (database null)
+2014-06-21 14:34:17.983 (4708): Session16: QueryExecute: OK
+2014-06-21 14:34:17.983 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=16
+2014-06-21 14:34:17.984 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=17
+2014-06-21 14:34:17.984 (4336): Session17: QueryExecute:
+2014-06-21 14:34:17.984 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:17.984 (4336): Session17: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 14:34:17.984 (4708): Session17: QueryExecute:
+2014-06-21 14:34:17.984 (4708): (database null)
+2014-06-21 14:34:17.984 (4708): Session17: QueryExecute: OK
+2014-06-21 14:34:17.985 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=17
+2014-06-21 14:34:17.985 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=18
+2014-06-21 14:34:17.985 (4336): Session18: QueryExecute:
+2014-06-21 14:34:17.985 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:17.986 (4336): Session18: QueryExecute: FAILED, error=Invalid Command: database: Path does not exist.
+2014-06-21 14:34:17.986 (4708): Session18: QueryExecute:
+2014-06-21 14:34:17.986 (4708): (database null)
+2014-06-21 14:34:17.986 (4708): Session18: QueryExecute: OK
+2014-06-21 14:34:17.986 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=18
+2014-06-21 14:34:17.986 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=19
+2014-06-21 14:34:17.986 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=20
+2014-06-21 14:34:17.987 (4708): Session19: StatementPrepare: sess_guid=19 stmt_guid=1
+2014-06-21 14:34:17.987 (4708): (create database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:18.340 (4708): Session19: StatementPrepare: OK
+2014-06-21 14:34:18.340 (4336): Session19: StatementExecute: sess_guid=19 stmt_guid=1
+2014-06-21 14:34:18.340 (4336): Session19: StatementExecute: OK
+2014-06-21 14:34:18.340 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.340 (4336): Compilation time:0.353 sec
+2014-06-21 14:34:18.340 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.340 (4708): Session19: StatementClose: sess_guid=19 stmt_guid=1
+2014-06-21 14:34:18.341 (4336): Session19: QueryExecute:
+2014-06-21 14:34:18.341 (4336): (database null)
+2014-06-21 14:34:18.341 (4336): Session19: QueryExecute: OK
+2014-06-21 14:34:18.341 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=19
+2014-06-21 14:34:18.341 (4708): Session20: QueryExecute:
+2014-06-21 14:34:18.341 (4708): (database null)
+2014-06-21 14:34:18.341 (4708): Session20: QueryExecute: OK
+2014-06-21 14:34:18.341 (4852): tdeserver: close session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=20
+2014-06-21 14:34:18.341 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=21
+2014-06-21 14:34:18.341 (4336): Session21: QueryExecute:
+2014-06-21 14:34:18.341 (4336): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:18.342 (4336): Session21: QueryExecute: OK
+2014-06-21 14:34:18.342 (4852): tdeserver: open session, connection=tab.pipe://./pipe/{9589E899-ED0B-4C87-8417-118ACD45668C}, sess_guid=22
+2014-06-21 14:34:18.343 (4708): Session21: QueryExecute:
+2014-06-21 14:34:18.343 (4708): (show schemas)
+2014-06-21 14:34:18.343 (4708): Elapsed time:0.001 sec
+2014-06-21 14:34:18.343 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.343 (4708): Execution time:0.001 sec
+2014-06-21 14:34:18.343 (4708): Session21: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 14:34:18.344 (4708): Session21: QueryExecute:
+2014-06-21 14:34:18.344 (4708): (show schemas)
+2014-06-21 14:34:18.344 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.344 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.344 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.344 (4708): Session21: QueryExecute: OK rowset_guid=2 n_columns=1
+2014-06-21 14:34:18.345 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=3
+2014-06-21 14:34:18.345 (4336): (create schema [Extract])
+2014-06-21 14:34:18.345 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.345 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=3
+2014-06-21 14:34:18.359 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.359 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.359 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.359 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.359 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=3
+2014-06-21 14:34:18.509 (4708): Session21: QueryExecute:
+2014-06-21 14:34:18.509 (4708): (show tables [Extract])
+2014-06-21 14:34:18.511 (4708): Elapsed time:0.002 sec
+2014-06-21 14:34:18.511 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.511 (4708): Execution time:0.001 sec
+2014-06-21 14:34:18.511 (4708): Session21: QueryExecute: OK rowset_guid=4 n_columns=1
+2014-06-21 14:34:18.512 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=5
+2014-06-21 14:34:18.512 (4708): (create table [Extract].[Extract])
+2014-06-21 14:34:18.512 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.513 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=5
+2014-06-21 14:34:18.528 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.528 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.528 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.528 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.528 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=5
+2014-06-21 14:34:18.528 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=6
+2014-06-21 14:34:18.528 (4708): (create column [Extract].[Extract].[Major area, region, country or area] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "family-name" "'Tropics-Tableau$'" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 14:34:18.530 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.530 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=6
+2014-06-21 14:34:18.548 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.548 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.548 (4336): Compilation time:0.002 sec
+2014-06-21 14:34:18.548 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.548 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=6
+2014-06-21 14:34:18.549 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=7
+2014-06-21 14:34:18.549 (4708): (create column [Extract].[Extract].[Number of Records] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2014-06-21 14:34:18.549 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.549 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=7
+2014-06-21 14:34:18.581 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.581 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.581 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.581 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.581 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=7
+2014-06-21 14:34:18.581 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=8
+2014-06-21 14:34:18.581 (4708): (create column [Extract].[Extract].[Protected Areas km2] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Tropics-Tableau$'" ) ( "ordinal" "2" ) ) )
+2014-06-21 14:34:18.581 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.582 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=8
+2014-06-21 14:34:18.593 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.593 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.593 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.593 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.593 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=8
+2014-06-21 14:34:18.593 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=9
+2014-06-21 14:34:18.593 (4708): (create column [Extract].[Extract].[SoT Region] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "family-name" "'Tropics-Tableau$'" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 14:34:18.593 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.594 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=9
+2014-06-21 14:34:18.604 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.604 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.604 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.604 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.604 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=9
+2014-06-21 14:34:18.605 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=10
+2014-06-21 14:34:18.605 (4708): (create column [Extract].[Extract].[Year] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "'Tropics-Tableau$'" ) ( "ordinal" "4" ) ) )
+2014-06-21 14:34:18.605 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.605 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=10
+2014-06-21 14:34:18.616 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.616 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.616 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.616 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.616 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=10
+2014-06-21 14:34:18.617 (4336): Session21: InsertOpen: table="Extract schema="Extract"
+2014-06-21 14:34:18.617 (4336):   column[0]="Major area, region, country or area"
+2014-06-21 14:34:18.617 (4336):   column[1]="Number of Records"
+2014-06-21 14:34:18.617 (4336):   column[2]="Protected Areas km2"
+2014-06-21 14:34:18.617 (4336):   column[3]="SoT Region"
+2014-06-21 14:34:18.617 (4336):   column[4]="Year"
+2014-06-21 14:34:18.620 (4708): Session21: InsertCommit: insert_guid=11
+2014-06-21 14:34:18.663 (4708): Session21: InsertCommit: OK
+2014-06-21 14:34:18.663 (4336): Session21: InsertClose: insert_guid=11
+2014-06-21 14:34:18.663 (4336): Session21: InsertClose: OK
+2014-06-21 14:34:18.663 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=12
+2014-06-21 14:34:18.663 (4336): (alter column [Extract].[Extract].[Major area, region, country or area] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.663 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.664 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=12
+2014-06-21 14:34:18.674 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.674 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.674 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.674 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.674 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=12
+2014-06-21 14:34:18.675 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=13
+2014-06-21 14:34:18.675 (4336): (alter column [Extract].[Extract].[Number of Records] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.675 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.675 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=13
+2014-06-21 14:34:18.683 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.684 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.684 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.684 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.684 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=13
+2014-06-21 14:34:18.684 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=14
+2014-06-21 14:34:18.684 (4336): (alter column [Extract].[Extract].[Protected Areas km2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.685 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.685 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=14
+2014-06-21 14:34:18.696 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.696 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.697 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.697 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.697 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=14
+2014-06-21 14:34:18.697 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=15
+2014-06-21 14:34:18.697 (4336): (alter column [Extract].[Extract].[SoT Region] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.698 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.698 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=15
+2014-06-21 14:34:18.708 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.708 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.708 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.708 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.708 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=15
+2014-06-21 14:34:18.708 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=16
+2014-06-21 14:34:18.708 (4336): (alter column [Extract].[Extract].[Year] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.708 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.709 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=16
+2014-06-21 14:34:18.720 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.720 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.720 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.720 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.721 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=16
+2014-06-21 14:34:18.721 (4708): Session21: QueryExecute:
+2014-06-21 14:34:18.721 (4708): (describe [Extract].[Extract])
+2014-06-21 14:34:18.721 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.721 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.721 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.722 (4708): Session21: QueryExecute: OK rowset_guid=17 n_columns=5
+2014-06-21 14:34:18.723 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=18
+2014-06-21 14:34:18.723 (4708): (sort [Extract].[Extract]
+2014-06-21 14:34:18.723 (4708):   ( ([SoT Region] asc) ([Year] asc) ([Major area, region, country or area] asc) ([Protected Areas km2] asc) ) )
+2014-06-21 14:34:18.724 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.725 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=18
+2014-06-21 14:34:18.764 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.764 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.764 (4336): Compilation time:0.001 sec
+2014-06-21 14:34:18.764 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.764 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=18
+2014-06-21 14:34:18.768 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=19
+2014-06-21 14:34:18.768 (4708): (create table [Extract].[$TableauMetadata])
+2014-06-21 14:34:18.768 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.768 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=19
+2014-06-21 14:34:18.776 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.776 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.776 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.776 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.777 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=19
+2014-06-21 14:34:18.777 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=20
+2014-06-21 14:34:18.777 (4708): (create column [Extract].[$TableauMetadata].[key] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "precision" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 14:34:18.778 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.779 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=20
+2014-06-21 14:34:18.789 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.789 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.789 (4336): Compilation time:0.001 sec
+2014-06-21 14:34:18.789 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.789 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=20
+2014-06-21 14:34:18.789 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=21
+2014-06-21 14:34:18.789 (4708): (create column [Extract].[$TableauMetadata].[value] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2014-06-21 14:34:18.790 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.790 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=21
+2014-06-21 14:34:18.800 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.800 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.800 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.800 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.800 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=21
+2014-06-21 14:34:18.801 (4336): Session21: InsertOpen: table="$TableauMetadata schema="Extract"
+2014-06-21 14:34:18.801 (4336):   column[0]="key"
+2014-06-21 14:34:18.801 (4336):   column[1]="value"
+2014-06-21 14:34:18.801 (4336): Session21: InsertCommit: insert_guid=22
+2014-06-21 14:34:18.819 (4336): Session21: InsertCommit: OK
+2014-06-21 14:34:18.819 (4708): Session21: InsertClose: insert_guid=22
+2014-06-21 14:34:18.819 (4708): Session21: InsertClose: OK
+2014-06-21 14:34:18.820 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=23
+2014-06-21 14:34:18.820 (4708): (alter column [Extract].[$TableauMetadata].[key] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.820 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.820 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=23
+2014-06-21 14:34:18.829 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.829 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.829 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.829 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.830 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=23
+2014-06-21 14:34:18.830 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=24
+2014-06-21 14:34:18.830 (4708): (alter column [Extract].[$TableauMetadata].[value] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-06-21 14:34:18.830 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.830 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=24
+2014-06-21 14:34:18.842 (4336): Session21: StatementExecute: OK
+2014-06-21 14:34:18.842 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.843 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.843 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.843 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=24
+2014-06-21 14:34:18.843 (4336): Session21: QueryExecute:
+2014-06-21 14:34:18.843 (4336): (describe [Extract].[$TableauMetadata])
+2014-06-21 14:34:18.843 (4336): Elapsed time:0.000 sec
+2014-06-21 14:34:18.843 (4336): Compilation time:0.000 sec
+2014-06-21 14:34:18.843 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.843 (4336): Session21: QueryExecute: OK rowset_guid=25 n_columns=2
+2014-06-21 14:34:18.845 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=26
+2014-06-21 14:34:18.845 (4336): (package)
+2014-06-21 14:34:18.845 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.845 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=26
+2014-06-21 14:34:18.845 (4708): PackageDatabase: in-place package of "C:\Users\John\Documents\GitHub\First_Draft\Tableau_Extracts\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde"
+2014-06-21 14:34:18.867 (4708): PackageDatabase: finished
+2014-06-21 14:34:18.867 (4708): Session21: StatementExecute: OK
+2014-06-21 14:34:18.867 (4708): Elapsed time:0.000 sec
+2014-06-21 14:34:18.867 (4708): Compilation time:0.000 sec
+2014-06-21 14:34:18.867 (4708): Execution time:0.000 sec
+2014-06-21 14:34:18.867 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=26
+2014-06-21 14:34:18.867 (4708): Session21: QueryExecute:
+2014-06-21 14:34:18.867 (4708): (database "C:\\Users\\John\\Documents\\GitHub\\First_Draft\\Tableau_Extracts\\Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx).tde")
+2014-06-21 14:34:18.868 (4708): Session21: QueryExecute: OK
+2014-06-21 14:34:18.868 (4336): Session21: QueryExecute:
+2014-06-21 14:34:18.868 (4336): (describe [Extract].[Extract])
+2014-06-21 14:34:18.873 (4336): Elapsed time:0.005 sec
+2014-06-21 14:34:18.873 (4336): Compilation time:0.005 sec
+2014-06-21 14:34:18.873 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.873 (4336): Session21: QueryExecute: OK rowset_guid=27 n_columns=5
+2014-06-21 14:34:18.875 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=28
+2014-06-21 14:34:18.875 (4336): (restrict
+2014-06-21 14:34:18.875 (4336):   (aggregate
+2014-06-21 14:34:18.875 (4336):     (table [Extract].[Extract])
+2014-06-21 14:34:18.875 (4336):     ()
+2014-06-21 14:34:18.875 (4336):     (
+2014-06-21 14:34:18.875 (4336):       ([cnt:TEMP(one)(290714814)(0):qk]
+2014-06-21 14:34:18.875 (4336):         (count 1)
+2014-06-21 14:34:18.875 (4336):         )
+2014-06-21 14:34:18.875 (4336):       )
+2014-06-21 14:34:18.875 (4336):     )
+2014-06-21 14:34:18.875 (4336):   ([cnt:TEMP(one)(290714814)(0):qk])
+2014-06-21 14:34:18.875 (4336):   )
+2014-06-21 14:34:18.875 (4336): 
+2014-06-21 14:34:18.877 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.877 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=28
+2014-06-21 14:34:18.881 (4708): Session21: StatementExecute: OK rowset_guid=29 n_columns=1
+2014-06-21 14:34:18.881 (4708): Elapsed time:0.006 sec
+2014-06-21 14:34:18.881 (4708): Compilation time:0.002 sec
+2014-06-21 14:34:18.881 (4708): Execution time:0.004 sec
+2014-06-21 14:34:18.882 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=28
+2014-06-21 14:34:18.927 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=30
+2014-06-21 14:34:18.927 (4708): (project (table [SYS].[DUAL]) (([COL] (now))))
+2014-06-21 14:34:18.928 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.928 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=30
+2014-06-21 14:34:18.928 (4336): Session21: StatementExecute: OK rowset_guid=31 n_columns=2
+2014-06-21 14:34:18.928 (4336): Elapsed time:0.001 sec
+2014-06-21 14:34:18.928 (4336): Compilation time:0.001 sec
+2014-06-21 14:34:18.928 (4336): Execution time:0.000 sec
+2014-06-21 14:34:18.929 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=30
+2014-06-21 14:34:18.950 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=32
+2014-06-21 14:34:18.950 (4336): (restrict
+2014-06-21 14:34:18.950 (4336):   (aggregate
+2014-06-21 14:34:18.950 (4336):     (select
+2014-06-21 14:34:18.950 (4336):       (project
+2014-06-21 14:34:18.950 (4336):         (table [Extract].[Extract])
+2014-06-21 14:34:18.950 (4336):         (
+2014-06-21 14:34:18.950 (4336):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:34:18.950 (4336):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:18.950 (4336):           ([none:Year:ok] [Year])
+2014-06-21 14:34:18.950 (4336):           )
+2014-06-21 14:34:18.950 (4336):         )
+2014-06-21 14:34:18.950 (4336):       (= [none:SoT Region:nk] "Northern Africa & Middle East")
+2014-06-21 14:34:18.950 (4336):       )
+2014-06-21 14:34:18.950 (4336):     (
+2014-06-21 14:34:18.950 (4336):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:34:18.950 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:34:18.950 (4336):       )
+2014-06-21 14:34:18.950 (4336):     (
+2014-06-21 14:34:18.950 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:34:18.950 (4336):         (sum [Protected Areas km2])
+2014-06-21 14:34:18.950 (4336):         )
+2014-06-21 14:34:18.950 (4336):       )
+2014-06-21 14:34:18.950 (4336):     )
+2014-06-21 14:34:18.950 (4336):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:34:18.950 (4336):   )
+2014-06-21 14:34:18.950 (4336): 
+2014-06-21 14:34:18.956 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:18.957 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=32
+2014-06-21 14:34:18.960 (4708): Session21: StatementExecute: OK rowset_guid=33 n_columns=3
+2014-06-21 14:34:18.960 (4708): Elapsed time:0.009 sec
+2014-06-21 14:34:18.960 (4708): Compilation time:0.006 sec
+2014-06-21 14:34:18.960 (4708): Execution time:0.003 sec
+2014-06-21 14:34:18.961 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=32
+2014-06-21 14:34:19.013 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=34
+2014-06-21 14:34:19.013 (4708): (restrict
+2014-06-21 14:34:19.013 (4708):   (order
+2014-06-21 14:34:19.013 (4708):     (aggregate
+2014-06-21 14:34:19.013 (4708):       (project
+2014-06-21 14:34:19.013 (4708):         (table [Extract].[Extract])
+2014-06-21 14:34:19.013 (4708):         (
+2014-06-21 14:34:19.013 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:34:19.013 (4708):           )
+2014-06-21 14:34:19.013 (4708):         )
+2014-06-21 14:34:19.013 (4708):       (
+2014-06-21 14:34:19.013 (4708):         ([none:SoT Region:nk] [none:SoT Region:nk])
+2014-06-21 14:34:19.013 (4708):         )
+2014-06-21 14:34:19.013 (4708):       ()
+2014-06-21 14:34:19.013 (4708):       )
+2014-06-21 14:34:19.013 (4708):     (
+2014-06-21 14:34:19.013 (4708):       ([none:SoT Region:nk] asc)
+2014-06-21 14:34:19.013 (4708):       )
+2014-06-21 14:34:19.013 (4708):     )
+2014-06-21 14:34:19.013 (4708):   ([none:SoT Region:nk])
+2014-06-21 14:34:19.013 (4708):   )
+2014-06-21 14:34:19.013 (4708): 
+2014-06-21 14:34:19.015 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:19.015 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=34
+2014-06-21 14:34:19.015 (4336): Session21: StatementExecute: OK rowset_guid=35 n_columns=1
+2014-06-21 14:34:19.015 (4336): Elapsed time:0.002 sec
+2014-06-21 14:34:19.015 (4336): Compilation time:0.002 sec
+2014-06-21 14:34:19.015 (4336): Execution time:0.000 sec
+2014-06-21 14:34:19.016 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=34
+2014-06-21 14:34:25.184 (4336): Session5: StatementPrepare: sess_guid=5 stmt_guid=50
+2014-06-21 14:34:25.184 (4336): (restrict
+2014-06-21 14:34:25.184 (4336):   (aggregate
+2014-06-21 14:34:25.184 (4336):     (table [Extract].[Extract])
+2014-06-21 14:34:25.184 (4336):     ()
+2014-06-21 14:34:25.184 (4336):     (
+2014-06-21 14:34:25.184 (4336):       ([cnt:TEMP(row count)(290714814)(0):qk]
+2014-06-21 14:34:25.184 (4336):         (count 1)
+2014-06-21 14:34:25.184 (4336):         )
+2014-06-21 14:34:25.184 (4336):       )
+2014-06-21 14:34:25.184 (4336):     )
+2014-06-21 14:34:25.184 (4336):   ([cnt:TEMP(row count)(290714814)(0):qk])
+2014-06-21 14:34:25.184 (4336):   )
+2014-06-21 14:34:25.184 (4336): 
+2014-06-21 14:34:25.185 (4336): Session5: StatementPrepare: OK
+2014-06-21 14:34:25.185 (4708): Session5: StatementExecute: sess_guid=5 stmt_guid=50
+2014-06-21 14:34:25.185 (4708): Session5: StatementExecute: OK rowset_guid=51 n_columns=1
+2014-06-21 14:34:25.185 (4708): Elapsed time:0.001 sec
+2014-06-21 14:34:25.185 (4708): Compilation time:0.001 sec
+2014-06-21 14:34:25.185 (4708): Execution time:0.000 sec
+2014-06-21 14:34:25.186 (4336): Session5: StatementClose: sess_guid=5 stmt_guid=50
+2014-06-21 14:34:25.188 (4708): Session11: StatementPrepare: sess_guid=11 stmt_guid=36
+2014-06-21 14:34:25.188 (4708): (restrict
+2014-06-21 14:34:25.188 (4708):   (aggregate
+2014-06-21 14:34:25.188 (4708):     (table [Extract].[Extract])
+2014-06-21 14:34:25.188 (4708):     ()
+2014-06-21 14:34:25.188 (4708):     (
+2014-06-21 14:34:25.188 (4708):       ([cnt:TEMP(row count)(290714814)(0):qk]
+2014-06-21 14:34:25.188 (4708):         (count 1)
+2014-06-21 14:34:25.188 (4708):         )
+2014-06-21 14:34:25.188 (4708):       )
+2014-06-21 14:34:25.188 (4708):     )
+2014-06-21 14:34:25.188 (4708):   ([cnt:TEMP(row count)(290714814)(0):qk])
+2014-06-21 14:34:25.188 (4708):   )
+2014-06-21 14:34:25.188 (4708): 
+2014-06-21 14:34:25.189 (4708): Session11: StatementPrepare: OK
+2014-06-21 14:34:25.189 (4336): Session11: StatementExecute: sess_guid=11 stmt_guid=36
+2014-06-21 14:34:25.189 (4336): Session11: StatementExecute: OK rowset_guid=37 n_columns=1
+2014-06-21 14:34:25.189 (4336): Elapsed time:0.001 sec
+2014-06-21 14:34:25.189 (4336): Compilation time:0.001 sec
+2014-06-21 14:34:25.189 (4336): Execution time:0.000 sec
+2014-06-21 14:34:25.190 (4708): Session11: StatementClose: sess_guid=11 stmt_guid=36
+2014-06-21 14:34:25.191 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=36
+2014-06-21 14:34:25.191 (4336): (restrict
+2014-06-21 14:34:25.191 (4336):   (aggregate
+2014-06-21 14:34:25.191 (4336):     (table [Extract].[Extract])
+2014-06-21 14:34:25.191 (4336):     ()
+2014-06-21 14:34:25.191 (4336):     (
+2014-06-21 14:34:25.191 (4336):       ([cnt:TEMP(row count)(290714814)(0):qk]
+2014-06-21 14:34:25.191 (4336):         (count 1)
+2014-06-21 14:34:25.191 (4336):         )
+2014-06-21 14:34:25.191 (4336):       )
+2014-06-21 14:34:25.191 (4336):     )
+2014-06-21 14:34:25.191 (4336):   ([cnt:TEMP(row count)(290714814)(0):qk])
+2014-06-21 14:34:25.191 (4336):   )
+2014-06-21 14:34:25.191 (4336): 
+2014-06-21 14:34:25.193 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:25.193 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=36
+2014-06-21 14:34:25.193 (4708): Session21: StatementExecute: OK rowset_guid=37 n_columns=1
+2014-06-21 14:34:25.193 (4708): Elapsed time:0.001 sec
+2014-06-21 14:34:25.193 (4708): Compilation time:0.001 sec
+2014-06-21 14:34:25.193 (4708): Execution time:0.000 sec
+2014-06-21 14:34:25.194 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=36
+2014-06-21 14:34:27.446 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=38
+2014-06-21 14:34:27.446 (4708): (restrict
+2014-06-21 14:34:27.446 (4708):   (aggregate
+2014-06-21 14:34:27.446 (4708):     (select
+2014-06-21 14:34:27.446 (4708):       (project
+2014-06-21 14:34:27.446 (4708):         (table [Extract].[Extract])
+2014-06-21 14:34:27.446 (4708):         (
+2014-06-21 14:34:27.446 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:27.446 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:34:27.446 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:34:27.446 (4708):           )
+2014-06-21 14:34:27.446 (4708):         )
+2014-06-21 14:34:27.446 (4708):       (= [none:SoT Region:nk] "Oceania")
+2014-06-21 14:34:27.446 (4708):       )
+2014-06-21 14:34:27.446 (4708):     (
+2014-06-21 14:34:27.446 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:34:27.446 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:34:27.446 (4708):       )
+2014-06-21 14:34:27.446 (4708):     (
+2014-06-21 14:34:27.446 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:34:27.446 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:34:27.446 (4708):         )
+2014-06-21 14:34:27.446 (4708):       )
+2014-06-21 14:34:27.446 (4708):     )
+2014-06-21 14:34:27.446 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:34:27.446 (4708):   )
+2014-06-21 14:34:27.446 (4708): 
+2014-06-21 14:34:27.452 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:27.452 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=38
+2014-06-21 14:34:27.456 (4336): Session21: StatementExecute: OK rowset_guid=39 n_columns=3
+2014-06-21 14:34:27.456 (4336): Elapsed time:0.009 sec
+2014-06-21 14:34:27.456 (4336): Compilation time:0.006 sec
+2014-06-21 14:34:27.456 (4336): Execution time:0.004 sec
+2014-06-21 14:34:27.457 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=38
+2014-06-21 14:34:27.517 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=40
+2014-06-21 14:34:27.517 (4336): (restrict
+2014-06-21 14:34:27.517 (4336):   (order
+2014-06-21 14:34:27.517 (4336):     (aggregate
+2014-06-21 14:34:27.517 (4336):       (project
+2014-06-21 14:34:27.517 (4336):         (table [Extract].[Extract])
+2014-06-21 14:34:27.517 (4336):         (
+2014-06-21 14:34:27.517 (4336):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:27.517 (4336):           ([none:Year:ok] [Year])
+2014-06-21 14:34:27.517 (4336):           ([Major area, region, country or area] [Major area, region, country or area])
+2014-06-21 14:34:27.517 (4336):           ([Year] [Year])
+2014-06-21 14:34:27.517 (4336):           )
+2014-06-21 14:34:27.517 (4336):         )
+2014-06-21 14:34:27.517 (4336):       (
+2014-06-21 14:34:27.517 (4336):         ([Major area, region, country or area] [Major area, region, country or area])
+2014-06-21 14:34:27.517 (4336):         ([Year] [Year])
+2014-06-21 14:34:27.517 (4336):         )
+2014-06-21 14:34:27.517 (4336):       ()
+2014-06-21 14:34:27.517 (4336):       )
+2014-06-21 14:34:27.517 (4336):     (
+2014-06-21 14:34:27.517 (4336):       ([Major area, region, country or area] asc)
+2014-06-21 14:34:27.517 (4336):       ([Year] asc)
+2014-06-21 14:34:27.517 (4336):       )
+2014-06-21 14:34:27.517 (4336):     )
+2014-06-21 14:34:27.517 (4336):   ([Major area, region, country or area] [Year])
+2014-06-21 14:34:27.517 (4336):   )
+2014-06-21 14:34:27.517 (4336): 
+2014-06-21 14:34:27.521 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:27.521 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=40
+2014-06-21 14:34:27.523 (4708): Session21: StatementExecute: OK rowset_guid=41 n_columns=2
+2014-06-21 14:34:27.523 (4708): Elapsed time:0.006 sec
+2014-06-21 14:34:27.524 (4708): Compilation time:0.004 sec
+2014-06-21 14:34:27.524 (4708): Execution time:0.002 sec
+2014-06-21 14:34:27.525 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=40
+2014-06-21 14:34:27.554 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=42
+2014-06-21 14:34:27.554 (4708): (restrict
+2014-06-21 14:34:27.554 (4708):   (aggregate
+2014-06-21 14:34:27.554 (4708):     (project
+2014-06-21 14:34:27.554 (4708):       (table [Extract].[Extract])
+2014-06-21 14:34:27.554 (4708):       (
+2014-06-21 14:34:27.554 (4708):         ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:27.554 (4708):         ([none:Year:ok] [Year])
+2014-06-21 14:34:27.554 (4708):         )
+2014-06-21 14:34:27.554 (4708):       )
+2014-06-21 14:34:27.554 (4708):     (
+2014-06-21 14:34:27.554 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:34:27.554 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:34:27.554 (4708):       )
+2014-06-21 14:34:27.554 (4708):     (
+2014-06-21 14:34:27.554 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:34:27.554 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:34:27.554 (4708):         )
+2014-06-21 14:34:27.554 (4708):       )
+2014-06-21 14:34:27.554 (4708):     )
+2014-06-21 14:34:27.554 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:34:27.554 (4708):   )
+2014-06-21 14:34:27.554 (4708): 
+2014-06-21 14:34:27.559 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:27.559 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=42
+2014-06-21 14:34:27.561 (4336): Session21: StatementExecute: OK rowset_guid=43 n_columns=3
+2014-06-21 14:34:27.561 (4336): Elapsed time:0.006 sec
+2014-06-21 14:34:27.561 (4336): Compilation time:0.004 sec
+2014-06-21 14:34:27.561 (4336): Execution time:0.002 sec
+2014-06-21 14:34:27.563 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=42
+2014-06-21 14:34:27.580 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=44
+2014-06-21 14:34:27.580 (4336): (restrict
+2014-06-21 14:34:27.580 (4336):   (order
+2014-06-21 14:34:27.580 (4336):     (aggregate
+2014-06-21 14:34:27.580 (4336):       (project
+2014-06-21 14:34:27.580 (4336):         (table [Extract].[Extract])
+2014-06-21 14:34:27.580 (4336):         (
+2014-06-21 14:34:27.580 (4336):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:27.580 (4336):           )
+2014-06-21 14:34:27.580 (4336):         )
+2014-06-21 14:34:27.580 (4336):       (
+2014-06-21 14:34:27.580 (4336):         ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:34:27.580 (4336):         )
+2014-06-21 14:34:27.580 (4336):       ()
+2014-06-21 14:34:27.580 (4336):       )
+2014-06-21 14:34:27.580 (4336):     (
+2014-06-21 14:34:27.580 (4336):       ([none:Major area, region, country or area:nk] asc)
+2014-06-21 14:34:27.580 (4336):       )
+2014-06-21 14:34:27.580 (4336):     )
+2014-06-21 14:34:27.580 (4336):   ([none:Major area, region, country or area:nk])
+2014-06-21 14:34:27.580 (4336):   )
+2014-06-21 14:34:27.580 (4336): 
+2014-06-21 14:34:27.585 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:27.585 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=44
+2014-06-21 14:34:27.586 (4708): Session21: StatementExecute: OK rowset_guid=45 n_columns=1
+2014-06-21 14:34:27.586 (4708): Elapsed time:0.005 sec
+2014-06-21 14:34:27.586 (4708): Compilation time:0.004 sec
+2014-06-21 14:34:27.586 (4708): Execution time:0.001 sec
+2014-06-21 14:34:27.587 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=44
+2014-06-21 14:34:27.725 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=46
+2014-06-21 14:34:27.725 (4708): (restrict
+2014-06-21 14:34:27.725 (4708):   (aggregate
+2014-06-21 14:34:27.725 (4708):     (select
+2014-06-21 14:34:27.725 (4708):       (project
+2014-06-21 14:34:27.725 (4708):         (table [Extract].[Extract])
+2014-06-21 14:34:27.725 (4708):         (
+2014-06-21 14:34:27.725 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:34:27.725 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:34:27.725 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:34:27.725 (4708):           )
+2014-06-21 14:34:27.725 (4708):         )
+2014-06-21 14:34:27.725 (4708):       (and
+2014-06-21 14:34:27.725 (4708):         (>= [none:SoT Region:nk] "Caribbean")
+2014-06-21 14:34:27.725 (4708):         (<= [none:SoT Region:nk] "South East Asia")
+2014-06-21 14:34:27.725 (4708):         )
+2014-06-21 14:34:27.725 (4708):       )
+2014-06-21 14:34:27.725 (4708):     (
+2014-06-21 14:34:27.725 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:34:27.725 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:34:27.725 (4708):       )
+2014-06-21 14:34:27.725 (4708):     (
+2014-06-21 14:34:27.725 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:34:27.725 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:34:27.725 (4708):         )
+2014-06-21 14:34:27.725 (4708):       )
+2014-06-21 14:34:27.725 (4708):     )
+2014-06-21 14:34:27.725 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:34:27.725 (4708):   )
+2014-06-21 14:34:27.725 (4708): 
+2014-06-21 14:34:27.732 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:34:27.732 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=46
+2014-06-21 14:34:27.735 (4336): Session21: StatementExecute: OK rowset_guid=47 n_columns=3
+2014-06-21 14:34:27.735 (4336): Elapsed time:0.010 sec
+2014-06-21 14:34:27.736 (4336): Compilation time:0.007 sec
+2014-06-21 14:34:27.736 (4336): Execution time:0.004 sec
+2014-06-21 14:34:27.737 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=46
+2014-06-21 14:34:28.858 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=48
+2014-06-21 14:34:28.858 (4336): (restrict
+2014-06-21 14:34:28.858 (4336):   (aggregate
+2014-06-21 14:34:28.858 (4336):     (project
+2014-06-21 14:34:28.858 (4336):       (table [Extract].[Extract])
+2014-06-21 14:34:28.858 (4336):       (
+2014-06-21 14:34:28.858 (4336):         ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:34:28.858 (4336):         ([none:Year:ok] [Year])
+2014-06-21 14:34:28.858 (4336):         )
+2014-06-21 14:34:28.858 (4336):       )
+2014-06-21 14:34:28.858 (4336):     (
+2014-06-21 14:34:28.858 (4336):       ([none:SoT Region:nk] [none:SoT Region:nk])
+2014-06-21 14:34:28.858 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:34:28.858 (4336):       )
+2014-06-21 14:34:28.858 (4336):     (
+2014-06-21 14:34:28.858 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:34:28.858 (4336):         (sum [Protected Areas km2])
+2014-06-21 14:34:28.858 (4336):         )
+2014-06-21 14:34:28.858 (4336):       )
+2014-06-21 14:34:28.858 (4336):     )
+2014-06-21 14:34:28.858 (4336):   ([none:SoT Region:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:34:28.858 (4336):   )
+2014-06-21 14:34:28.858 (4336): 
+2014-06-21 14:34:28.862 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:34:28.862 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=48
+2014-06-21 14:34:28.864 (4708): Session21: StatementExecute: OK rowset_guid=49 n_columns=3
+2014-06-21 14:34:28.864 (4708): Elapsed time:0.006 sec
+2014-06-21 14:34:28.864 (4708): Compilation time:0.004 sec
+2014-06-21 14:34:28.864 (4708): Execution time:0.002 sec
+2014-06-21 14:34:28.865 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=48
+2014-06-21 14:35:22.255 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=50
+2014-06-21 14:35:22.255 (4708): (restrict
+2014-06-21 14:35:22.255 (4708):   (aggregate
+2014-06-21 14:35:22.255 (4708):     (select
+2014-06-21 14:35:22.255 (4708):       (project
+2014-06-21 14:35:22.255 (4708):         (table [Extract].[Extract])
+2014-06-21 14:35:22.255 (4708):         (
+2014-06-21 14:35:22.255 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:35:22.255 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:35:22.255 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:35:22.255 (4708):           )
+2014-06-21 14:35:22.255 (4708):         )
+2014-06-21 14:35:22.255 (4708):       (or
+2014-06-21 14:35:22.255 (4708):         (= [none:SoT Region:nk] "Northern Africa & Middle East")
+2014-06-21 14:35:22.255 (4708):         (= [none:SoT Region:nk] "South Asia")
+2014-06-21 14:35:22.255 (4708):         )
+2014-06-21 14:35:22.255 (4708):       )
+2014-06-21 14:35:22.255 (4708):     (
+2014-06-21 14:35:22.255 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:35:22.255 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:35:22.255 (4708):       )
+2014-06-21 14:35:22.255 (4708):     (
+2014-06-21 14:35:22.255 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:35:22.255 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:35:22.255 (4708):         )
+2014-06-21 14:35:22.255 (4708):       )
+2014-06-21 14:35:22.255 (4708):     )
+2014-06-21 14:35:22.255 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:35:22.255 (4708):   )
+2014-06-21 14:35:22.255 (4708): 
+2014-06-21 14:35:22.261 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:35:22.261 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=50
+2014-06-21 14:35:22.265 (4336): Session21: StatementExecute: OK rowset_guid=51 n_columns=3
+2014-06-21 14:35:22.265 (4336): Elapsed time:0.010 sec
+2014-06-21 14:35:22.265 (4336): Compilation time:0.006 sec
+2014-06-21 14:35:22.265 (4336): Execution time:0.004 sec
+2014-06-21 14:35:22.266 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=50
+2014-06-21 14:35:28.304 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=52
+2014-06-21 14:35:28.304 (4336): (restrict
+2014-06-21 14:35:28.304 (4336):   (aggregate
+2014-06-21 14:35:28.304 (4336):     (select
+2014-06-21 14:35:28.304 (4336):       (project
+2014-06-21 14:35:28.304 (4336):         (table [Extract].[Extract])
+2014-06-21 14:35:28.304 (4336):         (
+2014-06-21 14:35:28.304 (4336):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:35:28.304 (4336):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:35:28.304 (4336):           ([none:Year:ok] [Year])
+2014-06-21 14:35:28.304 (4336):           )
+2014-06-21 14:35:28.304 (4336):         )
+2014-06-21 14:35:28.304 (4336):       (or
+2014-06-21 14:35:28.304 (4336):         (= [none:SoT Region:nk] "Northern Africa & Middle East")
+2014-06-21 14:35:28.304 (4336):         (= [none:SoT Region:nk] "South East Asia")
+2014-06-21 14:35:28.304 (4336):         )
+2014-06-21 14:35:28.304 (4336):       )
+2014-06-21 14:35:28.304 (4336):     (
+2014-06-21 14:35:28.304 (4336):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:35:28.304 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:35:28.304 (4336):       )
+2014-06-21 14:35:28.304 (4336):     (
+2014-06-21 14:35:28.304 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:35:28.304 (4336):         (sum [Protected Areas km2])
+2014-06-21 14:35:28.304 (4336):         )
+2014-06-21 14:35:28.304 (4336):       )
+2014-06-21 14:35:28.304 (4336):     )
+2014-06-21 14:35:28.304 (4336):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:35:28.304 (4336):   )
+2014-06-21 14:35:28.304 (4336): 
+2014-06-21 14:35:28.311 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:35:28.311 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=52
+2014-06-21 14:35:28.314 (4708): Session21: StatementExecute: OK rowset_guid=53 n_columns=3
+2014-06-21 14:35:28.314 (4708): Elapsed time:0.009 sec
+2014-06-21 14:35:28.314 (4708): Compilation time:0.006 sec
+2014-06-21 14:35:28.314 (4708): Execution time:0.003 sec
+2014-06-21 14:35:28.315 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=52
+2014-06-21 14:35:57.101 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=54
+2014-06-21 14:35:57.101 (4708): (restrict
+2014-06-21 14:35:57.101 (4708):   (aggregate
+2014-06-21 14:35:57.101 (4708):     (select
+2014-06-21 14:35:57.101 (4708):       (project
+2014-06-21 14:35:57.101 (4708):         (table [Extract].[Extract])
+2014-06-21 14:35:57.101 (4708):         (
+2014-06-21 14:35:57.101 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:35:57.101 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:35:57.101 (4708):           )
+2014-06-21 14:35:57.101 (4708):         )
+2014-06-21 14:35:57.101 (4708):       false)
+2014-06-21 14:35:57.101 (4708):     (
+2014-06-21 14:35:57.101 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:35:57.101 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:35:57.101 (4708):       )
+2014-06-21 14:35:57.101 (4708):     (
+2014-06-21 14:35:57.101 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:35:57.101 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:35:57.101 (4708):         )
+2014-06-21 14:35:57.101 (4708):       )
+2014-06-21 14:35:57.101 (4708):     )
+2014-06-21 14:35:57.101 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:35:57.101 (4708):   )
+2014-06-21 14:35:57.101 (4708): 
+2014-06-21 14:35:57.109 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:35:57.110 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=54
+2014-06-21 14:35:57.112 (4336): Session21: StatementExecute: OK rowset_guid=55 n_columns=3
+2014-06-21 14:35:57.112 (4336): Elapsed time:0.010 sec
+2014-06-21 14:35:57.112 (4336): Compilation time:0.008 sec
+2014-06-21 14:35:57.112 (4336): Execution time:0.002 sec
+2014-06-21 14:35:57.113 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=54
+2014-06-21 14:35:57.494 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=56
+2014-06-21 14:35:57.494 (4708): (restrict
+2014-06-21 14:35:57.494 (4708):   (aggregate
+2014-06-21 14:35:57.494 (4708):     (select
+2014-06-21 14:35:57.494 (4708):       (project
+2014-06-21 14:35:57.494 (4708):         (table [Extract].[Extract])
+2014-06-21 14:35:57.494 (4708):         (
+2014-06-21 14:35:57.494 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:35:57.494 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:35:57.494 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:35:57.494 (4708):           )
+2014-06-21 14:35:57.494 (4708):         )
+2014-06-21 14:35:57.494 (4708):       (= [none:SoT Region:nk] "Caribbean")
+2014-06-21 14:35:57.494 (4708):       )
+2014-06-21 14:35:57.494 (4708):     (
+2014-06-21 14:35:57.494 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:35:57.494 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:35:57.494 (4708):       )
+2014-06-21 14:35:57.494 (4708):     (
+2014-06-21 14:35:57.494 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:35:57.494 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:35:57.494 (4708):         )
+2014-06-21 14:35:57.494 (4708):       )
+2014-06-21 14:35:57.494 (4708):     )
+2014-06-21 14:35:57.494 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:35:57.494 (4708):   )
+2014-06-21 14:35:57.494 (4708): 
+2014-06-21 14:35:57.499 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:35:57.500 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=56
+2014-06-21 14:35:57.503 (4336): Session21: StatementExecute: OK rowset_guid=57 n_columns=3
+2014-06-21 14:35:57.503 (4336): Elapsed time:0.009 sec
+2014-06-21 14:35:57.503 (4336): Compilation time:0.006 sec
+2014-06-21 14:35:57.503 (4336): Execution time:0.003 sec
+2014-06-21 14:35:57.504 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=56
+2014-06-21 14:37:59.060 (4336): Session21: StatementPrepare: sess_guid=21 stmt_guid=58
+2014-06-21 14:37:59.060 (4336): (restrict
+2014-06-21 14:37:59.060 (4336):   (aggregate
+2014-06-21 14:37:59.060 (4336):     (select
+2014-06-21 14:37:59.060 (4336):       (project
+2014-06-21 14:37:59.060 (4336):         (table [Extract].[Extract])
+2014-06-21 14:37:59.060 (4336):         (
+2014-06-21 14:37:59.060 (4336):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:37:59.060 (4336):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:37:59.060 (4336):           ([none:Year:ok] [Year])
+2014-06-21 14:37:59.060 (4336):           )
+2014-06-21 14:37:59.060 (4336):         )
+2014-06-21 14:37:59.060 (4336):       (or
+2014-06-21 14:37:59.060 (4336):         (= [none:SoT Region:nk] "Caribbean")
+2014-06-21 14:37:59.060 (4336):         (= [none:SoT Region:nk] "Central & Southern Africa")
+2014-06-21 14:37:59.060 (4336):         )
+2014-06-21 14:37:59.060 (4336):       )
+2014-06-21 14:37:59.060 (4336):     (
+2014-06-21 14:37:59.060 (4336):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:37:59.060 (4336):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:37:59.060 (4336):       )
+2014-06-21 14:37:59.060 (4336):     (
+2014-06-21 14:37:59.060 (4336):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:37:59.060 (4336):         (sum [Protected Areas km2])
+2014-06-21 14:37:59.060 (4336):         )
+2014-06-21 14:37:59.060 (4336):       )
+2014-06-21 14:37:59.060 (4336):     )
+2014-06-21 14:37:59.060 (4336):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:37:59.060 (4336):   )
+2014-06-21 14:37:59.060 (4336): 
+2014-06-21 14:37:59.066 (4336): Session21: StatementPrepare: OK
+2014-06-21 14:37:59.067 (4708): Session21: StatementExecute: sess_guid=21 stmt_guid=58
+2014-06-21 14:37:59.070 (4708): Session21: StatementExecute: OK rowset_guid=59 n_columns=3
+2014-06-21 14:37:59.070 (4708): Elapsed time:0.010 sec
+2014-06-21 14:37:59.070 (4708): Compilation time:0.006 sec
+2014-06-21 14:37:59.070 (4708): Execution time:0.004 sec
+2014-06-21 14:37:59.072 (4336): Session21: StatementClose: sess_guid=21 stmt_guid=58
+2014-06-21 14:38:03.280 (4708): Session21: StatementPrepare: sess_guid=21 stmt_guid=60
+2014-06-21 14:38:03.280 (4708): (restrict
+2014-06-21 14:38:03.280 (4708):   (aggregate
+2014-06-21 14:38:03.280 (4708):     (select
+2014-06-21 14:38:03.280 (4708):       (project
+2014-06-21 14:38:03.280 (4708):         (table [Extract].[Extract])
+2014-06-21 14:38:03.280 (4708):         (
+2014-06-21 14:38:03.280 (4708):           ([none:SoT Region:nk] [SoT Region])
+2014-06-21 14:38:03.280 (4708):           ([none:Major area, region, country or area:nk] [Major area, region, country or area])
+2014-06-21 14:38:03.280 (4708):           ([none:Year:ok] [Year])
+2014-06-21 14:38:03.280 (4708):           )
+2014-06-21 14:38:03.280 (4708):         )
+2014-06-21 14:38:03.280 (4708):       (or
+2014-06-21 14:38:03.280 (4708):         (= [none:SoT Region:nk] "Caribbean")
+2014-06-21 14:38:03.280 (4708):         (or
+2014-06-21 14:38:03.280 (4708):           (= [none:SoT Region:nk] "Central & Southern Africa")
+2014-06-21 14:38:03.280 (4708):           (= [none:SoT Region:nk] "Central America")
+2014-06-21 14:38:03.280 (4708):           )
+2014-06-21 14:38:03.280 (4708):         )
+2014-06-21 14:38:03.280 (4708):       )
+2014-06-21 14:38:03.280 (4708):     (
+2014-06-21 14:38:03.280 (4708):       ([none:Major area, region, country or area:nk] [none:Major area, region, country or area:nk])
+2014-06-21 14:38:03.280 (4708):       ([none:Year:ok] [none:Year:ok])
+2014-06-21 14:38:03.280 (4708):       )
+2014-06-21 14:38:03.280 (4708):     (
+2014-06-21 14:38:03.280 (4708):       ([sum:Protected Areas km2:ok]
+2014-06-21 14:38:03.280 (4708):         (sum [Protected Areas km2])
+2014-06-21 14:38:03.280 (4708):         )
+2014-06-21 14:38:03.280 (4708):       )
+2014-06-21 14:38:03.280 (4708):     )
+2014-06-21 14:38:03.280 (4708):   ([none:Major area, region, country or area:nk] [none:Year:ok] [sum:Protected Areas km2:ok])
+2014-06-21 14:38:03.280 (4708):   )
+2014-06-21 14:38:03.280 (4708): 
+2014-06-21 14:38:03.289 (4708): Session21: StatementPrepare: OK
+2014-06-21 14:38:03.290 (4336): Session21: StatementExecute: sess_guid=21 stmt_guid=60
+2014-06-21 14:38:03.294 (4336): Session21: StatementExecute: OK rowset_guid=61 n_columns=3
+2014-06-21 14:38:03.294 (4336): Elapsed time:0.013 sec
+2014-06-21 14:38:03.294 (4336): Compilation time:0.009 sec
+2014-06-21 14:38:03.294 (4336): Execution time:0.004 sec
+2014-06-21 14:38:03.295 (4708): Session21: StatementClose: sess_guid=21 stmt_guid=60

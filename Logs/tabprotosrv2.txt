@@ -1,0 +1,1564 @@
+﻿
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+NEW SESSION
+---------------------------------------------------------
+Tableau Version: 8100.14.0510.1702,x86
+Started at '2014-06-13 14:49:31:600'
+Microsoft Windows 7 Professional (build 7600)
+Hostname: Pantless-PC
+Writing to 'C:\Users\John\Desktop\Dropbox\Logs\tabprotosrv2.txt'
+
+Memory:  Current memory load is 0%
+Memory: Process memory free: 0xf7691000 bytesMemory: Process memory committed: 0x05ab3000 bytesMemory: Process memory reserved: 0x02eac000 bytes
+CurrentDirectory: C:\Users\John\Desktop\Dropbox
+
+Path: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+
+Environment:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\John\AppData\Roaming
+ARBORPATH=C:\Program Files\Tableau\Tableau 8.1\
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=PANTLESS-PC
+ComSpec=C:\Windows\system32\cmd.exe
+ESSBASEPATH=C:\Program Files\Tableau\Tableau 8.1\
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\John
+LOCALAPPDATA=C:\Users\John\AppData\Local
+LOGONSERVER=\\PANTLESS-PC
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3c03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\Windows
+TABLEAU_QUERY_BAND_CONNECT_OPT=
+TABLEAU_QUERY_BAND_OPT=
+TEMP=C:\Users\John\AppData\Local\Temp
+TMP=C:\Users\John\AppData\Local\Temp
+USERDOMAIN=Pantless-PC
+USERNAME=John
+USERPROFILE=C:\Users\John
+windir=C:\Windows
+__KMP_REGISTERED_LIB_1036=00000000100BD090-cafe8413-libiomp5md.dll
+
+
+C:\Windows\SYSTEM32\MSJET40.DLL:
+  Product Name: Microsoft (R) Jet
+  File Version: 4.00.9756.0
+  Product Version: 4.00.9756.0
+
+ARBORPATH="C:\Program Files\Tableau\Tableau 8.1\"
+
+Display Devices:
+  0: Standard VGA Graphics Adapter
+Registry::DriverVersion: Undefined
+Registry::DriverDate: Undefined
+Registry::DriverDesc: Undefined
+Registry::Adapter: VGA
+Registry::BIOS: 01.00
+Registry::ChipType: AMD ATOMBIOS
+Registry::VideoMemorySize: Undefined
+
+
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabprotosrv.exe:
+  Product Name: Tableau Protocol Server 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\SysWOW64\ntdll.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\kernel32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Windows\syswow64\KERNELBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtCore4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Windows\syswow64\USER32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\GDI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\LPK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\USP10.dll:
+  Product Name: Microsoft(R) Uniscribe Unicode script processor
+  File Version: 1.0626.7600.17174 (win7_gdr.121121-1913)
+  Product Version: 1.0626.7600.17174
+
+C:\Windows\syswow64\msvcrt.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 7.0.7600.16930 (win7_gdr.111215-1720)
+  Product Version: 7.0.7600.16930
+
+C:\Windows\syswow64\ADVAPI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\SysWOW64\sechost.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\RPCRT4.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SspiCli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\CRYPTBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\ole32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WS2_32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\NSI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCP100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCR100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabcore.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_system-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_thread-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_chrono-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libcurl.dll:
+  Product Name: The cURL library
+  File Version: 7.32.0
+  Product Version: 7.32.0
+
+C:\Windows\syswow64\WLDAP32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\Normaliz.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABLIBEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABSSLEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtNetwork4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuin44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuuc44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icudt44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tbb.dll:
+  Product Name: Intel(R) Threading Building Blocks for Windows
+  File Version: 4, 2, 0, 0
+  Product Version: 4, 2, 0, 0
+
+C:\Windows\syswow64\PSAPI.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\VERSION.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmetrics.dll:
+  Product Name: Tableau Metrics 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\syswow64\SHELL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SHLWAPI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\OLEAUT32.dll:
+  Product Name: 
+  File Version: 6.1.7600.16872
+  Product Version: 6.1.7600.16872
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\mfc100u.dll:
+  Product Name: Microsoft® Visual Studio® 10
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd\COMCTL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.10 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MSIMG32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dbghelp.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WINTRUST.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17115 (win7_gdr.120824-0331)
+  Product Version: 6.1.7600.17115
+
+C:\Windows\syswow64\CRYPT32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\MSASN1.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16415 (win7_gdr.090828-1615)
+  Product Version: 6.1.7600.16415
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabdata.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_date_time-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Windows\system32\MSWSOCK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmixins.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\ODBC32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16688 (win7_gdr.101015-1505)
+  Product Version: 6.1.7600.16688
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libxl.dll:
+  Product Name: LibXL
+  File Version: 3.5.3.1
+  Product Version: 3.5.3.1
+
+C:\Windows\system32\IMM32.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\MSCTF.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\UxTheme.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dwmapi.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\odbcint.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files (x86)\Common Files\System\Ado\msado15.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17036 (win7_gdr.120605-1503)
+  Product Version: 6.1.7600.17036
+---------------------------------------------------------
+
+Default user locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+Default system locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+---------------------------------------------------------
+
+Current Process ID: 1456 (0x5b0)
+2014-06-13 14:49:31.608 (-,-,-,-) 1390: AppName: Tableau edition=1)
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: -----------------------------------------------------------------------------
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: Initializing fault reporting
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: Initializing MiniDump
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: Loading 'DbgHelp.dll'
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: Loaded 'C:\Windows\system32\dbghelp.dll'
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: '  Product Name: Microsoft® Windows® Operating System
+2014-06-13 14:49:31.618 (-,-,-,-) 1390:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-13 14:49:31.618 (-,-,-,-) 1390:   Product Version: 6.1.7600.16385
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: '
+2014-06-13 14:49:31.618 (-,-,-,-) 1390: Finding function 'MiniDumpWriteDump'
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: Success
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: Registering unhandled exception filter
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: -----------------------------------------------------------------------------
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: Callback: tab.pipe://./pipe/{5BD72046-6E98-45F0-932A-BF6944B94E20}
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: tab.pipe://./pipe/{64FB108C-AF33-4710-B7C2-726214B9A855}
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: Starting dispatch loop
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: WorkItemCreate: 0x01fc3c08, 0x01fbf8b8
+2014-06-13 14:49:31.619 (-,-,-,-) 1390: AsyncTaskSvcExecuteOnThread: 0x01fbf8b8
+2014-06-13 14:49:31.620 (-,-,-,-) 0ea4: Starting AsyncTask for SessionID: -.
+2014-06-13 14:49:31.620 (-,-,-,-) 0ea4: AdminTask start
+2014-06-13 14:49:31.620 (-,-,-,-) 1390: IPC start [1456] 1
+2014-06-13 14:49:31.620 (-,-,-,-) 1390: Creating a shadow copy of Excel file "C:\Users\John\Desktop\Tropics_Data_Formatted\Society_Health_Life Expectancy.xlsx" as "C:\Users\John\AppData\Local\Temp\TableauTemp\Society_Health_Life Expectancy_0e4kwor1xtjfm40zrce1u1ku3rur.xlsx" for improved query performance
+2014-06-13 14:49:31.621 (-,-,-,-) 1390: Shadow copy complete
+2014-06-13 14:49:31.622 (-,-,-,-) 1390: ConnectString: Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny Write;Data Source=C:\Users\John\AppData\Local\Temp\TableauTemp\Society_Health_Life Expectancy_0e4kwor1xtjfm40zrce1u1ku3rur.xlsx;Extended Properties="Excel 12.0;HDR=Yes;IMEX=1"
+2014-06-13 14:49:31.622 (-,-,-,-) 1390: INFO: Connecting to Excel File through Jet -- Type Guess Rows = 8
+2014-06-13 14:49:31.626 (-,-,-,-) 1390: IDataInitialize::GetDataSource: 0.002 seconds
+2014-06-13 14:49:31.626 (-,-,-,-) 1390: pDBInitialize->QueryInterface(IID_IDBProperties)=0x%10
+2014-06-13 14:49:31.626 (-,-,-,-) 1390: Calling pDBInitialize->Initialize...
+2014-06-13 14:49:31.646 (-,-,-,-) 1390: IDBInitialize::Initialize: 0.019 seconds
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: Error retrieving property 0x%1       8
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: INFO: Connected via PROVIDER="excel" to DBMS="MS Jet (04.00.0000), Provider Version 04.00.8015, OleDB Version 02.10"
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: Error retrieving property 0x%1       8
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: ProtocolBase::LogConnection( <connection :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Desktop\Tropics_Data_Formatted\Society_Health_Life Expectancy.xlsx' header='yes' imex='1' this='01ffa7d8' /> )
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: IPC done GetProtocol 0.0270
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: IPC start [1456] 8
+2014-06-13 14:49:31.647 (-,-,-,-) 1390: IPC done GetConnectionInfo 0.0000
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC request followed by 1 other of the same.
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC start [1456] 17
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC done IsExclusiveConnection 0.0000
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC start [1456] 54
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC done CanCancelQueries 0.0000
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC start [1456] 36
+2014-06-13 14:49:31.648 (-,-,-,-) 1390: IPC done MangleRemoteAlias 0.0000
+2014-06-13 14:49:31.649 (-,-,-,-) 1390: IPC start [1456] 37
+2014-06-13 14:49:31.649 (-,-,-,-) 1390: IPC done MangleWireAlias 0.0000
+2014-06-13 14:53:27.422 (-,-,-,-) 1390: IPC start [1456] 36
+2014-06-13 14:53:27.423 (-,-,-,-) 1390: IPC done MangleRemoteAlias 0.0000
+2014-06-13 14:53:27.424 (-,-,-,-) 1390: IPC start [1456] 37
+2014-06-13 14:53:27.424 (-,-,-,-) 1390: IPC done MangleWireAlias 0.0000
+2014-06-13 14:53:27.431 (-,-,-,-) 1390: IPC start [1456] 41
+2014-06-13 14:53:27.433 (-,-,-,-) 1390: WorkItemCreate: 0x01fb50a0, 0x033626b8
+2014-06-13 14:53:27.433 (-,-,-,-) 1390: AsyncTaskSvcExecute: 0x033626b8
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: AsyncTaskWrapperExecute: 0x033626b8
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: Starting AsyncTask for SessionID: -.
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: <QUERY protocol='01ffa7d8'>
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: SELECT ['Tropics-Tableau$'].[Avg Life Expectancy] AS [none:Avg Life Expectancy:ok]
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: FROM ['Tropics-Tableau$']
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: GROUP BY ['Tropics-Tableau$'].[Avg Life Expectancy]
+2014-06-13 14:53:27.435 (-,-,-,-) 12c4: </QUERY>
+2014-06-13 14:53:27.478 (-,-,-,-) 12c4:    [Time] Running the command took 0.0430 sec.
+2014-06-13 14:53:27.478 (-,-,-,-) 12c4:    [Time] Running the query took 0.0430 sec.
+2014-06-13 14:53:27.478 (-,-,-,-) 12c4: WorkItemSetComplete: 0x033626b8
+2014-06-13 14:53:27.478 (-,-,-,-) 1390: Action:   SubAction:  Status:  Observers: 0
+2014-06-13 14:53:27.479 (-,-,-,-) 1390: WorkItemCreate: 0x03346060, 0x033626b8
+2014-06-13 14:53:27.479 (-,-,-,-) 1390: AsyncTaskSvcExecute: 0x033626b8
+2014-06-13 14:53:27.480 (-,-,-,-) 0b78: Starting AsyncTask for SessionID: -.
+2014-06-13 14:53:27.480 (-,-,-,-) 1390: WorkItemCreate: 0x01fbe558, 0x03362708
+2014-06-13 14:53:27.480 (-,-,-,-) 1390: AsyncTaskSvcExecute: 0x03362708
+2014-06-13 14:53:27.480 (-,-,-,-) 0a70: Starting AsyncTask for SessionID: -.
+2014-06-13 14:53:27.485 (-,-,-,-) 0b78: WorkItemSetComplete: 0x033626b8
+2014-06-13 14:53:27.485 (-,-,-,-) 0a70:    [Time] Getting the records took 0.0000 sec.
+2014-06-13 14:53:27.485 (-,-,-,-) 0a70: WorkItemSetComplete: 0x03362708
+2014-06-13 14:53:27.486 (-,-,-,-) 1390: AsyncTaskSvcWait: 0x03362708
+2014-06-13 14:53:27.486 (-,-,-,-) 1390: WorkItemWaitForCompletion: 0x03362708
+2014-06-13 14:53:27.486 (-,-,-,-) 1390: IPC done RunQuery 0.0550
+2014-06-13 14:53:27.486 (-,-,-,-) 1390: IPC start [1456] 3
+2014-06-13 14:53:27.487 (-,-,-,-) 1390: AsyncTaskSvcWait: 0x033626b8
+2014-06-13 14:53:27.487 (-,-,-,-) 1390: WorkItemWaitForCompletion: 0x033626b8
+2014-06-13 14:53:27.487 (-,-,-,-) 1390: IPC done ReadTuples 0.0000
+2014-06-13 14:53:27.488 (-,-,-,-) 1390: IPC request followed by 1 other of the same.
+2014-06-13 14:53:27.489 (-,-,-,-) 1390: IPC start [1456] 4
+2014-06-13 14:53:27.489 (-,-,-,-) 1390: IPC done ReleaseTuples 0.0000
+2014-06-13 14:58:05.901 (-,-,-,-) 1390: IPC start [1456] 2
+2014-06-13 14:58:05.901 (-,-,-,-) 1390: <connections>
+2014-06-13 14:58:05.901 (-,-,-,-) 1390: </connections>
+2014-06-13 14:58:05.936 (-,-,-,-) 1390: <destruct-database :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\Society_Health_Life Expectancy_0e4kwor1xtjfm40zrce1u1ku3rur.xlsx' header='yes' imex='1'>
+2014-06-13 14:58:05.936 (-,-,-,-) 1390: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\Society_Health_Life Expectancy_0e4kwor1xtjfm40zrce1u1ku3rur.xlsx' header='yes' imex='1'>
+2014-06-13 14:58:05.936 (-,-,-,-) 1390: <connections>
+2014-06-13 14:58:05.936 (-,-,-,-) 1390: </connections>
+2014-06-13 14:58:05.936 (-,-,-,-) 1390: </close-protocol>
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: </destruct-database>
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: ProtocolBase::~ProtocolBase( <connection :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Desktop\Tropics_Data_Formatted\Society_Health_Life Expectancy.xlsx' header='yes' imex='1' this='01ffa7d8' /> )
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: <connections>
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: </connections>
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: IPC done ReleaseProtocol 0.0350
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: Waiting for AdminTask completion...
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: AsyncTaskSvcWait: 0x01fbf8b8
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: WorkItemWaitForCompletion: 0x01fbf8b8
+2014-06-13 14:58:05.937 (-,-,-,-) 0ea4: AdminTask end
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: AdminTask completed.
+2014-06-13 14:58:05.937 (-,-,-,-) 0ea4: WorkItemSetComplete: 0x01fbf8b8
+2014-06-13 14:58:05.937 (-,-,-,-) 1390: Shutting down static repository
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+NEW SESSION
+---------------------------------------------------------
+Tableau Version: 8100.14.0510.1702,x86
+Started at '2014-06-20 14:33:52:081'
+Microsoft Windows 7 Professional (build 7600)
+Hostname: Pantless-PC
+Writing to 'C:\Users\John\Desktop\Dropbox\Logs\tabprotosrv2.txt'
+
+Memory:  Current memory load is 0%
+Memory: Process memory free: 0xf7691000 bytesMemory: Process memory committed: 0x05ad1000 bytesMemory: Process memory reserved: 0x02e8e000 bytes
+CurrentDirectory: C:\Users\John\Desktop\Dropbox
+
+Path: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+
+Environment:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\John\AppData\Roaming
+ARBORPATH=C:\Program Files\Tableau\Tableau 8.1\
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=PANTLESS-PC
+ComSpec=C:\Windows\system32\cmd.exe
+ESSBASEPATH=C:\Program Files\Tableau\Tableau 8.1\
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\John
+LOCALAPPDATA=C:\Users\John\AppData\Local
+LOGONSERVER=\\PANTLESS-PC
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3c03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\Windows
+TABLEAU_QUERY_BAND_CONNECT_OPT=
+TABLEAU_QUERY_BAND_OPT=
+TEMP=C:\Users\John\AppData\Local\Temp
+TMP=C:\Users\John\AppData\Local\Temp
+USERDOMAIN=Pantless-PC
+USERNAME=John
+USERPROFILE=C:\Users\John
+windir=C:\Windows
+__KMP_REGISTERED_LIB_1036=00000000100BD090-cafe8413-libiomp5md.dll
+__KMP_REGISTERED_LIB_1592=00000000100BD090-cafeaae0-libiomp5md.dll
+__KMP_REGISTERED_LIB_3748=00000000100BD090-cafe4c46-libiomp5md.dll
+__KMP_REGISTERED_LIB_3752=00000000100BD090-cafe60db-libiomp5md.dll
+__KMP_REGISTERED_LIB_4232=00000000100BD090-cafe1e69-libiomp5md.dll
+
+
+C:\Windows\SYSTEM32\MSJET40.DLL:
+  Product Name: Microsoft (R) Jet
+  File Version: 4.00.9756.0
+  Product Version: 4.00.9756.0
+
+ARBORPATH="C:\Program Files\Tableau\Tableau 8.1\"
+
+Display Devices:
+  0: Standard VGA Graphics Adapter
+Registry::DriverVersion: Undefined
+Registry::DriverDate: Undefined
+Registry::DriverDesc: Undefined
+Registry::Adapter: VGA
+Registry::BIOS: 01.00
+Registry::ChipType: AMD ATOMBIOS
+Registry::VideoMemorySize: Undefined
+
+
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabprotosrv.exe:
+  Product Name: Tableau Protocol Server 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\SysWOW64\ntdll.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\kernel32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Windows\syswow64\KERNELBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtCore4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Windows\syswow64\USER32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\GDI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\LPK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\USP10.dll:
+  Product Name: Microsoft(R) Uniscribe Unicode script processor
+  File Version: 1.0626.7600.17174 (win7_gdr.121121-1913)
+  Product Version: 1.0626.7600.17174
+
+C:\Windows\syswow64\msvcrt.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 7.0.7600.16930 (win7_gdr.111215-1720)
+  Product Version: 7.0.7600.16930
+
+C:\Windows\syswow64\ADVAPI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\SysWOW64\sechost.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\RPCRT4.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SspiCli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\CRYPTBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\ole32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WS2_32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\NSI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCP100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCR100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabcore.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_system-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_thread-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_chrono-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libcurl.dll:
+  Product Name: The cURL library
+  File Version: 7.32.0
+  Product Version: 7.32.0
+
+C:\Windows\syswow64\WLDAP32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\Normaliz.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABLIBEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABSSLEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtNetwork4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuin44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuuc44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icudt44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tbb.dll:
+  Product Name: Intel(R) Threading Building Blocks for Windows
+  File Version: 4, 2, 0, 0
+  Product Version: 4, 2, 0, 0
+
+C:\Windows\syswow64\PSAPI.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\VERSION.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmetrics.dll:
+  Product Name: Tableau Metrics 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\syswow64\SHELL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SHLWAPI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\OLEAUT32.dll:
+  Product Name: 
+  File Version: 6.1.7600.16872
+  Product Version: 6.1.7600.16872
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\mfc100u.dll:
+  Product Name: Microsoft® Visual Studio® 10
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd\COMCTL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.10 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MSIMG32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dbghelp.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WINTRUST.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17115 (win7_gdr.120824-0331)
+  Product Version: 6.1.7600.17115
+
+C:\Windows\syswow64\CRYPT32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\MSASN1.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16415 (win7_gdr.090828-1615)
+  Product Version: 6.1.7600.16415
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabdata.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_date_time-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Windows\system32\MSWSOCK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmixins.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\ODBC32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16688 (win7_gdr.101015-1505)
+  Product Version: 6.1.7600.16688
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libxl.dll:
+  Product Name: LibXL
+  File Version: 3.5.3.1
+  Product Version: 3.5.3.1
+
+C:\Windows\system32\IMM32.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\MSCTF.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\UxTheme.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dwmapi.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\odbcint.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files (x86)\Common Files\System\Ado\msado15.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17036 (win7_gdr.120605-1503)
+  Product Version: 6.1.7600.17036
+---------------------------------------------------------
+
+Default user locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+Default system locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+---------------------------------------------------------
+
+Current Process ID: 4008 (0xfa8)
+2014-06-20 14:33:52.088 (-,-,-,-) 11d0: AppName: Tableau edition=1)
+2014-06-20 14:33:52.098 (-,-,-,-) 11d0: -----------------------------------------------------------------------------
+2014-06-20 14:33:52.098 (-,-,-,-) 11d0: Initializing fault reporting
+2014-06-20 14:33:52.098 (-,-,-,-) 11d0: Initializing MiniDump
+2014-06-20 14:33:52.098 (-,-,-,-) 11d0: Loading 'DbgHelp.dll'
+2014-06-20 14:33:52.098 (-,-,-,-) 11d0: Loaded 'C:\Windows\system32\dbghelp.dll'
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: '  Product Name: Microsoft® Windows® Operating System
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0:   Product Version: 6.1.7600.16385
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: '
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: Finding function 'MiniDumpWriteDump'
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: Success
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: Registering unhandled exception filter
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: -----------------------------------------------------------------------------
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: Callback: tab.pipe://./pipe/{6BDBC1A5-7B83-477D-9B4D-ED47787EB1F3}
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: tab.pipe://./pipe/{824FB4B6-4114-47C8-8F1B-38257CEA83E7}
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: Starting dispatch loop
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: WorkItemCreate: 0x003b4cf0, 0x003b09b0
+2014-06-20 14:33:52.099 (-,-,-,-) 11d0: AsyncTaskSvcExecuteOnThread: 0x003b09b0
+2014-06-20 14:33:52.100 (-,-,-,-) 0cc4: Starting AsyncTask for SessionID: -.
+2014-06-20 14:33:52.100 (-,-,-,-) 0cc4: AdminTask start
+2014-06-20 14:33:52.100 (-,-,-,-) 11d0: IPC start [4008] 1
+2014-06-20 14:33:52.101 (-,-,-,-) 11d0: Creating a shadow copy of Excel file "C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx" as "C:\Users\John\AppData\Local\Temp\TableauTemp\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field_1em8ajb0gp8tqo1844pp10s2oymf.xlsx" for improved query performance
+2014-06-20 14:33:52.102 (-,-,-,-) 11d0: Shadow copy complete
+2014-06-20 14:33:52.102 (-,-,-,-) 11d0: ConnectString: Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny Write;Data Source=C:\Users\John\AppData\Local\Temp\TableauTemp\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field_1em8ajb0gp8tqo1844pp10s2oymf.xlsx;Extended Properties="Excel 12.0;HDR=Yes;IMEX=1"
+2014-06-20 14:33:52.102 (-,-,-,-) 11d0: INFO: Connecting to Excel File through Jet -- Type Guess Rows = 8
+2014-06-20 14:33:52.106 (-,-,-,-) 11d0: IDataInitialize::GetDataSource: 0.002 seconds
+2014-06-20 14:33:52.106 (-,-,-,-) 11d0: pDBInitialize->QueryInterface(IID_IDBProperties)=0x%10
+2014-06-20 14:33:52.106 (-,-,-,-) 11d0: Calling pDBInitialize->Initialize...
+2014-06-20 14:33:52.125 (-,-,-,-) 11d0: IDBInitialize::Initialize: 0.018 seconds
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: Error retrieving property 0x%1       8
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: INFO: Connected via PROVIDER="excel" to DBMS="MS Jet (04.00.0000), Provider Version 04.00.8015, OleDB Version 02.10"
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: Error retrieving property 0x%1       8
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: ProtocolBase::LogConnection( <connection class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1' this='003ec6e8' /> )
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: IPC done GetProtocol 0.0260
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: IPC start [4008] 8
+2014-06-20 14:33:52.126 (-,-,-,-) 11d0: IPC done GetConnectionInfo 0.0000
+2014-06-20 14:33:52.127 (-,-,-,-) 11d0: IPC request followed by 1 other of the same.
+2014-06-20 14:33:52.127 (-,-,-,-) 11d0: IPC start [4008] 17
+2014-06-20 14:33:52.127 (-,-,-,-) 11d0: IPC done IsExclusiveConnection 0.0000
+2014-06-20 14:33:52.127 (-,-,-,-) 11d0: IPC start [4008] 54
+2014-06-20 14:33:52.127 (-,-,-,-) 11d0: IPC done CanCancelQueries 0.0000
+2014-06-20 14:33:52.128 (-,-,-,-) 11d0: IPC start [4008] 26
+2014-06-20 14:33:52.129 (-,-,-,-) 11d0:    [Time] EnumerateTables took 0.0000 sec. and produced 5 results
+2014-06-20 14:33:52.129 (-,-,-,-) 11d0: IPC done EnumerateTables 0.0000
+2014-06-20 14:33:53.980 (-,-,-,-) 11d0: IPC start [4008] 31
+2014-06-20 14:33:54.024 (-,-,-,-) 11d0: <foreignkeys :default-schema='' auto-extract='yes' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1' name='excel.41810.606852060184' tablename='&apos;Tropics-Tableau$&apos;'>
+2014-06-20 14:33:54.025 (-,-,-,-) 11d0: </foreignkeys>
+2014-06-20 14:33:54.026 (-,-,-,-) 11d0: IPC done ReadMetadata 0.0450
+2014-06-20 14:33:54.026 (-,-,-,-) 11d0: IPC start [4008] 34
+2014-06-20 14:33:54.026 (-,-,-,-) 11d0: IPC done GetCollation 0.0000
+2014-06-20 14:33:54.034 (-,-,-,-) 11d0: IPC start [4008] 31
+2014-06-20 14:33:54.034 (-,-,-,-) 11d0: <foreignkeys :locale='1024' auto-extract='yes' caption='Tropics-Tableau (6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx)' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1' name='excel.41810.606852060184' tablename='&apos;Tropics-Tableau$&apos;'>
+2014-06-20 14:33:54.034 (-,-,-,-) 11d0: </foreignkeys>
+2014-06-20 14:33:54.035 (-,-,-,-) 11d0: IPC done ReadMetadata 0.0010
+2014-06-20 14:33:54.036 (-,-,-,-) 11d0: IPC start [4008] 34
+2014-06-20 14:33:54.036 (-,-,-,-) 11d0: IPC done GetCollation 0.0000
+2014-06-20 14:33:59.646 (-,-,-,-) 11d0: IPC start [4008] 36
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC done MangleRemoteAlias 0.0000
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC start [4008] 37
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC done MangleWireAlias 0.0000
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC start [4008] 36
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC done MangleRemoteAlias 0.0000
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC start [4008] 37
+2014-06-20 14:33:59.647 (-,-,-,-) 11d0: IPC done MangleWireAlias 0.0000
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC start [4008] 36
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC done MangleRemoteAlias 0.0000
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC start [4008] 37
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC done MangleWireAlias 0.0000
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC start [4008] 36
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC done MangleRemoteAlias 0.0000
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC start [4008] 37
+2014-06-20 14:33:59.648 (-,-,-,-) 11d0: IPC done MangleWireAlias 0.0000
+2014-06-20 14:33:59.649 (-,-,-,-) 11d0: IPC start [4008] 36
+2014-06-20 14:33:59.649 (-,-,-,-) 11d0: IPC done MangleRemoteAlias 0.0000
+2014-06-20 14:33:59.649 (-,-,-,-) 11d0: IPC start [4008] 37
+2014-06-20 14:33:59.649 (-,-,-,-) 11d0: IPC done MangleWireAlias 0.0000
+2014-06-20 14:33:59.650 (-,-,-,-) 11d0: IPC start [4008] 41
+2014-06-20 14:33:59.664 (-,-,-,-) 11d0: WorkItemCreate: 0x03292140, 0x032ae570
+2014-06-20 14:33:59.664 (-,-,-,-) 11d0: AsyncTaskSvcExecute: 0x032ae570
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: AsyncTaskWrapperExecute: 0x032ae570
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: Starting AsyncTask for SessionID: -.
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: <QUERY protocol='003ec6e8'>
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: SELECT ['Tropics-Tableau$'].[Area of Agricultural Land km2] AS [Area of Agricultural Land km2],
+2014-06-20 14:33:59.664 (-,-,-,-) 1310:   ['Tropics-Tableau$'].[Major area, region, country or area] AS [Major area, region, country or area],
+2014-06-20 14:33:59.664 (-,-,-,-) 1310:   1 AS [Number of Records],
+2014-06-20 14:33:59.664 (-,-,-,-) 1310:   ['Tropics-Tableau$'].[SoT Region] AS [SoT Region],
+2014-06-20 14:33:59.664 (-,-,-,-) 1310:   ['Tropics-Tableau$'].[Year] AS [Year]
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: FROM ['Tropics-Tableau$']
+2014-06-20 14:33:59.664 (-,-,-,-) 1310: </QUERY>
+2014-06-20 14:33:59.667 (-,-,-,-) 1310:    [Time] Running the command took 0.0020 sec.
+2014-06-20 14:33:59.667 (-,-,-,-) 1310:    [Time] Running the query took 0.0020 sec.
+2014-06-20 14:33:59.667 (-,-,-,-) 1310: WorkItemSetComplete: 0x032ae570
+2014-06-20 14:33:59.667 (-,-,-,-) 11d0: Action:   SubAction:  Status:  Observers: 0
+2014-06-20 14:33:59.667 (-,-,-,-) 11d0: WorkItemCreate: 0x003aa028, 0x032ae570
+2014-06-20 14:33:59.667 (-,-,-,-) 11d0: AsyncTaskSvcExecute: 0x032ae570
+2014-06-20 14:33:59.667 (-,-,-,-) 0408: Starting AsyncTask for SessionID: -.
+2014-06-20 14:33:59.668 (-,-,-,-) 11d0: WorkItemCreate: 0x003af9c0, 0x032ae660
+2014-06-20 14:33:59.668 (-,-,-,-) 11d0: AsyncTaskSvcExecute: 0x032ae660
+2014-06-20 14:33:59.668 (-,-,-,-) 1354: Starting AsyncTask for SessionID: -.
+2014-06-20 14:33:59.704 (-,-,-,-) 0408: WorkItemSetComplete: 0x032ae570
+2014-06-20 14:33:59.704 (-,-,-,-) 1354:    [Time] Getting the records took 0.0000 sec.
+2014-06-20 14:33:59.704 (-,-,-,-) 1354: WorkItemSetComplete: 0x032ae660
+2014-06-20 14:33:59.704 (-,-,-,-) 11d0: AsyncTaskSvcWait: 0x032ae660
+2014-06-20 14:33:59.705 (-,-,-,-) 11d0: WorkItemWaitForCompletion: 0x032ae660
+2014-06-20 14:33:59.705 (-,-,-,-) 11d0: IPC done RunQuery 0.0540
+2014-06-20 14:33:59.706 (-,-,-,-) 11d0: IPC start [4008] 3
+2014-06-20 14:33:59.709 (-,-,-,-) 11d0: AsyncTaskSvcWait: 0x032ae570
+2014-06-20 14:33:59.709 (-,-,-,-) 11d0: WorkItemWaitForCompletion: 0x032ae570
+2014-06-20 14:33:59.709 (-,-,-,-) 11d0: IPC done ReadTuples 0.0030
+2014-06-20 14:34:00.171 (-,-,-,-) 11d0: IPC request followed by 1 other of the same.
+2014-06-20 14:34:00.171 (-,-,-,-) 11d0: IPC start [4008] 4
+2014-06-20 14:34:00.171 (-,-,-,-) 11d0: IPC done ReleaseTuples 0.0000
+2014-06-20 14:51:23.213 (-,-,-,-) 11d0: IPC start [4008] 2
+2014-06-20 14:51:23.213 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.213 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </close-protocol>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </close-protocol>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.214 (-,-,-,-) 11d0: </close-protocol>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <destruct-database class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field_1em8ajb0gp8tqo1844pp10s2oymf.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <close-protocol class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field_1em8ajb0gp8tqo1844pp10s2oymf.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </close-protocol>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </destruct-database>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1'>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </close-protocol>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: ProtocolBase::~ProtocolBase( <connection class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\6. State of the Tropics_The Ecosystem_Land and Water_Agricultural Land - No Total Field.xlsx' header='yes' imex='1' this='003ec6e8' /> )
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: <connections>
+2014-06-20 14:51:23.253 (-,-,-,-) 11d0: </connections>
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: IPC done ReleaseProtocol 0.0400
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: Waiting for AdminTask completion...
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: AsyncTaskSvcWait: 0x003b09b0
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: WorkItemWaitForCompletion: 0x003b09b0
+2014-06-20 14:51:23.254 (-,-,-,-) 0cc4: AdminTask end
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: AdminTask completed.
+2014-06-20 14:51:23.254 (-,-,-,-) 0cc4: WorkItemSetComplete: 0x003b09b0
+2014-06-20 14:51:23.254 (-,-,-,-) 11d0: Shutting down static repository
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+NEW SESSION
+---------------------------------------------------------
+Tableau Version: 8100.14.0510.1702,x86
+Started at '2014-06-21 13:13:46:172'
+Microsoft Windows 7 Professional (build 7600)
+Hostname: Pantless-PC
+Writing to 'C:\Users\John\Desktop\Dropbox\Logs\tabprotosrv2.txt'
+
+Memory:  Current memory load is 0%
+Memory: Process memory free: 0xf7691000 bytesMemory: Process memory committed: 0x05b38000 bytesMemory: Process memory reserved: 0x02e27000 bytes
+CurrentDirectory: C:\Users\John\Downloads
+
+Path: C:\Program Files (x86)\Google\Chrome\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\John\AppData\Local\Pandoc\
+
+Environment:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\John\AppData\Roaming
+ARBORPATH=C:\Program Files\Tableau\Tableau 8.1\
+CHROME_ALLOCATOR=TCMALLOC
+CHROME_MAIN_TIME=13047714619857239
+CHROME_PRE_READ_EXPERIMENT=100-pct-default
+CHROME_RESTART=Google Chrome|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
+CHROME_VERSION=35.0.1916.153
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=PANTLESS-PC
+ComSpec=C:\Windows\system32\cmd.exe
+ESSBASEPATH=C:\Program Files\Tableau\Tableau 8.1\
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\John
+LOCALAPPDATA=C:\Users\John\AppData\Local
+LOGONSERVER=\\PANTLESS-PC
+MpConfig_ProductAppDataPath=C:\ProgramData\Microsoft\Windows Defender
+MpConfig_ProductCodeName=AntiSpyware
+MpConfig_ProductPath=C:\Program Files (x86)\Windows Defender
+MpConfig_ProductUserAppDataPath=C:\Users\John\AppData\Local\Microsoft\Windows Defender
+MpConfig_ReportingGUID=29ED6295-0079-45A6-B8B4-A38145773C77
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\Program Files (x86)\Google\Chrome\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\John\AppData\Local\Pandoc\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3c03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\Windows
+TABLEAU_QUERY_BAND_CONNECT_OPT=
+TABLEAU_QUERY_BAND_OPT=
+TEMP=C:\Users\John\AppData\Local\Temp
+TMP=C:\Users\John\AppData\Local\Temp
+USERDOMAIN=Pantless-PC
+USERNAME=John
+USERPROFILE=C:\Users\John
+windir=C:\Windows
+__KMP_REGISTERED_LIB_1880=00000000100BD090-cafe80be-libiomp5md.dll
+__KMP_REGISTERED_LIB_4944=00000000100BD090-cafe9573-libiomp5md.dll
+
+
+C:\Windows\SYSTEM32\MSJET40.DLL:
+  Product Name: Microsoft (R) Jet
+  File Version: 4.00.9756.0
+  Product Version: 4.00.9756.0
+
+ARBORPATH="C:\Program Files\Tableau\Tableau 8.1\"
+
+Display Devices:
+  0: Standard VGA Graphics Adapter
+Registry::DriverVersion: Undefined
+Registry::DriverDate: Undefined
+Registry::DriverDesc: Undefined
+Registry::Adapter: VGA
+Registry::BIOS: 01.00
+Registry::ChipType: AMD ATOMBIOS
+Registry::VideoMemorySize: Undefined
+
+
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabprotosrv.exe:
+  Product Name: Tableau Protocol Server 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\SysWOW64\ntdll.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\kernel32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Windows\syswow64\KERNELBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtCore4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Windows\syswow64\USER32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\GDI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\LPK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\USP10.dll:
+  Product Name: Microsoft(R) Uniscribe Unicode script processor
+  File Version: 1.0626.7600.17174 (win7_gdr.121121-1913)
+  Product Version: 1.0626.7600.17174
+
+C:\Windows\syswow64\msvcrt.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 7.0.7600.16930 (win7_gdr.111215-1720)
+  Product Version: 7.0.7600.16930
+
+C:\Windows\syswow64\ADVAPI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\SysWOW64\sechost.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\RPCRT4.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SspiCli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\CRYPTBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\ole32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WS2_32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\NSI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCP100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\MSVCR100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabcore.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_system-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_thread-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_chrono-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libcurl.dll:
+  Product Name: The cURL library
+  File Version: 7.32.0
+  Product Version: 7.32.0
+
+C:\Windows\syswow64\WLDAP32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\Normaliz.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABLIBEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\TABSSLEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\QtNetwork4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuin44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icuuc44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\icudt44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tbb.dll:
+  Product Name: Intel(R) Threading Building Blocks for Windows
+  File Version: 4, 2, 0, 0
+  Product Version: 4, 2, 0, 0
+
+C:\Windows\syswow64\PSAPI.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\VERSION.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmetrics.dll:
+  Product Name: Tableau Metrics 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\syswow64\SHELL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\SHLWAPI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\OLEAUT32.dll:
+  Product Name: 
+  File Version: 6.1.7600.16872
+  Product Version: 6.1.7600.16872
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\mfc100u.dll:
+  Product Name: Microsoft® Visual Studio® 10
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd\COMCTL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.10 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MSIMG32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dbghelp.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\WINTRUST.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17115 (win7_gdr.120824-0331)
+  Product Version: 6.1.7600.17115
+
+C:\Windows\syswow64\CRYPT32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\syswow64\MSASN1.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16415 (win7_gdr.090828-1615)
+  Product Version: 6.1.7600.16415
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabdata.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\boost_date_time-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Windows\system32\MSWSOCK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\tabmixins.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\ODBC32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16688 (win7_gdr.101015-1505)
+  Product Version: 6.1.7600.16688
+
+C:\Program Files\Tableau\Tableau 8.1\bin32\libxl.dll:
+  Product Name: LibXL
+  File Version: 3.5.3.1
+  Product Version: 3.5.3.1
+
+C:\Windows\system32\IMM32.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\syswow64\MSCTF.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\UxTheme.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dwmapi.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\odbcint.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files (x86)\Common Files\System\Ado\msado15.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17036 (win7_gdr.120605-1503)
+  Product Version: 6.1.7600.17036
+---------------------------------------------------------
+
+Default user locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+Default system locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+---------------------------------------------------------
+
+Current Process ID: 3260 (0xcbc)
+2014-06-21 13:13:46.178 (-,-,-,-) 1320: AppName: Tableau edition=1)
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: -----------------------------------------------------------------------------
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Initializing fault reporting
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Initializing MiniDump
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Loading 'DbgHelp.dll'
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Loaded 'C:\Windows\system32\dbghelp.dll'
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: '  Product Name: Microsoft® Windows® Operating System
+2014-06-21 13:13:46.188 (-,-,-,-) 1320:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 13:13:46.188 (-,-,-,-) 1320:   Product Version: 6.1.7600.16385
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: '
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Finding function 'MiniDumpWriteDump'
+2014-06-21 13:13:46.188 (-,-,-,-) 1320: Success
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: Registering unhandled exception filter
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: -----------------------------------------------------------------------------
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: Callback: tab.pipe://./pipe/{6260D4A8-4993-4616-8E69-84B40C715763}
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: tab.pipe://./pipe/{FAF858B7-0509-45B2-80D9-7FD710564BD7}
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: Starting dispatch loop
+2014-06-21 13:13:46.189 (-,-,-,-) 1320: WorkItemCreate: 0x00944e00, 0x00940900
+2014-06-21 13:13:46.190 (-,-,-,-) 1320: AsyncTaskSvcExecuteOnThread: 0x00940900
+2014-06-21 13:13:46.190 (-,-,-,-) 10b0: Starting AsyncTask for SessionID: -.
+2014-06-21 13:13:46.190 (-,-,-,-) 10b0: AdminTask start
+2014-06-21 13:13:46.190 (-,-,-,-) 1320: IPC start [3260] 1
+2014-06-21 13:13:46.191 (-,-,-,-) 1320: Creating a shadow copy of Excel file "C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx" as "C:\Users\John\AppData\Local\Temp\TableauTemp\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas_13u07wq17l4xov1g0zha71s6rax9.xlsx" for improved query performance
+2014-06-21 13:13:46.192 (-,-,-,-) 1320: Shadow copy complete
+2014-06-21 13:13:46.192 (-,-,-,-) 1320: ConnectString: Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny Write;Data Source=C:\Users\John\AppData\Local\Temp\TableauTemp\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas_13u07wq17l4xov1g0zha71s6rax9.xlsx;Extended Properties="Excel 12.0;HDR=Yes;IMEX=1"
+2014-06-21 13:13:46.192 (-,-,-,-) 1320: INFO: Connecting to Excel File through Jet -- Type Guess Rows = 8
+2014-06-21 13:13:46.196 (-,-,-,-) 1320: IDataInitialize::GetDataSource: 0.002 seconds
+2014-06-21 13:13:46.196 (-,-,-,-) 1320: pDBInitialize->QueryInterface(IID_IDBProperties)=0x%10
+2014-06-21 13:13:46.196 (-,-,-,-) 1320: Calling pDBInitialize->Initialize...
+2014-06-21 13:13:46.218 (-,-,-,-) 1320: IDBInitialize::Initialize: 0.021 seconds
+2014-06-21 13:13:46.219 (-,-,-,-) 1320: Error retrieving property 0x%1       8
+2014-06-21 13:13:46.219 (-,-,-,-) 1320: INFO: Connected via PROVIDER="excel" to DBMS="MS Jet (04.00.0000), Provider Version 04.00.8015, OleDB Version 02.10"
+2014-06-21 13:13:46.219 (-,-,-,-) 1320: Error retrieving property 0x%1       8
+2014-06-21 13:13:46.219 (-,-,-,-) 1320: ProtocolBase::LogConnection( <connection :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx' header='yes' imex='1' this='0097e0e0' /> )
+2014-06-21 13:13:46.219 (-,-,-,-) 1320: IPC done GetProtocol 0.0290
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC start [3260] 8
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC done GetConnectionInfo 0.0000
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC request followed by 1 other of the same.
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC start [3260] 17
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC done IsExclusiveConnection 0.0000
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC start [3260] 54
+2014-06-21 13:13:46.220 (-,-,-,-) 1320: IPC done CanCancelQueries 0.0000
+2014-06-21 13:13:46.221 (-,-,-,-) 1320: IPC start [3260] 31
+2014-06-21 13:13:46.239 (-,-,-,-) 1320: <foreignkeys :locale='1024' :thread-session='background' auto-extract='yes' caption='Tropics-Tableau (8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx)' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx' header='yes' imex='1' name='excel.41811.533336747685' tablename='&apos;Tropics-Tableau$&apos;'>
+2014-06-21 13:13:46.240 (-,-,-,-) 1320: </foreignkeys>
+2014-06-21 13:13:46.241 (-,-,-,-) 1320: IPC done ReadMetadata 0.0190
+2014-06-21 13:13:46.241 (-,-,-,-) 1320: IPC start [3260] 34
+2014-06-21 13:13:46.241 (-,-,-,-) 1320: IPC done GetCollation 0.0000
+2014-06-21 13:13:46.242 (-,-,-,-) 1320: IPC start [3260] 36
+2014-06-21 13:13:46.242 (-,-,-,-) 1320: IPC done MangleRemoteAlias 0.0000
+2014-06-21 13:13:46.242 (-,-,-,-) 1320: IPC start [3260] 37
+2014-06-21 13:13:46.242 (-,-,-,-) 1320: IPC done MangleWireAlias 0.0000
+2014-06-21 13:26:21.639 (-,-,-,-) 1320: IPC start [3260] 36
+2014-06-21 13:26:21.639 (-,-,-,-) 1320: IPC done MangleRemoteAlias 0.0000
+2014-06-21 13:26:21.640 (-,-,-,-) 1320: IPC start [3260] 37
+2014-06-21 13:26:21.640 (-,-,-,-) 1320: IPC done MangleWireAlias 0.0000
+2014-06-21 14:10:33.168 (-,-,-,-) 1320: IPC start [3260] 2
+2014-06-21 14:10:33.169 (-,-,-,-) 1320: <connections>
+2014-06-21 14:10:33.169 (-,-,-,-) 1320: </connections>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: <destruct-database :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas_13u07wq17l4xov1g0zha71s6rax9.xlsx' header='yes' imex='1'>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: <close-protocol :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\AppData\Local\Temp\TableauTemp\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas_13u07wq17l4xov1g0zha71s6rax9.xlsx' header='yes' imex='1'>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: <connections>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: </connections>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: </close-protocol>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: </destruct-database>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: ProtocolBase::~ProtocolBase( <connection :thread-session='background' class='excel' driver='Ace12' filename='C:\Users\John\Documents\GitHub\First_Draft\Formatted_Excel_Files\8. State of the Tropics_The Ecosystem_Biodiversity_Protected Areas.xlsx' header='yes' imex='1' this='0097e0e0' /> )
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: <connections>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: </connections>
+2014-06-21 14:10:33.205 (-,-,-,-) 1320: IPC done ReleaseProtocol 0.0360
+2014-06-21 14:10:33.206 (-,-,-,-) 1320: Waiting for AdminTask completion...
+2014-06-21 14:10:33.206 (-,-,-,-) 1320: AsyncTaskSvcWait: 0x00940900
+2014-06-21 14:10:33.206 (-,-,-,-) 1320: WorkItemWaitForCompletion: 0x00940900
+2014-06-21 14:10:33.206 (-,-,-,-) 10b0: AdminTask end
+2014-06-21 14:10:33.206 (-,-,-,-) 1320: AdminTask completed.
+2014-06-21 14:10:33.206 (-,-,-,-) 10b0: WorkItemSetComplete: 0x00940900
+2014-06-21 14:10:33.206 (-,-,-,-) 1320: Shutting down static repository

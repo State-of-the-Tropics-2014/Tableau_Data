@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<mapsource-defaults version='8.2'>
+  <!-- build 8100.14.0510.1702 -->
+  <style>
+    <style-rule element='map-layer'>
+      <format attr='enabled' id='tab_base' value='true' />
+      <format attr='enabled' id='um_lcover' value='true' />
+      <format attr='enabled' id='pp2_line' value='false' />
+      <format attr='enabled' id='um_light_countries' value='true' />
+      <format attr='enabled' id='um_light_states' value='true' />
+      <format attr='enabled' id='pp2_adminlabels' value='false' />
+      <format attr='enabled' id='pp2_statebounds' value='false' />
+      <format attr='enabled' id='pp2_statelabels' value='false' />
+      <format attr='enabled' id='countybounds' value='false' />
+      <format attr='enabled' id='countylabels' value='false' />
+      <format attr='enabled' id='zipbounds' value='false' />
+      <format attr='enabled' id='ziplabels' value='false' />
+      <format attr='enabled' id='tab_areabounds' value='false' />
+      <format attr='enabled' id='tab_arealabels' value='false' />
+      <format attr='enabled' id='tab_msabounds' value='false' />
+      <format attr='enabled' id='tab_msalabels' value='false' />
+      <format attr='enabled' id='um_adm0_bnd' value='false' />
+      <format attr='enabled' id='um_adm0_lbl' value='false' />
+    </style-rule>
+    <style-rule element='map'>
+      <format attr='washout' value='0.0' />
+      <format attr='map-style' value='' />
+    </style-rule>
+  </style>
+</mapsource-defaults>

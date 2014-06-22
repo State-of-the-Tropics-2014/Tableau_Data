@@ -1,0 +1,1799 @@
+﻿---------------------------------------------------------
+PREVIOUS LOGS TRUNCATED
+Previous Logs backed up in File: C:\Users\John\Desktop\Dropbox\Logs\log3_bk.txt
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+NEW SESSION
+---------------------------------------------------------
+Tableau Version: 8100.14.0510.1702,x64
+Started at '2014-06-21 22:50:36:187'
+Microsoft Windows 7 Professional (build 7600)
+Hostname: Pantless-PC
+Writing to 'C:\Users\John\Desktop\Dropbox\Logs\log3.txt'
+
+Memory:  Current memory load is 0%
+Memory: Process memory free: 0x000007ffef49e000 bytesMemory: Process memory committed: 0x000000000decb000 bytesMemory: Process memory reserved: 0x0000000002c87000 bytes
+CurrentDirectory: C:\Users\John\Downloads
+
+Path: C:\Program Files (x86)\Google\Chrome\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\John\AppData\Local\Pandoc\
+
+Environment:
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\John\AppData\Roaming
+ARBORPATH=C:\Program Files\Tableau\Tableau 8.1\
+CHROME_ALLOCATOR=TCMALLOC
+CHROME_MAIN_TIME=13047714619857239
+CHROME_PRE_READ_EXPERIMENT=100-pct-default
+CHROME_RESTART=Google Chrome|Whoa! Google Chrome has crashed. Relaunch now?|LEFT_TO_RIGHT
+CHROME_VERSION=35.0.1916.153
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=PANTLESS-PC
+ComSpec=C:\Windows\system32\cmd.exe
+ESSBASEPATH=C:\Program Files\Tableau\Tableau 8.1\
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\John
+LOCALAPPDATA=C:\Users\John\AppData\Local
+LOGONSERVER=\\PANTLESS-PC
+MpConfig_ProductAppDataPath=C:\ProgramData\Microsoft\Windows Defender
+MpConfig_ProductCodeName=AntiSpyware
+MpConfig_ProductPath=C:\Program Files (x86)\Windows Defender
+MpConfig_ProductUserAppDataPath=C:\Users\John\AppData\Local\Microsoft\Windows Defender
+MpConfig_ReportingGUID=29ED6295-0079-45A6-B8B4-A38145773C77
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+Path=C:\Program Files (x86)\Google\Chrome\Application;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\John\AppData\Local\Pandoc\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3c03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\Windows
+TABLEAU_QUERY_BAND_CONNECT_OPT=
+TABLEAU_QUERY_BAND_OPT=
+TEMP=C:\Users\John\AppData\Local\Temp
+TMP=C:\Users\John\AppData\Local\Temp
+USERDOMAIN=Pantless-PC
+USERNAME=John
+USERPROFILE=C:\Users\John
+windir=C:\Windows
+__KMP_REGISTERED_LIB_1880=00000000100BD090-cafe80be-libiomp5md.dll
+__KMP_REGISTERED_LIB_4064=00000000100BD090-cafeaa75-libiomp5md.dll
+__KMP_REGISTERED_LIB_4328=00000000100BD090-cafe3be9-libiomp5md.dll
+__KMP_REGISTERED_LIB_4944=00000000100BD090-cafe9573-libiomp5md.dll
+
+
+
+ARBORPATH="C:\Program Files\Tableau\Tableau 8.1\"
+
+Display Devices:
+  0: Standard VGA Graphics Adapter
+Registry::DriverVersion: Undefined
+Registry::DriverDate: Undefined
+Registry::DriverDesc: Undefined
+Registry::Adapter: VGA
+Registry::BIOS: 01.00
+Registry::ChipType: AMD ATOMBIOS
+Registry::VideoMemorySize: Undefined
+
+
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tableau.exe:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\SYSTEM32\ntdll.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\kernel32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Windows\system32\KERNELBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17179 (win7_gdr.121129-1434)
+  Product Version: 6.1.7600.17179
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabcore.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\boost_system-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin\MSVCP100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin\MSVCR100.dll:
+  Product Name: Microsoft® Visual Studio® 2010
+  File Version: 10.00.40219.325
+  Product Version: 10.00.40219.325
+
+C:\Program Files\Tableau\Tableau 8.1\bin\boost_thread-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin\boost_chrono-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin\libcurl.dll:
+  Product Name: The cURL library
+  File Version: 7.32.0
+  Product Version: 7.32.0
+
+C:\Windows\system32\WS2_32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\msvcrt.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 7.0.7600.16930 (win7_gdr.111215-1720)
+  Product Version: 7.0.7600.16930
+
+C:\Windows\system32\RPCRT4.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\NSI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\WLDAP32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\Normaliz.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\TABLIBEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Windows\system32\GDI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\USER32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\LPK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\USP10.dll:
+  Product Name: Microsoft(R) Uniscribe Unicode script processor
+  File Version: 1.0626.7600.17174 (win7_gdr.121121-1913)
+  Product Version: 1.0626.7600.17174
+
+C:\Windows\system32\ADVAPI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\SYSTEM32\sechost.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\TABSSLEAY32.dll:
+  Product Name: The OpenSSL Toolkit
+  File Version: 1.0.1g
+  Product Version: 1.0.1g
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtNetwork4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtCore4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Windows\system32\ole32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\icuin44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin\icuuc44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin\icudt44.dll:
+  Product Name: International Components for Unicode
+  File Version: 4, 4, 0, 0
+  Product Version: 4, 4, 0, 0
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tbb.dll:
+  Product Name: Intel(R) Threading Building Blocks for Windows
+  File Version: 4, 2, 0, 0
+  Product Version: 4, 2, 0, 0
+
+C:\Windows\system32\PSAPI.DLL:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\VERSION.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabmetrics.dll:
+  Product Name: Tableau Metrics 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\SHELL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\SHLWAPI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\OLEAUT32.dll:
+  Product Name: 
+  File Version: 6.1.7600.16872
+  Product Version: 6.1.7600.16872
+
+C:\Program Files\Tableau\Tableau 8.1\bin\mfc100u.dll:
+  Product Name: Microsoft® Visual Studio® 10
+  File Version: 10.00.30319.01
+  Product Version: 10.00.30319.01
+
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.10 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MSIMG32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dbghelp.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\WINTRUST.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17115 (win7_gdr.120824-0331)
+  Product Version: 6.1.7600.17115
+
+C:\Windows\system32\CRYPT32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17035 (win7_gdr.120601-1506)
+  Product Version: 6.1.7600.17035
+
+C:\Windows\system32\MSASN1.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16415 (win7_gdr.090828-1615)
+  Product Version: 6.1.7600.16415
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabui.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtWebKit4.dll:
+  Product Name: Qt4
+  File Version: 4.9.3.0
+  Product Version: 
+
+C:\Windows\system32\WINMM.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtGui4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Windows\system32\COMDLG32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\IMM32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MSCTF.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\WINSPOOL.DRV:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\DWrite.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabdata.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\boost_date_time-vc100-mt-1_50.dll:
+  No version information available
+
+C:\Windows\system32\MSWSOCK.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabvizql.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\OPENGL32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\GLU32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\DDRAW.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\DCIMAN32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\SETUPAPI.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\CFGMGR32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\DEVOBJ.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\dwmapi.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7600.17007_none_2b47185a719d6182\gdiplus.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17007 (win7_gdr.120420-1503)
+  Product Version: 6.1.7600.17007
+
+C:\Program Files\Tableau\Tableau 8.1\bin\mkl_custom.dll:
+  No version information available
+
+C:\Program Files\Tableau\Tableau 8.1\bin\libiomp5md.dll:
+  Product Name: Intel(R) OMP Runtime Library
+  File Version: 20110325
+  Product Version: 5.0
+
+C:\Program Files\Tableau\Tableau 8.1\bin\libhyphenate.dll:
+  No version information available
+
+C:\Windows\system32\WININET.dll:
+  Product Name: Windows® Internet Explorer
+  File Version: 9.00.8112.16421 (WIN7_IE9_RTM.110308-0330)
+  Product Version: 9.00.8112.16421
+
+C:\Windows\system32\iertutil.dll:
+  Product Name: Windows® Internet Explorer
+  File Version: 9.00.8112.16555 (WIN7_IE9_GDR_ESCROW.140528-1048)
+  Product Version: 9.00.8112.16555
+
+C:\Windows\system32\urlmon.dll:
+  Product Name: Windows® Internet Explorer
+  File Version: 9.00.8112.16421 (WIN7_IE9_RTM.110308-0330)
+  Product Version: 9.00.8112.16421
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabdoc.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtOpenGL4.dll:
+  Product Name: Qt4
+  File Version: 4.8.4.0
+  Product Version: 
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabrender.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabmixins.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Windows\system32\ODBC32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16688 (win7_gdr.101015-1505)
+  Product Version: 6.1.7600.16688
+
+C:\Program Files\Tableau\Tableau 8.1\bin\libxl.dll:
+  Product Name: LibXL
+  File Version: 3.5.3.1
+  Product Version: 3.5.3.1
+
+C:\Windows\system32\UxTheme.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\MPR.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\QtSolutions_MFCMigrationFramework-2.8.dll:
+  No version information available
+
+C:\Windows\system32\NETAPI32.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17056 (win7_gdr.120704-0720)
+  Product Version: 6.1.7600.17056
+
+C:\Windows\system32\netutils.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\srvcli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\wkscli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\MFC100ENU.DLL:
+  Product Name: Microsoft® Visual Studio® 10
+  File Version: 10.00.30319.01
+  Product Version: 10.00.30319.01
+
+C:\Windows\system32\odbcint.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Windows\system32\CRYPTBASE.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+  Product Version: 6.1.7600.16385
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tabres.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.14.0510.1702
+  Product Version: 8100.14.0510.1702
+
+C:\Program Files\Tableau\Tableau 8.1\bin\tableau-oem.dll:
+  Product Name: Tableau 8.1
+  File Version: 8100.0.0.0
+  Product Version: 8100.0.0.0
+
+C:\Windows\system32\RICHED20.DLL:
+  Product Name: Microsoft RichEdit Control, version 3.1
+  File Version: 5.31.23.1229
+  Product Version: 3.1
+
+C:\Windows\system32\SspiCli.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.16915 (win7_gdr.111116-1506)
+  Product Version: 6.1.7600.16915
+
+C:\Program Files\Common Files\System\Ado\msado15.dll:
+  Product Name: Microsoft® Windows® Operating System
+  File Version: 6.1.7600.17036 (win7_gdr.120605-1503)
+  Product Version: 6.1.7600.17036
+---------------------------------------------------------
+
+Default user locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+Default system locale:
+  LCID:     0xc09
+  Country:  Australia / Australia
+  Language: English (Australia) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'D-M-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'd/MM/yyyy'
+            Long dates are 'D-M-Y'
+            Long date format is 'dddd, d MMMM yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+Tableau UI locale:
+  LCID:     0x409
+  Country:  United States / United States
+  Language: English (United States) / 
+            English
+  Sort:     Default
+  Dates:    Short dates are 'M-D-Y'
+            Full 4-digit century in short dates.
+            Short date format is 'M/d/yyyy'
+            Long dates are 'M-D-Y'
+            Long date format is 'dddd, MMMM dd, yyyy'
+            Gregorian (localized) calendar
+            h:mm:ss tt
+  Samples:  AM = AM/ Mon = Mon/ Jan = Jan/ '/' = /
+---------------------------------------------------------
+
+Current Process ID: 4328 (0x10e8)
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: -----------------------------------------------------------------------------
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Initializing fault reporting
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Initializing MiniDump
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Loading 'DbgHelp.dll'
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Loaded 'C:\Windows\system32\dbghelp.dll'
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: '  Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: '
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Finding function 'MiniDumpWriteDump'
+2014-06-21 22:50:36.199 (-,-,-,-) 12dc: Success
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Registering unhandled exception filter
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: -----------------------------------------------------------------------------
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Repository in 'C:\Users\John\Desktop\Dropbox\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Bookmarks in 'C:\Users\John\Desktop\Dropbox\Bookmarks\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Workbooks in 'C:\Users\John\Desktop\Dropbox\Workbooks\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Datasources in 'C:\Users\John\Desktop\Dropbox\Datasources\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Mapsources in 'C:\Program Files\Tableau\Tableau 8.1\Mapsources\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Offline Map Tiles in 'C:\Program Files\Tableau\Tableau 8.1\local\maps\'.
+2014-06-21 22:50:36.200 (-,-,-,-) 12dc: Local Data  'C:\Program Files\Tableau\Tableau 8.1\local\data\'.
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000002b06a60, 0x0000000002b01990
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000002b01990
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: BackgroundLicenseVerifier::LogLicenseInfoImpl: Logging cached license info.
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Cached license contents:
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: --------------------------
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Cached license state:      LicenseOK
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Fulfillment ID:            
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Expiration:                11-Jun-2015
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Maintenance Date:          11-Jun-2015
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: License signature:         1BF8 4BA0 5205 9062 962F 3167 EABD 5A2C 9783 1307 5627 A31B 5DE5 95DF EB00 0615 C2DF 5040 930C 70F7 13E7 A396 3B2F 7E07 DB09 A22A F1E4 287E A0AA EA6F
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: Full cache contents: 
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: eb319c79|<license-cache>
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:   <map key='feature' value='TableauDesktop' />
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:   <map key='signature' value='1BF8 4BA0 5205 9062 962F 3167 EABD 5A2C 9783 1307 5627 A31B 5DE5 95DF EB00 0615 C2DF 5040 930C 70F7 13E7 A396 3B2F 7E07 DB09 A22A F1E4 287E A0AA EA6F' />
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:   <map key='maintenance-date' value='06/11/2015 11:59:59 PM' />
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:   <map key='expiration-date' value='06/11/2015 12:00:00 AM' />
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:   <map key='vendor-string' value='CAP=REG:SHORT;DC_CAP=;DC_STD=default;EDITION=Professional;FulfillmentID=FID_3da1398_14676f5533e__68a3;GRACE=;MAP_CAP=;MAP_STD=default;OEMNAME=;OFFLINE=;TRIALVER=' />
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: </license-cache>
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc: --------------------------
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:    [Time] 0.000 sec. for LogLicenseInfo
+2014-06-21 22:50:36.210 (-,-,-,-) 12dc:    [Time] 0.000 sec. for [Startup] LicenseInit
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: AsyncTaskWrapperExecute: 0x0000000002b01990
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: BackgroundLicenseTask::ExecuteImpl: BEGIN background licensing check
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: BEGIN Info::Lookup
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: BEGIN Info::LookupAll
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_new_job(NULL, lc_new_job_arg2, &m_code, &m_job);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PERROR_MSGBOX, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PROMPT_FOR_FILE, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_LICENSE_DEFAULT, (LM_A_VAL_TYPE)utf8File.c_str());
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_CHECKOUTFILTER_EX, (LM_A_VAL_TYPE)filter);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_VENDOR_CALLBACK_DATA, (LM_A_VAL_TYPE)data);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: BEGIN JobProxy::Checkout
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_TS_CHECK_BADDATE, (LM_A_VAL_TYPE) 1);
+2014-06-21 22:50:36.211 (-,-,-,-) 1164: BEGIN lc_checkout
+2014-06-21 22:50:36.218 (-,-,-,-) 12dc: Setting Client Render Mode: *Off*
+2014-06-21 22:50:36.435 (-,-,-,-) 12dc: Workspace::OpenWorkbook: C:\Users\John\Desktop\Dropbox\Preferences.tps
+2014-06-21 22:50:36.437 (-,-,-,-) 12dc: Workbook version: 0.0
+2014-06-21 22:50:36.438 (-,-,-,-) 12dc: Collation for [Geographical].[Geometry (generated)]: charset=0x0 root (LROOT)
+2014-06-21 22:50:36.462 (-,-,-,-) 12dc: ACTION: Close Workbook (Preferences)
+2014-06-21 22:50:36.487 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007e1a350, 0x0000000007d87850
+2014-06-21 22:50:36.487 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d87850
+2014-06-21 22:50:36.488 (-,-,-,-) 0dec: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.488 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007e1a510, 0x0000000007d878d0
+2014-06-21 22:50:36.488 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d878d0
+2014-06-21 22:50:36.488 (-,-,-,-) 0dec: Action: Resolving path Image\sample-1.png  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.488 (-,-,-,-) 0dec: WorkItemSetComplete: 0x0000000007d87850
+2014-06-21 22:50:36.488 (-,-,-,-) 111c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.488 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007e1a4a0, 0x0000000007d87950
+2014-06-21 22:50:36.488 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d87950
+2014-06-21 22:50:36.488 (-,-,-,-) 111c: Action: Resolving path Image\sample-2.png  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.488 (-,-,-,-) 111c: WorkItemSetComplete: 0x0000000007d878d0
+2014-06-21 22:50:36.488 (-,-,-,-) 1150: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.489 (-,-,-,-) 1150: WorkItemSetComplete: 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: Action: Resolving path Image\sample-3.png  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007e1a3c0, 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 03bc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.489 (-,-,-,-) 03bc: WorkItemSetComplete: 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: Action: Resolving path Image\sample-4.png  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007e1a430, 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 06bc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.489 (-,-,-,-) 06bc: WorkItemSetComplete: 0x0000000007d87950
+2014-06-21 22:50:36.489 (-,-,-,-) 12dc: Action: Resolving path Image\sample-5.png  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.501 (-,-,-,-) 12dc: Collation for [Geographical].[Geometry (generated)]: charset=0x0 root (LROOT)
+2014-06-21 22:50:36.504 (-,-,-,-) 12dc:    [Time] 0.003 sec. for [Startup] CMainApp::SetupLicensableItems
+2014-06-21 22:50:36.504 (-,-,-,-) 12dc: ACTION: New Workbook
+2014-06-21 22:50:36.645 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.645 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.645 (-,-,-,-) 12dc: ---------------------------------------------------------
+2014-06-21 22:50:36.645 (-,-,-,-) 12dc: Update sheet 'Sheet 1' for view 'Sheet 1'
+2014-06-21 22:50:36.645 (-,-,-,-) 12dc: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007fc1ea0, 0x00000000080078c0
+2014-06-21 22:50:36.646 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000080078c0
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: 
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: 
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: Data interpreter is instancing a specification
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Data interpreter: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: Partition interpreter is instancing a specification
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Compute X set interpretation: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Compute Y set interpretation: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Create X axis descriptor: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Create Y axis descriptor: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Compute table config: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Partition data: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Sort panes: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54:    [Time] Partition interpreter: 0.00 sec.
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: Visual interpreter is instancing a specification
+2014-06-21 22:50:36.646 (-,-,-,-) 0f54: ---------------------------------------------------------
+2014-06-21 22:50:36.647 (-,-,-,-) 0f54:    [Time] Generate axis encodings: 0.00 sec.
+2014-06-21 22:50:36.648 (-,-,-,-) 0f54:    [Time] Compute layout: 0.00 sec.
+2014-06-21 22:50:36.650 (-,-,-,-) 0f54:    [Time] New Encodings: 0.00 sec.
+2014-06-21 22:50:36.650 (-,-,-,-) 0f54:    [Time] Create panes: 0.00 sec.
+2014-06-21 22:50:36.650 (-,-,-,-) 0f54:    [Time] 0.000 sec. for Extended Domain
+2014-06-21 22:50:36.650 (-,-,-,-) 0f54:    [Time] Visual interpreter: 0.00 sec.
+2014-06-21 22:50:36.650 (-,-,-,-) 0f54: WorkItemSetComplete: 0x00000000080078c0
+2014-06-21 22:50:36.650 (-,-,-,-) 12dc: Action: Computing View Layout  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.650 (-,-,-,-) 12dc:    [Time] Computing the model took 0.004 sec
+2014-06-21 22:50:36.661 (-,-,-,-) 12dc:    [Time] Setup visual instance: 0.01 sec.
+2014-06-21 22:50:36.667 (-,-,-,-) 12dc: * OpenGL hardware does not meet version requirements. Version 2.1 required, hardware supports 1.1.
+2014-06-21 22:50:36.667 (-,-,-,-) 12dc: * OpenGL hardware does not meet multi-sample buffer requirements.
+2014-06-21 22:50:36.667 (-,-,-,-) 12dc: OpenGL hardware does not meet requirements. Window using Qt software rendering.
+2014-06-21 22:50:36.667 (-,-,-,-) 12dc:    [Time] 0.000 sec. for QuickFiltersController::UpdateAll
+2014-06-21 22:50:36.705 (-,-,-,-) 12dc: Collation for [Geographical].[Geometry (generated)]: charset=0x0 root (LROOT)
+2014-06-21 22:50:36.705 (-,-,-,-) 12dc: Collation for [Geographical].[Geometry (generated)]: charset=0x0 root (LROOT)
+2014-06-21 22:50:36.705 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\AreaCode.tds"
+2014-06-21 22:50:36.706 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000007fc25a0, 0x0000000008009e40
+2014-06-21 22:50:36.706 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008009e40
+2014-06-21 22:50:36.706 (-,-,-,-) 08e4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.706 (-,-,-,-) 08e4: WorkItemSetComplete: 0x0000000008009e40
+2014-06-21 22:50:36.706 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.706 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'AreaCode'.
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: ACTION: Datasource connection for 'AreaCode'.
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	name: 'AreaCode'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'AreaCode'.
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000814a510, 0x000000000800a640
+2014-06-21 22:50:36.709 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800a640
+2014-06-21 22:50:36.709 (-,-,-,-) 0cf0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.709 (-,-,-,-) 0cf0: Connect:  Connecting to C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB, via Firebird.
+2014-06-21 22:50:36.709 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\tabfnp.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: FlexNet Publisher (64 bit)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 11.11.0.3 build 118111
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 11.11.0.3 build 118111
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\iphlpapi.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\WINNSI.DLL:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\snmpapi.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\WSOCK32.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\OLEACC.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 7.0.0.0 (win7_gdr.110826-1505)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16872
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: C:\Windows\system32\CRYPTSP.dll:
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.710 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Windows\system32\rsaenh.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qgif4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qico4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qjpeg4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qmng4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qsvg4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\QtSvg4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\QtXml4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qtga4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\imageformats\qtiff4.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Qt4
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 4.8.4.0
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Windows\system32\NLAapi.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Windows\system32\DNSAPI.dll:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: C:\Windows\system32\CLBCatQ.DLL:
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   File Version: 2001.12.8530.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.711 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\wbem\wbemprox.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\wbemcomn.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\System32\winrnr.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\RpcRtRemote.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\napinsp.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\pnrpnsp.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\System32\fwpuclnt.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\wbem\wbemsvc.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\rasadhlp.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\System32\wship6.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\System32\wshtcpip.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: C:\Windows\system32\wbem\fastprox.dll:
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.712 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0: C:\Windows\system32\NTDSAPI.dll:
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0:   Product Name: Microsoft® Windows® Operating System
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0:   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0:   Product Version: 6.1.7600.16385
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.713 (-,-,-,-) 0cf0: Loading "fbclient"
+2014-06-21 22:50:36.714 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\fbclient.dll:
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Name: Firebird SQL Server
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   File Version: WI-V2.1.4.18393
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Version: 2.1.4.18393
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: C:\Windows\WinSxS\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_88e41e092fab0294\MSVCR80.dll:
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Name: Microsoft® Visual Studio® 2005
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   File Version: 8.00.50727.6195
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Version: 8.00.50727.6195
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\icuuc30.dll:
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Name: International Components for Unicode
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   File Version: 3, 0, 0, 0
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0:   Product Version: 3, 0, 0, 0
+2014-06-21 22:50:36.715 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.716 (-,-,-,-) 0cf0: C:\Program Files\Tableau\Tableau 8.1\bin\icudt30.dll:
+2014-06-21 22:50:36.716 (-,-,-,-) 0cf0:   Product Name: International Components for Unicode
+2014-06-21 22:50:36.716 (-,-,-,-) 0cf0:   File Version: 3, 0, 0, 0
+2014-06-21 22:50:36.716 (-,-,-,-) 0cf0:   Product Version: 3, 0, 0, 0
+2014-06-21 22:50:36.716 (-,-,-,-) 0cf0: 
+2014-06-21 22:50:36.722 (-,-,-,-) 0cf0: Server Version is: WI-V2.1.4.18393 Firebird 2.1
+2014-06-21 22:50:36.722 (-,-,-,-) 0cf0: Database file Version is: ODS 11.1.0
+2014-06-21 22:50:36.722 (-,-,-,-) 0cf0: Database is: Read-Only
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0: WorkItemCreate: 0x000000000814b4d0, 0x000000000800a940
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0: AsyncTaskSvcExecute: 0x000000000800a940
+2014-06-21 22:50:36.724 (-,-,-,-) 0ef0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.724 (-,-,-,-) 0ef0: WorkItemSetComplete: 0x000000000800a940
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0: Action: Connecting to database...  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0:    [Time] Running the query took 0.0010 sec.
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0: ProtocolBase::LogConnection( <connection class='firebird' dbname='C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB' password='' server='' this='082008d0' username='sysdba' /> )
+2014-06-21 22:50:36.724 (-,-,-,-) 0cf0: WorkItemSetComplete: 0x000000000800a640
+2014-06-21 22:50:36.724 (-,-,-,-) 12dc: Action: Connecting to database...  SubAction: Connecting to database... Status:  Observers: 0
+2014-06-21 22:50:36.741 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000814b9a0, 0x000000000800af40
+2014-06-21 22:50:36.741 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800af40
+2014-06-21 22:50:36.741 (-,-,-,-) 10d4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.741 (-,-,-,-) 10d4: WorkItemSetComplete: 0x000000000800af40
+2014-06-21 22:50:36.741 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.741 (-,-,-,-) 12dc:    [Time] Running the query took 0.0010 sec.
+2014-06-21 22:50:36.741 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.742 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000814ba10, 0x000000000800afc0
+2014-06-21 22:50:36.742 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800afc0
+2014-06-21 22:50:36.742 (-,-,-,-) 148c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.742 (-,-,-,-) 148c: WorkItemSetComplete: 0x000000000800afc0
+2014-06-21 22:50:36.742 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.742 (-,-,-,-) 12dc:    [Time] Running the query took 0.0010 sec.
+2014-06-21 22:50:36.742 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.743 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000814baf0, 0x000000000800afc0
+2014-06-21 22:50:36.743 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800afc0
+2014-06-21 22:50:36.743 (-,-,-,-) 0980: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.743 (-,-,-,-) 0980: WorkItemSetComplete: 0x000000000800afc0
+2014-06-21 22:50:36.743 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.743 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.743 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000814bb60, 0x000000000800afc0
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800afc0
+2014-06-21 22:50:36.744 (-,-,-,-) 12bc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.744 (-,-,-,-) 12bc: WorkItemSetComplete: 0x000000000800afc0
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.744 (-,-,-,-) 12dc: ACTION: Load meta-data for 'AreaCode'.
+2014-06-21 22:50:36.745 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000821feb0, 0x0000000008009cc0
+2014-06-21 22:50:36.745 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008009cc0
+2014-06-21 22:50:36.745 (-,-,-,-) 0f48: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.745 (-,-,-,-) 0f48: WorkItemSetComplete: 0x0000000008009cc0
+2014-06-21 22:50:36.745 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.745 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.746 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.746 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000821feb0, 0x0000000008009cc0
+2014-06-21 22:50:36.746 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008009cc0
+2014-06-21 22:50:36.746 (-,-,-,-) 0288: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.746 (-,-,-,-) 0288: WorkItemSetComplete: 0x0000000008009cc0
+2014-06-21 22:50:36.746 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.746 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.748 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.761 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220a80, 0x000000000800bac0
+2014-06-21 22:50:36.761 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bac0
+2014-06-21 22:50:36.761 (-,-,-,-) 078c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.761 (-,-,-,-) 078c: WorkItemSetComplete: 0x000000000800bac0
+2014-06-21 22:50:36.761 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.761 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.761 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.762 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220af0, 0x000000000800bac0
+2014-06-21 22:50:36.762 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bac0
+2014-06-21 22:50:36.762 (-,-,-,-) 0ea4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.762 (-,-,-,-) 0ea4: WorkItemSetComplete: 0x000000000800bac0
+2014-06-21 22:50:36.762 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.762 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\AreaCode.tds"
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\City.tds"
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000821ff20, 0x000000000800bec0
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bec0
+2014-06-21 22:50:36.763 (-,-,-,-) 070c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.763 (-,-,-,-) 070c: WorkItemSetComplete: 0x000000000800bec0
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'City'.
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: ACTION: Datasource connection for 'City'.
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.763 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: 	name: 'City'
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'City'.
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220fc0, 0x000000000800c140
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.764 (-,-,-,-) 0868: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.764 (-,-,-,-) 0868: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.764 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.765 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220f50, 0x000000000800c140
+2014-06-21 22:50:36.765 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.765 (-,-,-,-) 0a30: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.765 (-,-,-,-) 0a30: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.765 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.765 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.765 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220fc0, 0x000000000800c1c0
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c1c0
+2014-06-21 22:50:36.766 (-,-,-,-) 17d0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.766 (-,-,-,-) 17d0: WorkItemSetComplete: 0x000000000800c1c0
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220f50, 0x000000000800c240
+2014-06-21 22:50:36.766 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c240
+2014-06-21 22:50:36.767 (-,-,-,-) 1368: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.767 (-,-,-,-) 1368: WorkItemSetComplete: 0x000000000800c240
+2014-06-21 22:50:36.767 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.767 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.767 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.768 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220fc0, 0x000000000800c140
+2014-06-21 22:50:36.768 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.768 (-,-,-,-) 149c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.768 (-,-,-,-) 149c: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.768 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.768 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.768 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008220f50, 0x000000000800c140
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.769 (-,-,-,-) 144c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.769 (-,-,-,-) 144c: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.769 (-,-,-,-) 12dc: ACTION: Load meta-data for 'City'.
+2014-06-21 22:50:36.770 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x000000000800bd40
+2014-06-21 22:50:36.770 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bd40
+2014-06-21 22:50:36.770 (-,-,-,-) 128c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.770 (-,-,-,-) 128c: WorkItemSetComplete: 0x000000000800bd40
+2014-06-21 22:50:36.770 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.770 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.771 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.771 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x000000000800bd40
+2014-06-21 22:50:36.771 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bd40
+2014-06-21 22:50:36.771 (-,-,-,-) 1490: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.771 (-,-,-,-) 1490: WorkItemSetComplete: 0x000000000800bd40
+2014-06-21 22:50:36.771 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.771 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.772 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.772 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x000000000800bdc0
+2014-06-21 22:50:36.772 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.772 (-,-,-,-) 0b84: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.772 (-,-,-,-) 0b84: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.772 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.772 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221ab0, 0x000000000800c140
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.773 (-,-,-,-) 1330: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.773 (-,-,-,-) 1330: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.773 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\City.tds"
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\CMSA.tds"
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082217a0, 0x000000000800c1c0
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c1c0
+2014-06-21 22:50:36.774 (-,-,-,-) 0ec0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.774 (-,-,-,-) 0ec0: WorkItemSetComplete: 0x000000000800c1c0
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'CMSA'.
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: ACTION: Datasource connection for 'CMSA'.
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	name: 'CMSA'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.774 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'CMSA'.
+2014-06-21 22:50:36.775 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221730, 0x000000000800c4c0
+2014-06-21 22:50:36.775 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c4c0
+2014-06-21 22:50:36.775 (-,-,-,-) 03cc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.775 (-,-,-,-) 03cc: WorkItemSetComplete: 0x000000000800c4c0
+2014-06-21 22:50:36.775 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.775 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.775 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.776 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x0000000007d883d0
+2014-06-21 22:50:36.776 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d883d0
+2014-06-21 22:50:36.776 (-,-,-,-) 0700: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.776 (-,-,-,-) 0700: WorkItemSetComplete: 0x0000000007d883d0
+2014-06-21 22:50:36.776 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.776 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.776 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x0000000007d88350
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d88350
+2014-06-21 22:50:36.777 (-,-,-,-) 1548: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.777 (-,-,-,-) 1548: WorkItemSetComplete: 0x0000000007d88350
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221ab0, 0x0000000007d883d0
+2014-06-21 22:50:36.777 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d883d0
+2014-06-21 22:50:36.777 (-,-,-,-) 13dc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.778 (-,-,-,-) 13dc: WorkItemSetComplete: 0x0000000007d883d0
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221810, 0x0000000007d883d0
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d883d0
+2014-06-21 22:50:36.778 (-,-,-,-) 06dc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.778 (-,-,-,-) 06dc: WorkItemSetComplete: 0x0000000007d883d0
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.778 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008221ab0, 0x0000000007d882d0
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d882d0
+2014-06-21 22:50:36.779 (-,-,-,-) 174c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.779 (-,-,-,-) 174c: WorkItemSetComplete: 0x0000000007d882d0
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.779 (-,-,-,-) 12dc: ACTION: Load meta-data for 'CMSA'.
+2014-06-21 22:50:36.780 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082d6230, 0x000000000800c140
+2014-06-21 22:50:36.780 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.780 (-,-,-,-) 1070: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.780 (-,-,-,-) 1070: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.780 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.780 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.781 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.781 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008242710, 0x000000000800c140
+2014-06-21 22:50:36.781 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c140
+2014-06-21 22:50:36.781 (-,-,-,-) 055c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.781 (-,-,-,-) 055c: WorkItemSetComplete: 0x000000000800c140
+2014-06-21 22:50:36.781 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.781 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.782 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.782 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082427f0, 0x000000000800bdc0
+2014-06-21 22:50:36.782 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.783 (-,-,-,-) 0910: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.783 (-,-,-,-) 0910: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082427f0, 0x000000000800bdc0
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.783 (-,-,-,-) 1450: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.783 (-,-,-,-) 1450: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.783 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\CMSA.tds"
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\Congress.tds"
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000822eb80, 0x0000000007d883d0
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000007d883d0
+2014-06-21 22:50:36.784 (-,-,-,-) 0e70: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.784 (-,-,-,-) 0e70: WorkItemSetComplete: 0x0000000007d883d0
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.784 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'Congress'.
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: ACTION: Datasource connection for 'Congress'.
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	name: 'Congress'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'Congress'.
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008242860, 0x0000000008255870
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.785 (-,-,-,-) 1194: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.785 (-,-,-,-) 1194: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.785 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.786 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008242860, 0x00000000082558f0
+2014-06-21 22:50:36.786 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082558f0
+2014-06-21 22:50:36.786 (-,-,-,-) 0f88: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.786 (-,-,-,-) 0f88: WorkItemSetComplete: 0x00000000082558f0
+2014-06-21 22:50:36.786 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.786 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.786 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008242940, 0x0000000008255970
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255970
+2014-06-21 22:50:36.787 (-,-,-,-) 0cec: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.787 (-,-,-,-) 0cec: WorkItemSetComplete: 0x0000000008255970
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008242940, 0x00000000082558f0
+2014-06-21 22:50:36.787 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082558f0
+2014-06-21 22:50:36.788 (-,-,-,-) 03b8: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.788 (-,-,-,-) 03b8: WorkItemSetComplete: 0x00000000082558f0
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082428d0, 0x0000000008255870
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.788 (-,-,-,-) 0cf4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.788 (-,-,-,-) 0cf4: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.788 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082428d0, 0x00000000082558f0
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082558f0
+2014-06-21 22:50:36.789 (-,-,-,-) 1044: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.789 (-,-,-,-) 1044: WorkItemSetComplete: 0x00000000082558f0
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.789 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.790 (-,-,-,-) 12dc: ACTION: Load meta-data for 'Congress'.
+2014-06-21 22:50:36.790 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825df00, 0x000000000800bdc0
+2014-06-21 22:50:36.790 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.790 (-,-,-,-) 16f0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.790 (-,-,-,-) 16f0: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.790 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825d860, 0x000000000800c4c0
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800c4c0
+2014-06-21 22:50:36.791 (-,-,-,-) 160c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.791 (-,-,-,-) 160c: WorkItemSetComplete: 0x000000000800c4c0
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.791 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.792 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.792 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825d940, 0x000000000800bdc0
+2014-06-21 22:50:36.792 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.792 (-,-,-,-) 0668: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.793 (-,-,-,-) 0668: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825d940, 0x000000000800bdc0
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x000000000800bdc0
+2014-06-21 22:50:36.793 (-,-,-,-) 1204: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.793 (-,-,-,-) 1204: WorkItemSetComplete: 0x000000000800bdc0
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.793 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\Congress.tds"
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\Country.tds"
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000822ebf0, 0x00000000082559f0
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082559f0
+2014-06-21 22:50:36.794 (-,-,-,-) 135c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.794 (-,-,-,-) 135c: WorkItemSetComplete: 0x00000000082559f0
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.794 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'Country'.
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: ACTION: Datasource connection for 'Country'.
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	name: 'Country'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'Country'.
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825db00, 0x0000000008255c70
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255c70
+2014-06-21 22:50:36.795 (-,-,-,-) 0d6c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.795 (-,-,-,-) 0d6c: WorkItemSetComplete: 0x0000000008255c70
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.795 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.796 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.796 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825db00, 0x0000000008255c70
+2014-06-21 22:50:36.796 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255c70
+2014-06-21 22:50:36.796 (-,-,-,-) 0f68: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.796 (-,-,-,-) 0f68: WorkItemSetComplete: 0x0000000008255c70
+2014-06-21 22:50:36.796 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.796 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.797 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825da90, 0x0000000008255c70
+2014-06-21 22:50:36.797 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255c70
+2014-06-21 22:50:36.797 (-,-,-,-) 0ab0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.797 (-,-,-,-) 0ab0: WorkItemSetComplete: 0x0000000008255c70
+2014-06-21 22:50:36.797 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.797 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.797 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825da90, 0x0000000008255d70
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255d70
+2014-06-21 22:50:36.798 (-,-,-,-) 1014: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.798 (-,-,-,-) 1014: WorkItemSetComplete: 0x0000000008255d70
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825da20, 0x0000000008255c70
+2014-06-21 22:50:36.798 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255c70
+2014-06-21 22:50:36.798 (-,-,-,-) 16c0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.799 (-,-,-,-) 16c0: WorkItemSetComplete: 0x0000000008255c70
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000825da20, 0x0000000008255d70
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255d70
+2014-06-21 22:50:36.799 (-,-,-,-) 1020: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.799 (-,-,-,-) 1020: WorkItemSetComplete: 0x0000000008255d70
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.799 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.800 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.800 (-,-,-,-) 12dc: ACTION: Load meta-data for 'Country'.
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009913710, 0x00000000082558f0
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082558f0
+2014-06-21 22:50:36.801 (-,-,-,-) 0480: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.801 (-,-,-,-) 0480: WorkItemSetComplete: 0x00000000082558f0
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.801 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008236460, 0x00000000082558f0
+2014-06-21 22:50:36.802 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082558f0
+2014-06-21 22:50:36.802 (-,-,-,-) 14c4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.802 (-,-,-,-) 14c4: WorkItemSetComplete: 0x00000000082558f0
+2014-06-21 22:50:36.802 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.802 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.803 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.803 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009922ac0, 0x0000000008255870
+2014-06-21 22:50:36.803 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.803 (-,-,-,-) 103c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.803 (-,-,-,-) 103c: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.803 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.803 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009922ac0, 0x0000000008255870
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.804 (-,-,-,-) 0078: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.804 (-,-,-,-) 0078: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\Country.tds"
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.804 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\County.tds"
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5ea0, 0x0000000008255c70
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255c70
+2014-06-21 22:50:36.805 (-,-,-,-) 1784: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.805 (-,-,-,-) 1784: WorkItemSetComplete: 0x0000000008255c70
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'County'.
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: ACTION: Datasource connection for 'County'.
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	name: 'County'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.805 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'County'.
+2014-06-21 22:50:36.806 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5c00, 0x0000000008255ff0
+2014-06-21 22:50:36.806 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255ff0
+2014-06-21 22:50:36.806 (-,-,-,-) 1074: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.806 (-,-,-,-) 1074: WorkItemSetComplete: 0x0000000008255ff0
+2014-06-21 22:50:36.806 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.806 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.806 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.807 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5c00, 0x00000000082560f0
+2014-06-21 22:50:36.807 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082560f0
+2014-06-21 22:50:36.807 (-,-,-,-) 0df4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.807 (-,-,-,-) 0df4: WorkItemSetComplete: 0x00000000082560f0
+2014-06-21 22:50:36.807 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.807 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.807 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.807 (-,-,-,-) 1164: BEGIN ValidateConfigCallback
+2014-06-21 22:50:36.807 (-,-,-,-) 1164: END ValidateConfigCallback
+2014-06-21 22:50:36.807 (-,-,-,-) 1164: BEGIN ValidateConfigCallback
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: END ValidateConfigCallback
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: END lc_checkout
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5dc0, 0x0000000008256070
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: lc_checkout return information: -73 (LM_LOCALFILTER)
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256070
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: END JobProxy::Checkout
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: END Info::LookupAll
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: TDOX-0192-6920-0B3F-AA32 is the best so far
+2014-06-21 22:50:36.808 (-,-,-,-) 0d94: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: LCCALL lc_new_job(NULL, lc_new_job_arg2, &m_code, &m_job);
+2014-06-21 22:50:36.808 (-,-,-,-) 0d94: WorkItemSetComplete: 0x0000000008256070
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PERROR_MSGBOX, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PROMPT_FOR_FILE, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_LICENSE_DEFAULT, (LM_A_VAL_TYPE)utf8File.c_str());
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: BEGIN JobProxy::Checkout
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_TS_CHECK_BADDATE, (LM_A_VAL_TYPE) 1);
+2014-06-21 22:50:36.808 (-,-,-,-) 1164: BEGIN lc_checkout
+2014-06-21 22:50:36.808 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5dc0, 0x0000000008256170
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256170
+2014-06-21 22:50:36.809 (-,-,-,-) 1108: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.809 (-,-,-,-) 1108: WorkItemSetComplete: 0x0000000008256170
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5e30, 0x0000000008256070
+2014-06-21 22:50:36.809 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256070
+2014-06-21 22:50:36.809 (-,-,-,-) 11d4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.810 (-,-,-,-) 11d4: WorkItemSetComplete: 0x0000000008256070
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000082a5e30, 0x0000000008256070
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256070
+2014-06-21 22:50:36.810 (-,-,-,-) 12b0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.810 (-,-,-,-) 12b0: WorkItemSetComplete: 0x0000000008256070
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.810 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.811 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.811 (-,-,-,-) 12dc: ACTION: Load meta-data for 'County'.
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009923de0, 0x0000000008255870
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.812 (-,-,-,-) 0140: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.812 (-,-,-,-) 0140: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009923d70, 0x0000000008256070
+2014-06-21 22:50:36.812 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256070
+2014-06-21 22:50:36.813 (-,-,-,-) 1350: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.813 (-,-,-,-) 1350: WorkItemSetComplete: 0x0000000008256070
+2014-06-21 22:50:36.813 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.813 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.814 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.814 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009922ac0, 0x0000000008255d70
+2014-06-21 22:50:36.814 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255d70
+2014-06-21 22:50:36.814 (-,-,-,-) 13b4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.814 (-,-,-,-) 13b4: WorkItemSetComplete: 0x0000000008255d70
+2014-06-21 22:50:36.814 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.814 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009922ac0, 0x0000000008255d70
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255d70
+2014-06-21 22:50:36.815 (-,-,-,-) 17b8: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.815 (-,-,-,-) 17b8: WorkItemSetComplete: 0x0000000008255d70
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.815 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\County.tds"
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\State.tds"
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009946230, 0x00000000082560f0
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082560f0
+2014-06-21 22:50:36.816 (-,-,-,-) 1620: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.816 (-,-,-,-) 1620: WorkItemSetComplete: 0x00000000082560f0
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'State'.
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: ACTION: Datasource connection for 'State'.
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.816 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: 	name: 'State'
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'State'.
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000099462a0, 0x0000000008256370
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.817 (-,-,-,-) 0dbc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.817 (-,-,-,-) 0dbc: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.817 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.818 (-,-,-,-) 12dc: WorkItemCreate: 0x00000000099462a0, 0x0000000008256370
+2014-06-21 22:50:36.818 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.818 (-,-,-,-) 0b40: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.818 (-,-,-,-) 0b40: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.818 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.818 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.818 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009946000, 0x0000000008256370
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.819 (-,-,-,-) 0f74: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.819 (-,-,-,-) 0f74: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.819 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009946000, 0x0000000008256470
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256470
+2014-06-21 22:50:36.820 (-,-,-,-) 175c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.820 (-,-,-,-) 175c: WorkItemSetComplete: 0x0000000008256470
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009946150, 0x0000000008256370
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.820 (-,-,-,-) 1394: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.820 (-,-,-,-) 1394: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.820 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009946150, 0x0000000008256370
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.821 (-,-,-,-) 150c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.821 (-,-,-,-) 150c: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.821 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.822 (-,-,-,-) 12dc: ACTION: Load meta-data for 'State'.
+2014-06-21 22:50:36.822 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239db0, 0x0000000008255d70
+2014-06-21 22:50:36.822 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255d70
+2014-06-21 22:50:36.822 (-,-,-,-) 12ec: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.823 (-,-,-,-) 12ec: WorkItemSetComplete: 0x0000000008255d70
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239e90, 0x0000000008255870
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.823 (-,-,-,-) 1220: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.823 (-,-,-,-) 1220: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.823 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.824 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.824 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239f70, 0x0000000008255870
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.825 (-,-,-,-) 0740: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.825 (-,-,-,-) 0740: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239f70, 0x0000000008256370
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256370
+2014-06-21 22:50:36.825 (-,-,-,-) 1094: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.825 (-,-,-,-) 1094: WorkItemSetComplete: 0x0000000008256370
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.825 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\State.tds"
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: Loading geocoding datasource "C:\Program Files\Tableau\Tableau 8.1\local\data\ZipCode.tds"
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000822ec60, 0x00000000082563f0
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082563f0
+2014-06-21 22:50:36.826 (-,-,-,-) 1280: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.826 (-,-,-,-) 1280: WorkItemSetComplete: 0x00000000082563f0
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: Action: Resolving path GEOCODING.FDB  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: ACTION: Instance datasource from XML for 'ZipCode'.
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: ACTION: Datasource connection for 'ZipCode'.
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	class: 'firebird'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	dbname: 'C:\Program Files\Tableau\Tableau 8.1\local\data\GEOCODING.FDB'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	username: 'sysdba'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	name: 'ZipCode'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	local-data: 'standard'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	caption: ''
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: 	:locale: '1024'
+2014-06-21 22:50:36.826 (-,-,-,-) 12dc: ACTION: Purge Cached Meta-data for 'ZipCode'.
+2014-06-21 22:50:36.827 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239e20, 0x00000000082566f0
+2014-06-21 22:50:36.827 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082566f0
+2014-06-21 22:50:36.827 (-,-,-,-) 02d4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.827 (-,-,-,-) 02d4: WorkItemSetComplete: 0x00000000082566f0
+2014-06-21 22:50:36.827 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.827 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.827 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.828 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000008239e20, 0x0000000008256770
+2014-06-21 22:50:36.828 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256770
+2014-06-21 22:50:36.828 (-,-,-,-) 0a84: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.828 (-,-,-,-) 0a84: WorkItemSetComplete: 0x0000000008256770
+2014-06-21 22:50:36.828 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.828 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.828 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000823a050, 0x0000000008256770
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256770
+2014-06-21 22:50:36.829 (-,-,-,-) 0e90: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.829 (-,-,-,-) 0e90: WorkItemSetComplete: 0x0000000008256770
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc: WorkItemCreate: 0x000000000823a050, 0x0000000008256770
+2014-06-21 22:50:36.829 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256770
+2014-06-21 22:50:36.829 (-,-,-,-) 0ff4: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.830 (-,-,-,-) 0ff4: WorkItemSetComplete: 0x0000000008256770
+2014-06-21 22:50:36.830 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.830 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.830 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.830 (-,-,-,-) 12dc: ACTION: Load meta-data for 'ZipCode'.
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000002bc3560, 0x0000000008255870
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.831 (-,-,-,-) 136c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.831 (-,-,-,-) 136c: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009a7adc0, 0x0000000008255870
+2014-06-21 22:50:36.831 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.832 (-,-,-,-) 0f70: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.832 (-,-,-,-) 0f70: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.832 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.832 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0010 sec.
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009a7aea0, 0x0000000008255870
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008255870
+2014-06-21 22:50:36.833 (-,-,-,-) 00d8: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.833 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009a7af10, 0x0000000008256770
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256770
+2014-06-21 22:50:36.834 (-,-,-,-) 00d8: WorkItemSetComplete: 0x0000000008255870
+2014-06-21 22:50:36.834 (-,-,-,-) 0ba0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.834 (-,-,-,-) 0ba0: WorkItemSetComplete: 0x0000000008256770
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc: Action:   SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc:    [Time] Running the query took 0.0000 sec.
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc:    [Time] Getting the records took 0.0000 sec.
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc: Successfully registered "C:\Program Files\Tableau\Tableau 8.1\local\data\ZipCode.tds"
+2014-06-21 22:50:36.834 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.857 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009a60850, 0x0000000008256770
+2014-06-21 22:50:36.857 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x0000000008256770
+2014-06-21 22:50:36.857 (-,-,-,-) 0fcc: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.857 (-,-,-,-) 0fcc: AsyncTaskSvcWait: 0x0000000002b01990
+2014-06-21 22:50:36.857 (-,-,-,-) 0fcc: WorkItemWaitForCompletion: 0x0000000002b01990
+2014-06-21 22:50:36.857 (-,-,-,-) 12dc:    [Time] 0.671 sec. for [Startup] CMainApp::InitInstance
+2014-06-21 22:50:36.863 (-,-,-,-) 1164: END lc_checkout
+2014-06-21 22:50:36.863 (-,-,-,-) 1164: lc_checkout return information: 0 (LM_NOERROR)
+2014-06-21 22:50:36.863 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.863 (-,-,-,-) 1164: END JobProxy::Checkout
+2014-06-21 22:50:36.863 (-,-,-,-) 1164: END Info::Lookup
+2014-06-21 22:50:36.868 (-,-,-,-) 1524: WorkItemCreate: 0x00000000080ba470, 0x0000000008256e70
+2014-06-21 22:50:36.868 (-,-,-,-) 1524: AsyncTaskSvcExecute: 0x0000000008256e70
+2014-06-21 22:50:36.868 (-,-,-,-) 12a0: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.868 (-,-,-,-) 12a0: WorkItemSetComplete: 0x0000000008256e70
+2014-06-21 22:50:36.878 (-,-,-,-) 1164: BackgroundLicenseTask::ExecuteImpl: END background licensing check
+2014-06-21 22:50:36.878 (-,-,-,-) 1164:    [Time] 0.667 sec. for [License] Background licensing check
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: 
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: ---------------------------------------------------------
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: Update sheet 'Sheet 1' for view 'Sheet 1'
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: ---------------------------------------------------------
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: WorkItemCreate: 0x0000000009ace700, 0x00000000082577f0
+2014-06-21 22:50:36.913 (-,-,-,-) 12dc: AsyncTaskSvcExecute: 0x00000000082577f0
+2014-06-21 22:50:36.913 (-,-,-,-) 164c: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: 
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: 
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: Data interpreter is instancing a specification
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Data interpreter: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: Partition interpreter is instancing a specification
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Compute X set interpretation: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Compute Y set interpretation: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Create X axis descriptor: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Create Y axis descriptor: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Compute table config: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Partition data: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Sort panes: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c:    [Time] Partition interpreter: 0.00 sec.
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: Visual interpreter is instancing a specification
+2014-06-21 22:50:36.914 (-,-,-,-) 164c: ---------------------------------------------------------
+2014-06-21 22:50:36.914 (-,-,-,-) 1164: Trusted Storage contents:
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: UMN1: B821B92F019F24D2F8A1A7E3580F842702FBC454
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: UMN2: 503917B7FD5E864ABBEDE7D627E7B95D7A4269DE
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Trust Flags:    FULLY TRUSTED
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Status:         Enabled
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] Generate axis encodings: 0.00 sec.
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Product key:    
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Fulfillment ID: LOCAL_TRIAL_FID_18
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Expiration:     13-jun-2014
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Features line(s):
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: INCREMENT TableauInitializer tableau 1.0 permanent 1 ISSUER="Tableau \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	Software" ISSUED=12-aug-2008 START=11-aug-2008 ONE_TS_OK \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	SIGN="101F 157E DD09 DE23 A590 476D 2430 2808 27DC E3D2 49D7 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	FFAC 4E8B EF09 170F 0093 57A9 6761 B476 1E66 17BD FDF1 1391 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	5620 B92E 4B59 A9F1 9041 CE80 6ACF"
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Trust Flags:    FULLY TRUSTED
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Status:         Enabled
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Product key:    TDOX-0192-6920-0B3F-AA32
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Fulfillment ID: FID_3da1398_14676f5533e__68a3
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Expiration:     11-Jun-2015
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: Features line(s):
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: INCREMENT TableauDesktop tableau 2015.0611 11-jun-2015 1 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	VENDOR_STRING=EntitlementID=67b8-9913-36f8-cde6-e741-541f;EDITION=Professional;CAP=REG:SHORT;DC_STD=default;DC_CAP=;TRIALVER=;FulfillmentID=FID_3da1398_14676f5533e__68a3;ActivationID=TDOX-0192-6920-0B3F-AA32;OEMNAME=;GRACE=;MAP_STD=default;MAP_CAP=;OFFLINE= \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	ISSUER="Tableau Software" ISSUED=11-jun-2014 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	NOTICE="efn:tft,cid:70160000000Z3dd,ls:Tableau for \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	Teaching,lsd:TFT - Free Student Edition" START=10-jun-2014 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	TS_OK SIGN="1BF8 4BA0 5205 9062 962F 3167 EABD 5A2C 9783 1307 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	5627 A31B 5DE5 95DF EB00 0615 C2DF 5040 930C 70F7 13E7 A396 \
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: 	3B2F 7E07 DB09 A22A F1E4 287E A0AA EA6F"
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: BEGIN Info::LookupAll
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_new_job(NULL, lc_new_job_arg2, &m_code, &m_job);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PERROR_MSGBOX, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_PROMPT_FOR_FILE, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_LICENSE_DEFAULT, (LM_A_VAL_TYPE)utf8File.c_str());
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_CHECKOUTFILTER_EX, (LM_A_VAL_TYPE)filter);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_VENDOR_CALLBACK_DATA, (LM_A_VAL_TYPE)data);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: BEGIN JobProxy::Checkout
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: LCCALL lc_set_attr(m_job, LM_A_TS_CHECK_BADDATE, (LM_A_VAL_TYPE) 1);
+2014-06-21 22:50:36.915 (-,-,-,-) 1164: BEGIN lc_checkout
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] Compute layout: 0.00 sec.
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] New Encodings: 0.00 sec.
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] Create panes: 0.00 sec.
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] 0.000 sec. for Extended Domain
+2014-06-21 22:50:36.915 (-,-,-,-) 164c:    [Time] Visual interpreter: 0.00 sec.
+2014-06-21 22:50:36.916 (-,-,-,-) 164c: WorkItemSetComplete: 0x00000000082577f0
+2014-06-21 22:50:36.916 (-,-,-,-) 12dc: Action: Computing View Layout  SubAction:  Status:  Observers: 0
+2014-06-21 22:50:36.916 (-,-,-,-) 12dc:    [Time] Computing the model took 0.002 sec
+2014-06-21 22:50:36.917 (-,-,-,-) 12dc:    [Time] Setup visual instance: 0.00 sec.
+2014-06-21 22:50:36.917 (-,-,-,-) 12dc:    [Time] 0.000 sec. for QuickFiltersController::UpdateAll
+2014-06-21 22:50:36.945 (-,-,-,-) 1524: WorkItemCreate: 0x00000000080ba560, 0x00000000080079c0
+2014-06-21 22:50:36.945 (-,-,-,-) 1524: AsyncTaskSvcExecute: 0x00000000080079c0
+2014-06-21 22:50:36.946 (-,-,-,-) 1470: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.946 (-,-,-,-) 1470: WorkItemSetComplete: 0x00000000080079c0
+2014-06-21 22:50:36.957 (-,-,-,-) 12dc: Resizing Visual Model (in place: YES)
+2014-06-21 22:50:36.957 (-,-,-,-) 12dc:    [Time] 0.000 sec. for Extended Domain
+2014-06-21 22:50:36.958 (-,-,-,-) 12dc: UpdateThumbnail called, WorksheetWidget.cpp, line 2168
+2014-06-21 22:50:36.981 (-,-,-,-) 12dc: Finished rendering sheet
+2014-06-21 22:50:36.993 (-,-,-,-) 1164: BEGIN ValidateConfigCallback
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: END ValidateConfigCallback
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: BEGIN ValidateConfigCallback
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: END ValidateConfigCallback
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: END lc_checkout
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: lc_checkout return information: -73 (LM_LOCALFILTER)
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: 
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: END JobProxy::Checkout
+2014-06-21 22:50:36.994 (-,-,-,-) 1164: END Info::LookupAll
+2014-06-21 22:50:36.995 (-,-,-,-) 1524: WorkItemCreate: 0x0000000007ffb850, 0x0000000008258df0
+2014-06-21 22:50:36.995 (-,-,-,-) 1524: AsyncTaskSvcExecute: 0x0000000008258df0
+2014-06-21 22:50:36.995 (-,-,-,-) 0a88: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:36.995 (-,-,-,-) 0a88: WorkItemSetComplete: 0x0000000008258df0
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: All Entitlements:
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: Entitlement ID:     67b8-9913-36f8-cde6-e741-541f
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: Latest Key:         TDOX-0192-6920-0B3F-AA32
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: Latest Fulfillment: FID_3da1398_14676f5533e__68a3
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: Maintenance Date:   11-Jun-2015
+2014-06-21 22:50:37.018 (-,-,-,-) 1164: All fulfillments:
+2014-06-21 22:50:37.019 (-,-,-,-) 1164:  TDOX-0192-6920-0B3F-AA32 11-Jun-2015
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: Current license state:      LicenseOK
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: Current serial number:      TDOX-0192-6920-0B3F-AA32
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: Current fulfillment ID:     FID_3da1398_14676f5533e__68a3
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: Current registration state: complete / not needed
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: Current registration form:  SHORT
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: --------------------------
+2014-06-21 22:50:37.019 (-,-,-,-) 1164: WorkItemSetComplete: 0x0000000002b01990
+2014-06-21 22:50:37.019 (-,-,-,-) 0fcc: WorkItemCreate: 0x00000000082ef2b0, 0x00000000082586f0
+2014-06-21 22:50:37.019 (-,-,-,-) 0fcc: AsyncTaskSvcExecute: 0x00000000082586f0
+2014-06-21 22:50:37.019 (-,-,-,-) 0fcc: WorkItemSetComplete: 0x0000000008256770
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: Starting AsyncTask for SessionID: -.
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: BackgroundRegistrationTask::ExecuteImpl: BEGIN background check for submitting registration
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: BEGIN Info::Lookup
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: BEGIN Info::LookupAll
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_new_job(NULL, lc_new_job_arg2, &m_code, &m_job);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_PERROR_MSGBOX, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_PROMPT_FOR_FILE, (LM_A_VAL_TYPE)0);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_LICENSE_DEFAULT, (LM_A_VAL_TYPE)utf8File.c_str());
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_CHECKOUTFILTER_EX, (LM_A_VAL_TYPE)filter);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_VENDOR_CALLBACK_DATA, (LM_A_VAL_TYPE)data);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: BEGIN JobProxy::Checkout
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: LCCALL lc_set_attr(m_job, LM_A_TS_CHECK_BADDATE, (LM_A_VAL_TYPE) 1);
+2014-06-21 22:50:37.019 (-,-,-,-) 0a08: BEGIN lc_checkout
+2014-06-21 22:50:37.073 (-,-,-,-) 0a08: BEGIN ValidateConfigCallback
+2014-06-21 22:50:37.073 (-,-,-,-) 0a08: END ValidateConfigCallback
+2014-06-21 22:50:37.073 (-,-,-,-) 0a08: BEGIN ValidateConfigCallback
+2014-06-21 22:50:37.074 (-,-,-,-) 0a08: END ValidateConfigCallback
+2014-06-21 22:50:37.074 (-,-,-,-) 0a08: END lc_checkout
+2014-06-2

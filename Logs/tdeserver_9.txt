@@ -1,0 +1,297 @@
+2014-06-21 13:03:53.736 (5516): -----------------------------------------------------------------------------
+2014-06-21 13:03:53.736 (5516): Initializing fault reporting
+2014-06-21 13:03:53.736 (5516): Fault reporting log pathname: C:\Users\John\Desktop\Dropbox\Logs\tdeserver64-error0000142c.log
+2014-06-21 13:03:53.736 (5516): Initializing MiniDump
+2014-06-21 13:03:53.736 (5516): Loading 'DbgHelp.dll'
+2014-06-21 13:03:53.737 (5516): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-06-21 13:03:53.737 (5516):   Product Name: Microsoft® Windows® Operating System
+2014-06-21 13:03:53.737 (5516):   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 13:03:53.737 (5516):   Product Version: 6.1.7600.16385
+2014-06-21 13:03:53.737 (5516): Finding function 'MiniDumpWriteDump'
+2014-06-21 13:03:53.737 (5516): Success
+2014-06-21 13:03:53.737 (5516): Registering unhandled exception filter
+2014-06-21 13:03:53.737 (5516): -----------------------------------------------------------------------------
+2014-06-21 13:03:53.737 (5516): Machine Configuration
+2014-06-21 13:03:53.737 (5516):   Max Descriptors: -1
+2014-06-21 13:03:53.737 (5516): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:03:53.737 (5516): tdeserver: accepting new connection
+2014-06-21 13:03:53.738 (5320): beginthread: recv, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:03:53.738 (4160): beginthread: send, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:03:53.738 (5516): tdeserver: new connection, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:03:53.738 (5320): tdeserver: open session, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}, sess_guid=1
+2014-06-21 13:03:53.738 (3176): Session1: QueryExecute:
+2014-06-21 13:03:53.738 (3176): (database "C:\\Users\\John\\AppData\\Local\\Temp\\TableauTemp\\0ixz6oo02hh95t1c2lrec1hztgwt\\Data\\CDWT_ch10_GlobalInternetUsage.twb Files\\Sample - World Bank Indicators (Excel).tde")
+2014-06-21 13:03:53.739 (3176): Session1: QueryExecute: OK
+2014-06-21 13:03:53.739 (5320): tdeserver: open session, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}, sess_guid=2
+2014-06-21 13:03:53.739 (5744): Session1: QueryExecute:
+2014-06-21 13:03:53.739 (5744): (show schemas)
+2014-06-21 13:03:53.740 (5744): Elapsed time:0.001 sec
+2014-06-21 13:03:53.740 (5744): Compilation time:0.000 sec
+2014-06-21 13:03:53.740 (5744): Execution time:0.001 sec
+2014-06-21 13:03:53.740 (5744): Session1: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 13:03:53.741 (5744): Session1: QueryExecute:
+2014-06-21 13:03:53.741 (5744): (describe [Extract].[Extract])
+2014-06-21 13:03:53.747 (5744): Elapsed time:0.006 sec
+2014-06-21 13:03:53.747 (5744): Compilation time:0.006 sec
+2014-06-21 13:03:53.747 (5744): Execution time:0.000 sec
+2014-06-21 13:03:53.749 (5744): Session1: QueryExecute: OK rowset_guid=2 n_columns=60
+2014-06-21 13:03:54.110 (5744): Session1: StatementPrepare: sess_guid=1 stmt_guid=3
+2014-06-21 13:03:54.110 (5744): (restrict
+2014-06-21 13:03:54.110 (5744):   (aggregate
+2014-06-21 13:03:54.110 (5744):     (select
+2014-06-21 13:03:54.110 (5744):       (project
+2014-06-21 13:03:54.110 (5744):         (project
+2014-06-21 13:03:54.110 (5744):           (table [Extract].[Extract])
+2014-06-21 13:03:54.110 (5744):           (
+2014-06-21 13:03:54.110 (5744):             (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:03:54.110 (5744):             (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:03:54.110 (5744):             )
+2014-06-21 13:03:54.110 (5744):           )
+2014-06-21 13:03:54.110 (5744):         (
+2014-06-21 13:03:54.110 (5744):           ([none:'Regions and subregions$'_Region:nk] ['Regions and subregions$'_Region])
+2014-06-21 13:03:54.110 (5744):           ([yr:Date:ok]
+2014-06-21 13:03:54.110 (5744):             (year [Date])
+2014-06-21 13:03:54.110 (5744):             )
+2014-06-21 13:03:54.110 (5744):           ([none:Country Name:nk] [Country Name])
+2014-06-21 13:03:54.110 (5744):           )
+2014-06-21 13:03:54.110 (5744):         )
+2014-06-21 13:03:54.110 (5744):       (= [yr:Date:ok] 2010)
+2014-06-21 13:03:54.110 (5744):       )
+2014-06-21 13:03:54.110 (5744):     (
+2014-06-21 13:03:54.110 (5744):       ([none:Country Name:nk] [none:Country Name:nk])
+2014-06-21 13:03:54.110 (5744):       )
+2014-06-21 13:03:54.110 (5744):     (
+2014-06-21 13:03:54.110 (5744):       ([avg:Business: Internet users (per 100 people):ok]
+2014-06-21 13:03:54.110 (5744):         (average [Business: Internet users (per 100 people)])
+2014-06-21 13:03:54.110 (5744):         )
+2014-06-21 13:03:54.110 (5744):       ([sum:Calculation_3151108064555860:ok]
+2014-06-21 13:03:54.110 (5744):         (sum [Calculation_3151108064555860])
+2014-06-21 13:03:54.110 (5744):         )
+2014-06-21 13:03:54.110 (5744):       )
+2014-06-21 13:03:54.110 (5744):     )
+2014-06-21 13:03:54.110 (5744):   ([none:Country Name:nk] [avg:Business: Internet users (per 100 people):ok] [sum:Calculation_3151108064555860:ok])
+2014-06-21 13:03:54.110 (5744):   )
+2014-06-21 13:03:54.110 (5744): 
+2014-06-21 13:03:54.127 (5744): Session1: StatementPrepare: OK
+2014-06-21 13:03:54.128 (3176): Session1: StatementExecute: sess_guid=1 stmt_guid=3
+2014-06-21 13:03:54.135 (3176): Session1: StatementExecute: OK rowset_guid=4 n_columns=3
+2014-06-21 13:03:54.135 (3176): Elapsed time:0.024 sec
+2014-06-21 13:03:54.135 (3176): Compilation time:0.017 sec
+2014-06-21 13:03:54.135 (3176): Execution time:0.007 sec
+2014-06-21 13:03:54.136 (5744): Session1: StatementClose: sess_guid=1 stmt_guid=3
+2014-06-21 13:03:54.308 (3176): Session1: StatementPrepare: sess_guid=1 stmt_guid=5
+2014-06-21 13:03:54.308 (3176): (restrict
+2014-06-21 13:03:54.308 (3176):   (order
+2014-06-21 13:03:54.308 (3176):     (aggregate
+2014-06-21 13:03:54.308 (3176):       (project
+2014-06-21 13:03:54.308 (3176):         (project
+2014-06-21 13:03:54.308 (3176):           (table [Extract].[Extract])
+2014-06-21 13:03:54.308 (3176):           (
+2014-06-21 13:03:54.308 (3176):             (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:03:54.308 (3176):             (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:03:54.308 (3176):             )
+2014-06-21 13:03:54.308 (3176):           )
+2014-06-21 13:03:54.308 (3176):         (
+2014-06-21 13:03:54.308 (3176):           ([none:'Regions and subregions$'_Region:nk] ['Regions and subregions$'_Region])
+2014-06-21 13:03:54.308 (3176):           )
+2014-06-21 13:03:54.308 (3176):         )
+2014-06-21 13:03:54.308 (3176):       (
+2014-06-21 13:03:54.308 (3176):         ([none:'Regions and subregions$'_Region:nk] [none:'Regions and subregions$'_Region:nk])
+2014-06-21 13:03:54.308 (3176):         )
+2014-06-21 13:03:54.308 (3176):       ()
+2014-06-21 13:03:54.308 (3176):       )
+2014-06-21 13:03:54.308 (3176):     (
+2014-06-21 13:03:54.308 (3176):       ([none:'Regions and subregions$'_Region:nk] asc)
+2014-06-21 13:03:54.308 (3176):       )
+2014-06-21 13:03:54.308 (3176):     )
+2014-06-21 13:03:54.308 (3176):   ([none:'Regions and subregions$'_Region:nk])
+2014-06-21 13:03:54.308 (3176):   )
+2014-06-21 13:03:54.308 (3176): 
+2014-06-21 13:03:54.318 (3176): Session1: StatementPrepare: OK
+2014-06-21 13:03:54.319 (5744): Session1: StatementExecute: sess_guid=1 stmt_guid=5
+2014-06-21 13:03:54.320 (5744): Session1: StatementExecute: OK rowset_guid=6 n_columns=1
+2014-06-21 13:03:54.320 (5744): Elapsed time:0.011 sec
+2014-06-21 13:03:54.320 (5744): Compilation time:0.010 sec
+2014-06-21 13:03:54.320 (5744): Execution time:0.001 sec
+2014-06-21 13:03:54.321 (3176): Session1: StatementClose: sess_guid=1 stmt_guid=5
+2014-06-21 13:03:54.324 (5744): Session1: StatementPrepare: sess_guid=1 stmt_guid=7
+2014-06-21 13:03:54.324 (5744): (restrict
+2014-06-21 13:03:54.324 (5744):   (order
+2014-06-21 13:03:54.324 (5744):     (aggregate
+2014-06-21 13:03:54.324 (5744):       (project
+2014-06-21 13:03:54.324 (5744):         (project
+2014-06-21 13:03:54.324 (5744):           (table [Extract].[Extract])
+2014-06-21 13:03:54.324 (5744):           (
+2014-06-21 13:03:54.324 (5744):             (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:03:54.324 (5744):             (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:03:54.324 (5744):             )
+2014-06-21 13:03:54.324 (5744):           )
+2014-06-21 13:03:54.324 (5744):         (
+2014-06-21 13:03:54.324 (5744):           ([yr:Date:ok]
+2014-06-21 13:03:54.324 (5744):             (year [Date])
+2014-06-21 13:03:54.324 (5744):             )
+2014-06-21 13:03:54.324 (5744):           )
+2014-06-21 13:03:54.324 (5744):         )
+2014-06-21 13:03:54.324 (5744):       (
+2014-06-21 13:03:54.324 (5744):         ([yr:Date:ok] [yr:Date:ok])
+2014-06-21 13:03:54.324 (5744):         )
+2014-06-21 13:03:54.324 (5744):       ()
+2014-06-21 13:03:54.324 (5744):       )
+2014-06-21 13:03:54.324 (5744):     (
+2014-06-21 13:03:54.324 (5744):       ([yr:Date:ok] asc)
+2014-06-21 13:03:54.324 (5744):       )
+2014-06-21 13:03:54.324 (5744):     )
+2014-06-21 13:03:54.324 (5744):   ([yr:Date:ok])
+2014-06-21 13:03:54.324 (5744):   )
+2014-06-21 13:03:54.324 (5744): 
+2014-06-21 13:03:54.336 (5744): Session1: StatementPrepare: OK
+2014-06-21 13:03:54.336 (3176): Session1: StatementExecute: sess_guid=1 stmt_guid=7
+2014-06-21 13:03:54.339 (3176): Session1: StatementExecute: OK rowset_guid=8 n_columns=1
+2014-06-21 13:03:54.339 (3176): Elapsed time:0.015 sec
+2014-06-21 13:03:54.339 (3176): Compilation time:0.012 sec
+2014-06-21 13:03:54.339 (3176): Execution time:0.002 sec
+2014-06-21 13:03:54.340 (5744): Session1: StatementClose: sess_guid=1 stmt_guid=7
+2014-06-21 13:16:50.435 (3176): Session1: StatementPrepare: sess_guid=1 stmt_guid=9
+2014-06-21 13:16:50.435 (3176): (restrict
+2014-06-21 13:16:50.435 (3176):   (aggregate
+2014-06-21 13:16:50.435 (3176):     (project
+2014-06-21 13:16:50.435 (3176):       (project
+2014-06-21 13:16:50.435 (3176):         (table [Extract].[Extract])
+2014-06-21 13:16:50.435 (3176):         (
+2014-06-21 13:16:50.435 (3176):           (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:16:50.435 (3176):           (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:16:50.435 (3176):           )
+2014-06-21 13:16:50.435 (3176):         )
+2014-06-21 13:16:50.435 (3176):       (
+2014-06-21 13:16:50.435 (3176):         ([none:'Regions and subregions$'_Region:nk] ['Regions and subregions$'_Region])
+2014-06-21 13:16:50.435 (3176):         ([none:Country Name:nk] [Country Name])
+2014-06-21 13:16:50.435 (3176):         )
+2014-06-21 13:16:50.435 (3176):       )
+2014-06-21 13:16:50.435 (3176):     (
+2014-06-21 13:16:50.435 (3176):       ([none:'Regions and subregions$'_Region:nk] [none:'Regions and subregions$'_Region:nk])
+2014-06-21 13:16:50.435 (3176):       ([none:Country Name:nk] [none:Country Name:nk])
+2014-06-21 13:16:50.435 (3176):       )
+2014-06-21 13:16:50.435 (3176):     (
+2014-06-21 13:16:50.435 (3176):       ([avg:Business: Internet users (per 100 people):ok]
+2014-06-21 13:16:50.435 (3176):         (average [Business: Internet users (per 100 people)])
+2014-06-21 13:16:50.435 (3176):         )
+2014-06-21 13:16:50.435 (3176):       )
+2014-06-21 13:16:50.435 (3176):     )
+2014-06-21 13:16:50.435 (3176):   ([none:'Regions and subregions$'_Region:nk] [none:Country Name:nk] [avg:Business: Internet users (per 100 people):ok])
+2014-06-21 13:16:50.435 (3176):   )
+2014-06-21 13:16:50.435 (3176): 
+2014-06-21 13:16:50.447 (3176): Session1: StatementPrepare: OK
+2014-06-21 13:16:50.448 (5744): Session1: StatementExecute: sess_guid=1 stmt_guid=9
+2014-06-21 13:16:50.450 (5744): Session1: StatementExecute: OK rowset_guid=10 n_columns=3
+2014-06-21 13:16:50.450 (5744): Elapsed time:0.015 sec
+2014-06-21 13:16:50.450 (5744): Compilation time:0.013 sec
+2014-06-21 13:16:50.450 (5744): Execution time:0.002 sec
+2014-06-21 13:16:50.451 (3176): Session1: StatementClose: sess_guid=1 stmt_guid=9
+2014-06-21 13:16:52.067 (5744): Session1: StatementPrepare: sess_guid=1 stmt_guid=11
+2014-06-21 13:16:52.067 (5744): (restrict
+2014-06-21 13:16:52.067 (5744):   (aggregate
+2014-06-21 13:16:52.067 (5744):     (select
+2014-06-21 13:16:52.067 (5744):       (project
+2014-06-21 13:16:52.067 (5744):         (project
+2014-06-21 13:16:52.067 (5744):           (table [Extract].[Extract])
+2014-06-21 13:16:52.067 (5744):           (
+2014-06-21 13:16:52.067 (5744):             (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:16:52.067 (5744):             (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:16:52.067 (5744):             )
+2014-06-21 13:16:52.067 (5744):           )
+2014-06-21 13:16:52.067 (5744):         (
+2014-06-21 13:16:52.067 (5744):           ([none:Country Name:nk] [Country Name])
+2014-06-21 13:16:52.067 (5744):           ([yr:Date:ok]
+2014-06-21 13:16:52.067 (5744):             (year [Date])
+2014-06-21 13:16:52.067 (5744):             )
+2014-06-21 13:16:52.067 (5744):           )
+2014-06-21 13:16:52.067 (5744):         )
+2014-06-21 13:16:52.067 (5744):       (and
+2014-06-21 13:16:52.067 (5744):         (or
+2014-06-21 13:16:52.067 (5744):           (= [none:Country Name:nk] "Iceland")
+2014-06-21 13:16:52.067 (5744):           (= [none:Country Name:nk] "India")
+2014-06-21 13:16:52.067 (5744):           )
+2014-06-21 13:16:52.067 (5744):         (= [yr:Date:ok] 2010)
+2014-06-21 13:16:52.067 (5744):         )
+2014-06-21 13:16:52.067 (5744):       )
+2014-06-21 13:16:52.067 (5744):     (
+2014-06-21 13:16:52.067 (5744):       ([none:Country Name:nk] [none:Country Name:nk])
+2014-06-21 13:16:52.067 (5744):       )
+2014-06-21 13:16:52.067 (5744):     (
+2014-06-21 13:16:52.067 (5744):       ([avg:Business: Internet users (per 100 people):ok]
+2014-06-21 13:16:52.067 (5744):         (average [Business: Internet users (per 100 people)])
+2014-06-21 13:16:52.067 (5744):         )
+2014-06-21 13:16:52.067 (5744):       ([avg:Population: Total (count):ok]
+2014-06-21 13:16:52.067 (5744):         (average [Population: Total (count)])
+2014-06-21 13:16:52.067 (5744):         )
+2014-06-21 13:16:52.067 (5744):       ([sum:Calculation_3151108064555860:ok]
+2014-06-21 13:16:52.067 (5744):         (sum [Calculation_3151108064555860])
+2014-06-21 13:16:52.067 (5744):         )
+2014-06-21 13:16:52.067 (5744):       )
+2014-06-21 13:16:52.067 (5744):     )
+2014-06-21 13:16:52.067 (5744):   ([none:Country Name:nk] [avg:Business: Internet users (per 100 people):ok] [avg:Population: Total (count):ok] [sum:Calculation_3151108064555860:ok])
+2014-06-21 13:16:52.067 (5744):   )
+2014-06-21 13:16:52.067 (5744): 
+2014-06-21 13:16:52.085 (5744): Session1: StatementPrepare: OK
+2014-06-21 13:16:52.086 (3176): Session1: StatementExecute: sess_guid=1 stmt_guid=11
+2014-06-21 13:16:52.091 (3176): Session1: StatementExecute: OK rowset_guid=12 n_columns=4
+2014-06-21 13:16:52.091 (3176): Elapsed time:0.023 sec
+2014-06-21 13:16:52.091 (3176): Compilation time:0.018 sec
+2014-06-21 13:16:52.091 (3176): Execution time:0.005 sec
+2014-06-21 13:16:52.092 (5744): Session1: StatementClose: sess_guid=1 stmt_guid=11
+2014-06-21 13:16:56.302 (3176): Session1: StatementPrepare: sess_guid=1 stmt_guid=13
+2014-06-21 13:16:56.302 (3176): (restrict
+2014-06-21 13:16:56.302 (3176):   (aggregate
+2014-06-21 13:16:56.302 (3176):     (select
+2014-06-21 13:16:56.302 (3176):       (project
+2014-06-21 13:16:56.302 (3176):         (project
+2014-06-21 13:16:56.302 (3176):           (table [Extract].[Extract])
+2014-06-21 13:16:56.302 (3176):           (
+2014-06-21 13:16:56.302 (3176):             (['Regions and subregions$'_Region] [Region])
+2014-06-21 13:16:56.302 (3176):             (['Regions and subregions$'_Subregion] [Subregion])
+2014-06-21 13:16:56.302 (3176):             )
+2014-06-21 13:16:56.302 (3176):           )
+2014-06-21 13:16:56.302 (3176):         (
+2014-06-21 13:16:56.302 (3176):           ([none:'Regions and subregions$'_Region:nk] ['Regions and subregions$'_Region])
+2014-06-21 13:16:56.302 (3176):           ([yr:Date:ok]
+2014-06-21 13:16:56.302 (3176):             (year [Date])
+2014-06-21 13:16:56.302 (3176):             )
+2014-06-21 13:16:56.302 (3176):           ([none:Country Name:nk] [Country Name])
+2014-06-21 13:16:56.302 (3176):           )
+2014-06-21 13:16:56.302 (3176):         )
+2014-06-21 13:16:56.302 (3176):       (= [yr:Date:ok] 2010)
+2014-06-21 13:16:56.302 (3176):       )
+2014-06-21 13:16:56.302 (3176):     (
+2014-06-21 13:16:56.302 (3176):       ([none:'Regions and subregions$'_Region:nk] [none:'Regions and subregions$'_Region:nk])
+2014-06-21 13:16:56.302 (3176):       ([none:Country Name:nk] [none:Country Name:nk])
+2014-06-21 13:16:56.302 (3176):       )
+2014-06-21 13:16:56.302 (3176):     (
+2014-06-21 13:16:56.302 (3176):       ([avg:Business: Internet users (per 100 people):ok]
+2014-06-21 13:16:56.302 (3176):         (average [Business: Internet users (per 100 people)])
+2014-06-21 13:16:56.302 (3176):         )
+2014-06-21 13:16:56.302 (3176):       )
+2014-06-21 13:16:56.302 (3176):     )
+2014-06-21 13:16:56.302 (3176):   ([none:'Regions and subregions$'_Region:nk] [none:Country Name:nk] [avg:Business: Internet users (per 100 people):ok])
+2014-06-21 13:16:56.302 (3176):   )
+2014-06-21 13:16:56.302 (3176): 
+2014-06-21 13:16:56.319 (3176): Session1: StatementPrepare: OK
+2014-06-21 13:16:56.319 (5744): Session1: StatementExecute: sess_guid=1 stmt_guid=13
+2014-06-21 13:16:56.322 (5744): Session1: StatementExecute: OK rowset_guid=14 n_columns=3
+2014-06-21 13:16:56.322 (5744): Elapsed time:0.019 sec
+2014-06-21 13:16:56.322 (5744): Compilation time:0.016 sec
+2014-06-21 13:16:56.322 (5744): Execution time:0.003 sec
+2014-06-21 13:16:56.323 (3176): Session1: StatementClose: sess_guid=1 stmt_guid=13
+2014-06-21 13:17:07.972 (3176): Session1: QueryExecute:
+2014-06-21 13:17:07.972 (3176): (database null)
+2014-06-21 13:17:07.973 (3176): Session1: QueryExecute: OK
+2014-06-21 13:17:07.973 (5320): tdeserver: close session, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}, sess_guid=1
+2014-06-21 13:17:07.973 (5744): Session2: QueryExecute:
+2014-06-21 13:17:07.973 (5744): (database null)
+2014-06-21 13:17:07.973 (5744): Session2: QueryExecute: OK
+2014-06-21 13:17:07.973 (5320): tdeserver: close session, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}, sess_guid=2
+2014-06-21 13:17:07.974 (5320): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 13:17:07.974 (5320):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 13:17:07.974 (5320): tdeserver: closing connection, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:17:07.974 (5320): endthread: recv, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:17:07.974 (4160): endthread: send, connection=tab.pipe://./pipe/{1FB5F659-9E4C-42B7-84C8-40DDD53CD184}
+2014-06-21 13:17:08.092 (5516): tdeserver: exit (0)

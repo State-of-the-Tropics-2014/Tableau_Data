@@ -1,0 +1,219 @@
+2014-06-21 12:52:07.442 (3496): -----------------------------------------------------------------------------
+2014-06-21 12:52:07.442 (3496): Initializing fault reporting
+2014-06-21 12:52:07.442 (3496): Fault reporting log pathname: C:\Users\John\Desktop\Dropbox\Logs\tdeserver64-error00001388.log
+2014-06-21 12:52:07.442 (3496): Initializing MiniDump
+2014-06-21 12:52:07.442 (3496): Loading 'DbgHelp.dll'
+2014-06-21 12:52:07.443 (3496): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-06-21 12:52:07.443 (3496):   Product Name: Microsoft® Windows® Operating System
+2014-06-21 12:52:07.443 (3496):   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 12:52:07.443 (3496):   Product Version: 6.1.7600.16385
+2014-06-21 12:52:07.443 (3496): Finding function 'MiniDumpWriteDump'
+2014-06-21 12:52:07.443 (3496): Success
+2014-06-21 12:52:07.443 (3496): Registering unhandled exception filter
+2014-06-21 12:52:07.443 (3496): -----------------------------------------------------------------------------
+2014-06-21 12:52:07.443 (3496): Machine Configuration
+2014-06-21 12:52:07.443 (3496):   Max Descriptors: -1
+2014-06-21 12:52:07.443 (3496): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 12:52:07.443 (3496): tdeserver: accepting new connection
+2014-06-21 12:52:07.443 (3496): tdeserver: new connection, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 12:52:07.444 (0996): beginthread: recv, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 12:52:07.444 (3508): beginthread: send, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 12:52:07.444 (0996): tdeserver: open session, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}, sess_guid=1
+2014-06-21 12:52:07.444 (3112): Session1: QueryExecute:
+2014-06-21 12:52:07.444 (3112): (database "C:\\Users\\John\\AppData\\Local\\Temp\\TableauTemp\\0wc8m2l0znllkh18mmyef0dnr5fg\\Data\\Temp\\#Ta8B.tmp")
+2014-06-21 12:52:07.445 (3112): Session1: QueryExecute: OK
+2014-06-21 12:52:07.445 (0996): tdeserver: open session, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}, sess_guid=2
+2014-06-21 12:52:07.445 (0708): Session1: QueryExecute:
+2014-06-21 12:52:07.445 (0708): (show schemas)
+2014-06-21 12:52:07.446 (0708): Elapsed time:0.001 sec
+2014-06-21 12:52:07.446 (0708): Compilation time:0.000 sec
+2014-06-21 12:52:07.446 (0708): Execution time:0.001 sec
+2014-06-21 12:52:07.446 (0708): Session1: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 12:52:07.447 (0708): Session1: QueryExecute:
+2014-06-21 12:52:07.447 (0708): (describe [Extract].[Extract])
+2014-06-21 12:52:07.452 (0708): Elapsed time:0.005 sec
+2014-06-21 12:52:07.452 (0708): Compilation time:0.005 sec
+2014-06-21 12:52:07.452 (0708): Execution time:0.000 sec
+2014-06-21 12:52:07.452 (0708): Session1: QueryExecute: OK rowset_guid=2 n_columns=10
+2014-06-21 12:52:09.952 (0708): Session1: StatementPrepare: sess_guid=1 stmt_guid=3
+2014-06-21 12:52:09.952 (0708): (restrict
+2014-06-21 12:52:09.952 (0708):   (aggregate
+2014-06-21 12:52:09.952 (0708):     (project
+2014-06-21 12:52:09.952 (0708):       (table [Extract].[Extract])
+2014-06-21 12:52:09.952 (0708):       (
+2014-06-21 12:52:09.952 (0708):         ([none:Person:nk] [Person])
+2014-06-21 12:52:09.952 (0708):         ([none:URL:nk] [URL])
+2014-06-21 12:52:09.952 (0708):         )
+2014-06-21 12:52:09.952 (0708):       )
+2014-06-21 12:52:09.952 (0708):     (
+2014-06-21 12:52:09.952 (0708):       ([none:Person:nk] [none:Person:nk])
+2014-06-21 12:52:09.952 (0708):       ([none:URL:nk] [none:URL:nk])
+2014-06-21 12:52:09.952 (0708):       )
+2014-06-21 12:52:09.952 (0708):     (
+2014-06-21 12:52:09.952 (0708):       ([sum:Net worth ($bn):ok]
+2014-06-21 12:52:09.952 (0708):         (sum [Net worth ($bn)])
+2014-06-21 12:52:09.952 (0708):         )
+2014-06-21 12:52:09.952 (0708):       )
+2014-06-21 12:52:09.952 (0708):     )
+2014-06-21 12:52:09.952 (0708):   ([none:Person:nk] [none:URL:nk] [sum:Net worth ($bn):ok])
+2014-06-21 12:52:09.952 (0708):   )
+2014-06-21 12:52:09.952 (0708): 
+2014-06-21 12:52:09.961 (0708): Session1: StatementPrepare: OK
+2014-06-21 12:52:09.962 (3112): Session1: StatementExecute: sess_guid=1 stmt_guid=3
+2014-06-21 12:52:09.972 (3112): Session1: StatementExecute: OK rowset_guid=4 n_columns=3
+2014-06-21 12:52:09.972 (3112): Elapsed time:0.020 sec
+2014-06-21 12:52:09.972 (3112): Compilation time:0.009 sec
+2014-06-21 12:52:09.972 (3112): Execution time:0.010 sec
+2014-06-21 12:52:09.973 (0708): Session1: StatementClose: sess_guid=1 stmt_guid=3
+2014-06-21 12:52:10.017 (3112): Session1: StatementPrepare: sess_guid=1 stmt_guid=5
+2014-06-21 12:52:10.017 (3112): (restrict
+2014-06-21 12:52:10.017 (3112):   (aggregate
+2014-06-21 12:52:10.017 (3112):     (project
+2014-06-21 12:52:10.017 (3112):       (table [Extract].[Extract])
+2014-06-21 12:52:10.017 (3112):       (
+2014-06-21 12:52:10.017 (3112):         ([none:Island name:nk] [Island name])
+2014-06-21 12:52:10.017 (3112):         ([none:Person:nk] [Person])
+2014-06-21 12:52:10.017 (3112):         ([none:URL:nk] [URL])
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       )
+2014-06-21 12:52:10.017 (3112):     (
+2014-06-21 12:52:10.017 (3112):       ([none:Island name:nk] [none:Island name:nk])
+2014-06-21 12:52:10.017 (3112):       ([none:Person:nk] [none:Person:nk])
+2014-06-21 12:52:10.017 (3112):       ([none:URL:nk] [none:URL:nk])
+2014-06-21 12:52:10.017 (3112):       )
+2014-06-21 12:52:10.017 (3112):     (
+2014-06-21 12:52:10.017 (3112):       ([TEMP(attr:Price paid ($m):qk)(1599855690)(0)]
+2014-06-21 12:52:10.017 (3112):         (min
+2014-06-21 12:52:10.017 (3112):           (to_real [Price paid ($m)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       ([TEMP(attr:Price paid ($m):qk)(3774237184)(0)]
+2014-06-21 12:52:10.017 (3112):         (max
+2014-06-21 12:52:10.017 (3112):           (to_real [Price paid ($m)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       ([TEMP(attr:Size (acres):qk)(1750871294)(0)]
+2014-06-21 12:52:10.017 (3112):         (max
+2014-06-21 12:52:10.017 (3112):           (to_real [Size (acres)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       ([TEMP(attr:Size (acres):qk)(2571334859)(0)]
+2014-06-21 12:52:10.017 (3112):         (min
+2014-06-21 12:52:10.017 (3112):           (to_real [Size (acres)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       ([sum:Price paid ($m):ok]
+2014-06-21 12:52:10.017 (3112):         (sum
+2014-06-21 12:52:10.017 (3112):           (to_real [Price paid ($m)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       ([sum:Size (acres):ok]
+2014-06-21 12:52:10.017 (3112):         (sum
+2014-06-21 12:52:10.017 (3112):           (to_real [Size (acres)])
+2014-06-21 12:52:10.017 (3112):           )
+2014-06-21 12:52:10.017 (3112):         )
+2014-06-21 12:52:10.017 (3112):       )
+2014-06-21 12:52:10.017 (3112):     )
+2014-06-21 12:52:10.017 (3112):   ([none:Island name:nk] [none:Person:nk] [none:URL:nk] [TEMP(attr:Price paid ($m):qk)(1599855690)(0)] [TEMP(attr:Price paid ($m):qk)(3774237184)(0)] [TEMP(attr:Size (acres):qk)(1750871294)(0)] [TEMP(attr:Size (acres):qk)(2571334859)(0)] [sum:Price paid ($m):ok] [sum:Size (acres):ok])
+2014-06-21 12:52:10.017 (3112):   )
+2014-06-21 12:52:10.017 (3112): 
+2014-06-21 12:52:10.030 (3112): Session1: StatementPrepare: OK
+2014-06-21 12:52:10.030 (0708): Session1: StatementExecute: sess_guid=1 stmt_guid=5
+2014-06-21 12:52:10.065 (0708): Session1: StatementExecute: OK rowset_guid=6 n_columns=9
+2014-06-21 12:52:10.065 (0708): Elapsed time:0.047 sec
+2014-06-21 12:52:10.065 (0708): Compilation time:0.013 sec
+2014-06-21 12:52:10.065 (0708): Execution time:0.034 sec
+2014-06-21 12:52:10.068 (3112): Session1: StatementClose: sess_guid=1 stmt_guid=5
+2014-06-21 12:52:10.107 (0708): Session1: StatementPrepare: sess_guid=1 stmt_guid=7
+2014-06-21 12:52:10.107 (0708): (restrict
+2014-06-21 12:52:10.107 (0708):   (aggregate
+2014-06-21 12:52:10.107 (0708):     (project
+2014-06-21 12:52:10.107 (0708):       (table [Extract].[Extract])
+2014-06-21 12:52:10.107 (0708):       (
+2014-06-21 12:52:10.107 (0708):         ([none:Island name:nk] [Island name])
+2014-06-21 12:52:10.107 (0708):         ([none:Person:nk] [Person])
+2014-06-21 12:52:10.107 (0708):         ([none:URL:nk] [URL])
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       )
+2014-06-21 12:52:10.107 (0708):     (
+2014-06-21 12:52:10.107 (0708):       ([none:Island name:nk] [none:Island name:nk])
+2014-06-21 12:52:10.107 (0708):       ([none:Person:nk] [none:Person:nk])
+2014-06-21 12:52:10.107 (0708):       ([none:URL:nk] [none:URL:nk])
+2014-06-21 12:52:10.107 (0708):       )
+2014-06-21 12:52:10.107 (0708):     (
+2014-06-21 12:52:10.107 (0708):       ([TEMP(attr:Price paid ($m):qk)(1599855690)(0)]
+2014-06-21 12:52:10.107 (0708):         (min
+2014-06-21 12:52:10.107 (0708):           (to_real [Price paid ($m)])
+2014-06-21 12:52:10.107 (0708):           )
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       ([TEMP(attr:Price paid ($m):qk)(3774237184)(0)]
+2014-06-21 12:52:10.107 (0708):         (max
+2014-06-21 12:52:10.107 (0708):           (to_real [Price paid ($m)])
+2014-06-21 12:52:10.107 (0708):           )
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       ([TEMP(attr:Size (acres):qk)(1750871294)(0)]
+2014-06-21 12:52:10.107 (0708):         (max
+2014-06-21 12:52:10.107 (0708):           (to_real [Size (acres)])
+2014-06-21 12:52:10.107 (0708):           )
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       ([TEMP(attr:Size (acres):qk)(2571334859)(0)]
+2014-06-21 12:52:10.107 (0708):         (min
+2014-06-21 12:52:10.107 (0708):           (to_real [Size (acres)])
+2014-06-21 12:52:10.107 (0708):           )
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       ([avg:Latitude:ok]
+2014-06-21 12:52:10.107 (0708):         (average [Latitude])
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       ([avg:Longitude:ok]
+2014-06-21 12:52:10.107 (0708):         (average [Longitude])
+2014-06-21 12:52:10.107 (0708):         )
+2014-06-21 12:52:10.107 (0708):       )
+2014-06-21 12:52:10.107 (0708):     )
+2014-06-21 12:52:10.107 (0708):   ([none:Island name:nk] [none:Person:nk] [none:URL:nk] [TEMP(attr:Price paid ($m):qk)(1599855690)(0)] [TEMP(attr:Price paid ($m):qk)(3774237184)(0)] [TEMP(attr:Size (acres):qk)(1750871294)(0)] [TEMP(attr:Size (acres):qk)(2571334859)(0)] [avg:Latitude:ok] [avg:Longitude:ok])
+2014-06-21 12:52:10.107 (0708):   )
+2014-06-21 12:52:10.107 (0708): 
+2014-06-21 12:52:10.125 (0708): Session1: StatementPrepare: OK
+2014-06-21 12:52:10.125 (3112): Session1: StatementExecute: sess_guid=1 stmt_guid=7
+2014-06-21 12:52:10.132 (3112): Session1: StatementExecute: OK rowset_guid=8 n_columns=9
+2014-06-21 12:52:10.132 (3112): Elapsed time:0.024 sec
+2014-06-21 12:52:10.132 (3112): Compilation time:0.017 sec
+2014-06-21 12:52:10.132 (3112): Execution time:0.007 sec
+2014-06-21 12:52:10.134 (0708): Session1: StatementClose: sess_guid=1 stmt_guid=7
+2014-06-21 12:57:09.047 (3112): Session1: StatementPrepare: sess_guid=1 stmt_guid=9
+2014-06-21 12:57:09.047 (3112): (restrict
+2014-06-21 12:57:09.047 (3112):   (aggregate
+2014-06-21 12:57:09.047 (3112):     (table [Extract].[Extract])
+2014-06-21 12:57:09.047 (3112):     ()
+2014-06-21 12:57:09.047 (3112):     (
+2014-06-21 12:57:09.047 (3112):       ([avg:Latitude:ok]
+2014-06-21 12:57:09.047 (3112):         (average [Latitude])
+2014-06-21 12:57:09.047 (3112):         )
+2014-06-21 12:57:09.047 (3112):       ([avg:Longitude:ok]
+2014-06-21 12:57:09.047 (3112):         (average [Longitude])
+2014-06-21 12:57:09.047 (3112):         )
+2014-06-21 12:57:09.047 (3112):       )
+2014-06-21 12:57:09.047 (3112):     )
+2014-06-21 12:57:09.047 (3112):   ([avg:Latitude:ok] [avg:Longitude:ok])
+2014-06-21 12:57:09.047 (3112):   )
+2014-06-21 12:57:09.047 (3112): 
+2014-06-21 12:57:09.059 (3112): Session1: StatementPrepare: OK
+2014-06-21 12:57:09.061 (0708): Session1: StatementExecute: sess_guid=1 stmt_guid=9
+2014-06-21 12:57:09.062 (0708): Session1: StatementExecute: OK rowset_guid=10 n_columns=2
+2014-06-21 12:57:09.062 (0708): Elapsed time:0.013 sec
+2014-06-21 12:57:09.062 (0708): Compilation time:0.012 sec
+2014-06-21 12:57:09.062 (0708): Execution time:0.001 sec
+2014-06-21 12:57:09.064 (3112): Session1: StatementClose: sess_guid=1 stmt_guid=9
+2014-06-21 22:51:30.714 (3112): Session1: QueryExecute:
+2014-06-21 22:51:30.714 (3112): (database null)
+2014-06-21 22:51:30.714 (3112): Session1: QueryExecute: OK
+2014-06-21 22:51:30.714 (0996): tdeserver: close session, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}, sess_guid=1
+2014-06-21 22:51:30.714 (0708): Session2: QueryExecute:
+2014-06-21 22:51:30.714 (0708): (database null)
+2014-06-21 22:51:30.714 (0708): Session2: QueryExecute: OK
+2014-06-21 22:51:30.714 (0996): tdeserver: close session, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}, sess_guid=2
+2014-06-21 22:51:30.715 (0996): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 22:51:30.715 (0996):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 22:51:30.715 (0996): tdeserver: closing connection, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 22:51:30.715 (0996): endthread: recv, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 22:51:30.715 (3508): endthread: send, connection=tab.pipe://./pipe/{52FBCDAA-7CC6-4625-A55B-7C02495E99A7}
+2014-06-21 22:51:30.808 (3496): tdeserver: exit (0)

@@ -1,0 +1,1526 @@
+2014-06-21 09:36:27.415 (2916): -----------------------------------------------------------------------------
+2014-06-21 09:36:27.415 (2916): Initializing fault reporting
+2014-06-21 09:36:27.415 (2916): Fault reporting log pathname: C:\Users\John\Desktop\Dropbox\Logs\tdeserver64-error00000288.log
+2014-06-21 09:36:27.415 (2916): Initializing MiniDump
+2014-06-21 09:36:27.415 (2916): Loading 'DbgHelp.dll'
+2014-06-21 09:36:27.415 (2916): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-06-21 09:36:27.415 (2916):   Product Name: Microsoft® Windows® Operating System
+2014-06-21 09:36:27.415 (2916):   File Version: 6.1.7600.16385 (win7_rtm.090713-1255)
+2014-06-21 09:36:27.415 (2916):   Product Version: 6.1.7600.16385
+2014-06-21 09:36:27.415 (2916): Finding function 'MiniDumpWriteDump'
+2014-06-21 09:36:27.415 (2916): Success
+2014-06-21 09:36:27.415 (2916): Registering unhandled exception filter
+2014-06-21 09:36:27.415 (2916): -----------------------------------------------------------------------------
+2014-06-21 09:36:27.415 (2916): Machine Configuration
+2014-06-21 09:36:27.415 (2916):   Max Descriptors: -1
+2014-06-21 09:36:27.416 (2916): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 09:36:27.416 (2916): tdeserver: accepting new connection
+2014-06-21 09:36:27.416 (2916): tdeserver: new connection, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 09:36:27.416 (4924): beginthread: recv, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 09:36:27.416 (4144): beginthread: send, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 09:36:27.416 (4924): tdeserver: open session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=1
+2014-06-21 09:36:27.416 (1712): Session1: QueryExecute:
+2014-06-21 09:36:27.416 (1712): (database "C:\\Users\\John\\AppData\\Local\\Temp\\TableauTemp\\1ipgpzx1agavqm15rzkcs0qm9f5r\\Data\\OECD\\Energy.tde")
+2014-06-21 09:36:27.417 (1712): Session1: QueryExecute: OK
+2014-06-21 09:36:27.417 (4924): tdeserver: open session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=2
+2014-06-21 09:36:27.417 (4796): Session1: QueryExecute:
+2014-06-21 09:36:27.417 (4796): (show schemas)
+2014-06-21 09:36:27.418 (4796): Elapsed time:0.001 sec
+2014-06-21 09:36:27.418 (4796): Compilation time:0.000 sec
+2014-06-21 09:36:27.418 (4796): Execution time:0.001 sec
+2014-06-21 09:36:27.418 (4796): Session1: QueryExecute: OK rowset_guid=1 n_columns=1
+2014-06-21 09:36:27.419 (4796): Session1: QueryExecute:
+2014-06-21 09:36:27.419 (4796): (describe [Extract].[Extract])
+2014-06-21 09:36:27.425 (4796): Elapsed time:0.006 sec
+2014-06-21 09:36:27.425 (4796): Compilation time:0.006 sec
+2014-06-21 09:36:27.425 (4796): Execution time:0.000 sec
+2014-06-21 09:36:27.426 (4796): Session1: QueryExecute: OK rowset_guid=2 n_columns=31
+2014-06-21 09:36:32.410 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=3
+2014-06-21 09:36:32.410 (4796): (restrict
+2014-06-21 09:36:32.410 (4796):   (aggregate
+2014-06-21 09:36:32.410 (4796):     (select
+2014-06-21 09:36:32.410 (4796):       (project
+2014-06-21 09:36:32.410 (4796):         (restrict
+2014-06-21 09:36:32.410 (4796):           (project
+2014-06-21 09:36:32.410 (4796):             (project
+2014-06-21 09:36:32.410 (4796):               (table [Extract].[Extract])
+2014-06-21 09:36:32.410 (4796):               (
+2014-06-21 09:36:32.410 (4796):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.410 (4796):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.410 (4796):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.410 (4796):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.410 (4796):                 ([Country] [Country5])
+2014-06-21 09:36:32.410 (4796):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:32.410 (4796):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:32.410 (4796):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:32.410 (4796):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.410 (4796):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.410 (4796):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.410 (4796):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.410 (4796):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.410 (4796):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.410 (4796):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:32.410 (4796):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:32.410 (4796):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.410 (4796):                 ([Year] [Year8])
+2014-06-21 09:36:32.410 (4796):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.410 (4796):                 )
+2014-06-21 09:36:32.410 (4796):               )
+2014-06-21 09:36:32.410 (4796):             (
+2014-06-21 09:36:32.410 (4796):               ([none:Region:nk] [Region])
+2014-06-21 09:36:32.410 (4796):               ([Country] [Country])
+2014-06-21 09:36:32.410 (4796):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.410 (4796):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.410 (4796):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.410 (4796):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.410 (4796):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.410 (4796):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.410 (4796):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.410 (4796):               ([Population] [Population])
+2014-06-21 09:36:32.410 (4796):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.410 (4796):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.410 (4796):               ([Region] [Region])
+2014-06-21 09:36:32.410 (4796):               ([Renewable Energy Production]
+2014-06-21 09:36:32.410 (4796):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.410 (4796):                 )
+2014-06-21 09:36:32.410 (4796):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.410 (4796):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.410 (4796):               ([Reserves] [Reserves])
+2014-06-21 09:36:32.410 (4796):               ([Year]
+2014-06-21 09:36:32.410 (4796):                 (to_str [Year])
+2014-06-21 09:36:32.410 (4796):                 )
+2014-06-21 09:36:32.410 (4796):               )
+2014-06-21 09:36:32.410 (4796):             )
+2014-06-21 09:36:32.410 (4796):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         (
+2014-06-21 09:36:32.410 (4796):           ([none:Country:nk] [Country])
+2014-06-21 09:36:32.410 (4796):           ([none:Year:nk]
+2014-06-21 09:36:32.410 (4796):             (to_str [Year])
+2014-06-21 09:36:32.410 (4796):             )
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       (not
+2014-06-21 09:36:32.410 (4796):         (isnull
+2014-06-21 09:36:32.410 (4796):           (lookup
+2014-06-21 09:36:32.410 (4796):             (restrict
+2014-06-21 09:36:32.410 (4796):               (top
+2014-06-21 09:36:32.410 (4796):                 (aggregate
+2014-06-21 09:36:32.410 (4796):                   (project
+2014-06-21 09:36:32.410 (4796):                     (restrict
+2014-06-21 09:36:32.410 (4796):                       (project
+2014-06-21 09:36:32.410 (4796):                         (project
+2014-06-21 09:36:32.410 (4796):                           (table [Extract].[Extract])
+2014-06-21 09:36:32.410 (4796):                           (
+2014-06-21 09:36:32.410 (4796):                             (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.410 (4796):                             (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.410 (4796):                             (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.410 (4796):                             (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.410 (4796):                             ([Country] [Country5])
+2014-06-21 09:36:32.410 (4796):                             ([Population$_Country] [Country6])
+2014-06-21 09:36:32.410 (4796):                             ([Production$_Country] [Country7])
+2014-06-21 09:36:32.410 (4796):                             ([Region$_Country] [Country8])
+2014-06-21 09:36:32.410 (4796):                             ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.410 (4796):                             (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.410 (4796):                             (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.410 (4796):                             (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.410 (4796):                             (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.410 (4796):                             (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.410 (4796):                             ([Population$_Year] [Year5])
+2014-06-21 09:36:32.410 (4796):                             ([Production$_Year] [Year6])
+2014-06-21 09:36:32.410 (4796):                             ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.410 (4796):                             ([Year] [Year8])
+2014-06-21 09:36:32.410 (4796):                             (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.410 (4796):                             )
+2014-06-21 09:36:32.410 (4796):                           )
+2014-06-21 09:36:32.410 (4796):                         (
+2014-06-21 09:36:32.410 (4796):                           ([none:Region:nk] [Region])
+2014-06-21 09:36:32.410 (4796):                           ([Country] [Country])
+2014-06-21 09:36:32.410 (4796):                           ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.410 (4796):                           ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.410 (4796):                           ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.410 (4796):                           ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.410 (4796):                           ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.410 (4796):                           ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.410 (4796):                           ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.410 (4796):                           ([Population] [Population])
+2014-06-21 09:36:32.410 (4796):                           ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.410 (4796):                           ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.410 (4796):                           ([Region] [Region])
+2014-06-21 09:36:32.410 (4796):                           ([Renewable Energy Production]
+2014-06-21 09:36:32.410 (4796):                             (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.410 (4796):                             )
+2014-06-21 09:36:32.410 (4796):                           ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.410 (4796):                           ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.410 (4796):                           ([Reserves] [Reserves])
+2014-06-21 09:36:32.410 (4796):                           ([Year]
+2014-06-21 09:36:32.410 (4796):                             (to_str [Year])
+2014-06-21 09:36:32.410 (4796):                             )
+2014-06-21 09:36:32.410 (4796):                           )
+2014-06-21 09:36:32.410 (4796):                         )
+2014-06-21 09:36:32.410 (4796):                       ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.410 (4796):                       )
+2014-06-21 09:36:32.410 (4796):                     (
+2014-06-21 09:36:32.410 (4796):                       ([none:Country:nk] [Country])
+2014-06-21 09:36:32.410 (4796):                       )
+2014-06-21 09:36:32.410 (4796):                     )
+2014-06-21 09:36:32.410 (4796):                   (
+2014-06-21 09:36:32.410 (4796):                     ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.410 (4796):                     )
+2014-06-21 09:36:32.410 (4796):                   (
+2014-06-21 09:36:32.410 (4796):                     ([__measure__0]
+2014-06-21 09:36:32.410 (4796):                       (abs
+2014-06-21 09:36:32.410 (4796):                         (-
+2014-06-21 09:36:32.410 (4796):                           (average
+2014-06-21 09:36:32.410 (4796):                             (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):                             )
+2014-06-21 09:36:32.410 (4796):                           (average
+2014-06-21 09:36:32.410 (4796):                             (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):                             )
+2014-06-21 09:36:32.410 (4796):                           )
+2014-06-21 09:36:32.410 (4796):                         )
+2014-06-21 09:36:32.410 (4796):                       )
+2014-06-21 09:36:32.410 (4796):                     )
+2014-06-21 09:36:32.410 (4796):                   )
+2014-06-21 09:36:32.410 (4796):                 (
+2014-06-21 09:36:32.410 (4796):                   ([__measure__0] desc)
+2014-06-21 09:36:32.410 (4796):                   )
+2014-06-21 09:36:32.410 (4796):                 10)
+2014-06-21 09:36:32.410 (4796):               ([none:Country:nk])
+2014-06-21 09:36:32.410 (4796):               )
+2014-06-21 09:36:32.410 (4796):             ([none:Country:nk])
+2014-06-21 09:36:32.410 (4796):             ([none:Country:nk])
+2014-06-21 09:36:32.410 (4796):             1 null)
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       )
+2014-06-21 09:36:32.410 (4796):     (
+2014-06-21 09:36:32.410 (4796):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.410 (4796):       )
+2014-06-21 09:36:32.410 (4796):     (
+2014-06-21 09:36:32.410 (4796):       ([TEMP(Imports, Exports, and Balance)(1532628511)(0)]
+2014-06-21 09:36:32.410 (4796):         (sum
+2014-06-21 09:36:32.410 (4796):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       ([TEMP(Imports, Exports, and Balance)(1778149691)(0)]
+2014-06-21 09:36:32.410 (4796):         (count
+2014-06-21 09:36:32.410 (4796):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       ([TEMP(Imports, Exports, and Balance)(4073292424)(0)]
+2014-06-21 09:36:32.410 (4796):         (count
+2014-06-21 09:36:32.410 (4796):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       ([TEMP(Imports, Exports, and Balance)(868169711)(0)]
+2014-06-21 09:36:32.410 (4796):         (sum
+2014-06-21 09:36:32.410 (4796):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.410 (4796):           )
+2014-06-21 09:36:32.410 (4796):         )
+2014-06-21 09:36:32.410 (4796):       )
+2014-06-21 09:36:32.410 (4796):     )
+2014-06-21 09:36:32.410 (4796):   ([none:Country:nk] [TEMP(Imports, Exports, and Balance)(1532628511)(0)] [TEMP(Imports, Exports, and Balance)(1778149691)(0)] [TEMP(Imports, Exports, and Balance)(4073292424)(0)] [TEMP(Imports, Exports, and Balance)(868169711)(0)])
+2014-06-21 09:36:32.410 (4796):   )
+2014-06-21 09:36:32.410 (4796): 
+2014-06-21 09:36:32.457 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:32.457 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=3
+2014-06-21 09:36:32.518 (1712): Session1: StatementExecute: OK rowset_guid=4 n_columns=5
+2014-06-21 09:36:32.518 (1712): Elapsed time:0.106 sec
+2014-06-21 09:36:32.518 (1712): Compilation time:0.046 sec
+2014-06-21 09:36:32.518 (1712): Execution time:0.060 sec
+2014-06-21 09:36:32.520 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=3
+2014-06-21 09:36:32.546 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=5
+2014-06-21 09:36:32.546 (1712): (restrict
+2014-06-21 09:36:32.546 (1712):   (aggregate
+2014-06-21 09:36:32.546 (1712):     (select
+2014-06-21 09:36:32.546 (1712):       (project
+2014-06-21 09:36:32.546 (1712):         (restrict
+2014-06-21 09:36:32.546 (1712):           (project
+2014-06-21 09:36:32.546 (1712):             (project
+2014-06-21 09:36:32.546 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:32.546 (1712):               (
+2014-06-21 09:36:32.546 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.546 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.546 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.546 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.546 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:32.546 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:32.546 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:32.546 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:32.546 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.546 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.546 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.546 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.546 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.546 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.546 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:32.546 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:32.546 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.546 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:32.546 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.546 (1712):                 )
+2014-06-21 09:36:32.546 (1712):               )
+2014-06-21 09:36:32.546 (1712):             (
+2014-06-21 09:36:32.546 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:32.546 (1712):               ([Country] [Country])
+2014-06-21 09:36:32.546 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.546 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.546 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.546 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.546 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.546 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.546 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.546 (1712):               ([Population] [Population])
+2014-06-21 09:36:32.546 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.546 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.546 (1712):               ([Region] [Region])
+2014-06-21 09:36:32.546 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:32.546 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.546 (1712):                 )
+2014-06-21 09:36:32.546 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.546 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.546 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:32.546 (1712):               ([Year]
+2014-06-21 09:36:32.546 (1712):                 (to_str [Year])
+2014-06-21 09:36:32.546 (1712):                 )
+2014-06-21 09:36:32.546 (1712):               )
+2014-06-21 09:36:32.546 (1712):             )
+2014-06-21 09:36:32.546 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.546 (1712):           )
+2014-06-21 09:36:32.546 (1712):         (
+2014-06-21 09:36:32.546 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:32.546 (1712):           ([none:Year:nk]
+2014-06-21 09:36:32.546 (1712):             (to_str [Year])
+2014-06-21 09:36:32.546 (1712):             )
+2014-06-21 09:36:32.546 (1712):           )
+2014-06-21 09:36:32.546 (1712):         )
+2014-06-21 09:36:32.546 (1712):       (not
+2014-06-21 09:36:32.546 (1712):         (isnull
+2014-06-21 09:36:32.546 (1712):           (lookup
+2014-06-21 09:36:32.546 (1712):             (restrict
+2014-06-21 09:36:32.546 (1712):               (top
+2014-06-21 09:36:32.546 (1712):                 (aggregate
+2014-06-21 09:36:32.546 (1712):                   (project
+2014-06-21 09:36:32.546 (1712):                     (restrict
+2014-06-21 09:36:32.546 (1712):                       (project
+2014-06-21 09:36:32.546 (1712):                         (project
+2014-06-21 09:36:32.546 (1712):                           (table [Extract].[Extract])
+2014-06-21 09:36:32.546 (1712):                           (
+2014-06-21 09:36:32.546 (1712):                             (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.546 (1712):                             (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.546 (1712):                             (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.546 (1712):                             (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.546 (1712):                             ([Country] [Country5])
+2014-06-21 09:36:32.546 (1712):                             ([Population$_Country] [Country6])
+2014-06-21 09:36:32.546 (1712):                             ([Production$_Country] [Country7])
+2014-06-21 09:36:32.546 (1712):                             ([Region$_Country] [Country8])
+2014-06-21 09:36:32.546 (1712):                             ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.546 (1712):                             (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.546 (1712):                             (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.546 (1712):                             (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.546 (1712):                             (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.546 (1712):                             (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.546 (1712):                             ([Population$_Year] [Year5])
+2014-06-21 09:36:32.546 (1712):                             ([Production$_Year] [Year6])
+2014-06-21 09:36:32.546 (1712):                             ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.546 (1712):                             ([Year] [Year8])
+2014-06-21 09:36:32.546 (1712):                             (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.546 (1712):                             )
+2014-06-21 09:36:32.546 (1712):                           )
+2014-06-21 09:36:32.546 (1712):                         (
+2014-06-21 09:36:32.546 (1712):                           ([none:Region:nk] [Region])
+2014-06-21 09:36:32.546 (1712):                           ([Country] [Country])
+2014-06-21 09:36:32.546 (1712):                           ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.546 (1712):                           ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.546 (1712):                           ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.546 (1712):                           ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.546 (1712):                           ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.546 (1712):                           ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.546 (1712):                           ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.546 (1712):                           ([Population] [Population])
+2014-06-21 09:36:32.546 (1712):                           ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.546 (1712):                           ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.546 (1712):                           ([Region] [Region])
+2014-06-21 09:36:32.546 (1712):                           ([Renewable Energy Production]
+2014-06-21 09:36:32.546 (1712):                             (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.546 (1712):                             )
+2014-06-21 09:36:32.546 (1712):                           ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.546 (1712):                           ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.546 (1712):                           ([Reserves] [Reserves])
+2014-06-21 09:36:32.546 (1712):                           ([Year]
+2014-06-21 09:36:32.546 (1712):                             (to_str [Year])
+2014-06-21 09:36:32.546 (1712):                             )
+2014-06-21 09:36:32.546 (1712):                           )
+2014-06-21 09:36:32.546 (1712):                         )
+2014-06-21 09:36:32.546 (1712):                       ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.546 (1712):                       )
+2014-06-21 09:36:32.546 (1712):                     (
+2014-06-21 09:36:32.546 (1712):                       ([none:Country:nk] [Country])
+2014-06-21 09:36:32.546 (1712):                       )
+2014-06-21 09:36:32.546 (1712):                     )
+2014-06-21 09:36:32.546 (1712):                   (
+2014-06-21 09:36:32.546 (1712):                     ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.546 (1712):                     )
+2014-06-21 09:36:32.546 (1712):                   (
+2014-06-21 09:36:32.546 (1712):                     ([__measure__0]
+2014-06-21 09:36:32.546 (1712):                       (abs
+2014-06-21 09:36:32.546 (1712):                         (-
+2014-06-21 09:36:32.546 (1712):                           (average
+2014-06-21 09:36:32.546 (1712):                             (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.546 (1712):                             )
+2014-06-21 09:36:32.546 (1712):                           (average
+2014-06-21 09:36:32.546 (1712):                             (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.546 (1712):                             )
+2014-06-21 09:36:32.546 (1712):                           )
+2014-06-21 09:36:32.546 (1712):                         )
+2014-06-21 09:36:32.546 (1712):                       )
+2014-06-21 09:36:32.546 (1712):                     )
+2014-06-21 09:36:32.546 (1712):                   )
+2014-06-21 09:36:32.546 (1712):                 (
+2014-06-21 09:36:32.546 (1712):                   ([__measure__0] desc)
+2014-06-21 09:36:32.546 (1712):                   )
+2014-06-21 09:36:32.546 (1712):                 10)
+2014-06-21 09:36:32.546 (1712):               ([none:Country:nk])
+2014-06-21 09:36:32.546 (1712):               )
+2014-06-21 09:36:32.546 (1712):             ([none:Country:nk])
+2014-06-21 09:36:32.546 (1712):             ([none:Country:nk])
+2014-06-21 09:36:32.546 (1712):             1 null)
+2014-06-21 09:36:32.546 (1712):           )
+2014-06-21 09:36:32.546 (1712):         )
+2014-06-21 09:36:32.546 (1712):       )
+2014-06-21 09:36:32.546 (1712):     (
+2014-06-21 09:36:32.546 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.546 (1712):       )
+2014-06-21 09:36:32.546 (1712):     (
+2014-06-21 09:36:32.546 (1712):       ([usr:Imports, Exports, and Balance:ok]
+2014-06-21 09:36:32.546 (1712):         (abs
+2014-06-21 09:36:32.546 (1712):           (-
+2014-06-21 09:36:32.546 (1712):             (average
+2014-06-21 09:36:32.546 (1712):               (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.546 (1712):               )
+2014-06-21 09:36:32.546 (1712):             (average
+2014-06-21 09:36:32.546 (1712):               (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.546 (1712):               )
+2014-06-21 09:36:32.546 (1712):             )
+2014-06-21 09:36:32.546 (1712):           )
+2014-06-21 09:36:32.546 (1712):         )
+2014-06-21 09:36:32.546 (1712):       )
+2014-06-21 09:36:32.546 (1712):     )
+2014-06-21 09:36:32.546 (1712):   ([none:Country:nk] [usr:Imports, Exports, and Balance:ok])
+2014-06-21 09:36:32.546 (1712):   )
+2014-06-21 09:36:32.546 (1712): 
+2014-06-21 09:36:32.572 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:32.572 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=5
+2014-06-21 09:36:32.581 (4796): Session1: StatementExecute: OK rowset_guid=6 n_columns=2
+2014-06-21 09:36:32.581 (4796): Elapsed time:0.034 sec
+2014-06-21 09:36:32.581 (4796): Compilation time:0.025 sec
+2014-06-21 09:36:32.581 (4796): Execution time:0.009 sec
+2014-06-21 09:36:32.582 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=5
+2014-06-21 09:36:32.615 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=7
+2014-06-21 09:36:32.615 (4796): (restrict
+2014-06-21 09:36:32.615 (4796):   (aggregate
+2014-06-21 09:36:32.615 (4796):     (select
+2014-06-21 09:36:32.615 (4796):       (project
+2014-06-21 09:36:32.615 (4796):         (restrict
+2014-06-21 09:36:32.615 (4796):           (project
+2014-06-21 09:36:32.615 (4796):             (project
+2014-06-21 09:36:32.615 (4796):               (table [Extract].[Extract])
+2014-06-21 09:36:32.615 (4796):               (
+2014-06-21 09:36:32.615 (4796):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.615 (4796):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.615 (4796):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.615 (4796):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.615 (4796):                 ([Country] [Country5])
+2014-06-21 09:36:32.615 (4796):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:32.615 (4796):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:32.615 (4796):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:32.615 (4796):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.615 (4796):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.615 (4796):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.615 (4796):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.615 (4796):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.615 (4796):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.615 (4796):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:32.615 (4796):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:32.615 (4796):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.615 (4796):                 ([Year] [Year8])
+2014-06-21 09:36:32.615 (4796):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.615 (4796):                 )
+2014-06-21 09:36:32.615 (4796):               )
+2014-06-21 09:36:32.615 (4796):             (
+2014-06-21 09:36:32.615 (4796):               ([none:Region:nk] [Region])
+2014-06-21 09:36:32.615 (4796):               ([Country] [Country])
+2014-06-21 09:36:32.615 (4796):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.615 (4796):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.615 (4796):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.615 (4796):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.615 (4796):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.615 (4796):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.615 (4796):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.615 (4796):               ([Population] [Population])
+2014-06-21 09:36:32.615 (4796):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.615 (4796):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.615 (4796):               ([Region] [Region])
+2014-06-21 09:36:32.615 (4796):               ([Renewable Energy Production]
+2014-06-21 09:36:32.615 (4796):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.615 (4796):                 )
+2014-06-21 09:36:32.615 (4796):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.615 (4796):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.615 (4796):               ([Reserves] [Reserves])
+2014-06-21 09:36:32.615 (4796):               ([Year]
+2014-06-21 09:36:32.615 (4796):                 (to_str [Year])
+2014-06-21 09:36:32.615 (4796):                 )
+2014-06-21 09:36:32.615 (4796):               )
+2014-06-21 09:36:32.615 (4796):             )
+2014-06-21 09:36:32.615 (4796):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         (
+2014-06-21 09:36:32.615 (4796):           ([none:Country:nk] [Country])
+2014-06-21 09:36:32.615 (4796):           ([none:Year:nk]
+2014-06-21 09:36:32.615 (4796):             (to_str [Year])
+2014-06-21 09:36:32.615 (4796):             )
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       (not
+2014-06-21 09:36:32.615 (4796):         (isnull
+2014-06-21 09:36:32.615 (4796):           (lookup
+2014-06-21 09:36:32.615 (4796):             (restrict
+2014-06-21 09:36:32.615 (4796):               (top
+2014-06-21 09:36:32.615 (4796):                 (aggregate
+2014-06-21 09:36:32.615 (4796):                   (project
+2014-06-21 09:36:32.615 (4796):                     (restrict
+2014-06-21 09:36:32.615 (4796):                       (project
+2014-06-21 09:36:32.615 (4796):                         (project
+2014-06-21 09:36:32.615 (4796):                           (table [Extract].[Extract])
+2014-06-21 09:36:32.615 (4796):                           (
+2014-06-21 09:36:32.615 (4796):                             (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.615 (4796):                             (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.615 (4796):                             (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.615 (4796):                             (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.615 (4796):                             ([Country] [Country5])
+2014-06-21 09:36:32.615 (4796):                             ([Population$_Country] [Country6])
+2014-06-21 09:36:32.615 (4796):                             ([Production$_Country] [Country7])
+2014-06-21 09:36:32.615 (4796):                             ([Region$_Country] [Country8])
+2014-06-21 09:36:32.615 (4796):                             ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.615 (4796):                             (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.615 (4796):                             (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.615 (4796):                             (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.615 (4796):                             (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.615 (4796):                             (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.615 (4796):                             ([Population$_Year] [Year5])
+2014-06-21 09:36:32.615 (4796):                             ([Production$_Year] [Year6])
+2014-06-21 09:36:32.615 (4796):                             ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.615 (4796):                             ([Year] [Year8])
+2014-06-21 09:36:32.615 (4796):                             (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.615 (4796):                             )
+2014-06-21 09:36:32.615 (4796):                           )
+2014-06-21 09:36:32.615 (4796):                         (
+2014-06-21 09:36:32.615 (4796):                           ([none:Region:nk] [Region])
+2014-06-21 09:36:32.615 (4796):                           ([Country] [Country])
+2014-06-21 09:36:32.615 (4796):                           ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.615 (4796):                           ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.615 (4796):                           ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.615 (4796):                           ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.615 (4796):                           ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.615 (4796):                           ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.615 (4796):                           ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.615 (4796):                           ([Population] [Population])
+2014-06-21 09:36:32.615 (4796):                           ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.615 (4796):                           ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.615 (4796):                           ([Region] [Region])
+2014-06-21 09:36:32.615 (4796):                           ([Renewable Energy Production]
+2014-06-21 09:36:32.615 (4796):                             (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.615 (4796):                             )
+2014-06-21 09:36:32.615 (4796):                           ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.615 (4796):                           ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.615 (4796):                           ([Reserves] [Reserves])
+2014-06-21 09:36:32.615 (4796):                           ([Year]
+2014-06-21 09:36:32.615 (4796):                             (to_str [Year])
+2014-06-21 09:36:32.615 (4796):                             )
+2014-06-21 09:36:32.615 (4796):                           )
+2014-06-21 09:36:32.615 (4796):                         )
+2014-06-21 09:36:32.615 (4796):                       ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.615 (4796):                       )
+2014-06-21 09:36:32.615 (4796):                     (
+2014-06-21 09:36:32.615 (4796):                       ([none:Country:nk] [Country])
+2014-06-21 09:36:32.615 (4796):                       )
+2014-06-21 09:36:32.615 (4796):                     )
+2014-06-21 09:36:32.615 (4796):                   (
+2014-06-21 09:36:32.615 (4796):                     ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.615 (4796):                     )
+2014-06-21 09:36:32.615 (4796):                   (
+2014-06-21 09:36:32.615 (4796):                     ([__measure__0]
+2014-06-21 09:36:32.615 (4796):                       (abs
+2014-06-21 09:36:32.615 (4796):                         (-
+2014-06-21 09:36:32.615 (4796):                           (average
+2014-06-21 09:36:32.615 (4796):                             (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):                             )
+2014-06-21 09:36:32.615 (4796):                           (average
+2014-06-21 09:36:32.615 (4796):                             (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):                             )
+2014-06-21 09:36:32.615 (4796):                           )
+2014-06-21 09:36:32.615 (4796):                         )
+2014-06-21 09:36:32.615 (4796):                       )
+2014-06-21 09:36:32.615 (4796):                     )
+2014-06-21 09:36:32.615 (4796):                   )
+2014-06-21 09:36:32.615 (4796):                 (
+2014-06-21 09:36:32.615 (4796):                   ([__measure__0] desc)
+2014-06-21 09:36:32.615 (4796):                   )
+2014-06-21 09:36:32.615 (4796):                 10)
+2014-06-21 09:36:32.615 (4796):               ([none:Country:nk])
+2014-06-21 09:36:32.615 (4796):               )
+2014-06-21 09:36:32.615 (4796):             ([none:Country:nk])
+2014-06-21 09:36:32.615 (4796):             ([none:Country:nk])
+2014-06-21 09:36:32.615 (4796):             1 null)
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       )
+2014-06-21 09:36:32.615 (4796):     (
+2014-06-21 09:36:32.615 (4796):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.615 (4796):       ([none:Year:nk] [none:Year:nk])
+2014-06-21 09:36:32.615 (4796):       )
+2014-06-21 09:36:32.615 (4796):     (
+2014-06-21 09:36:32.615 (4796):       ([TEMP(Imports, Exports, and Balance)(1532628511)(0)]
+2014-06-21 09:36:32.615 (4796):         (sum
+2014-06-21 09:36:32.615 (4796):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       ([TEMP(Imports, Exports, and Balance)(1778149691)(0)]
+2014-06-21 09:36:32.615 (4796):         (count
+2014-06-21 09:36:32.615 (4796):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       ([TEMP(Imports, Exports, and Balance)(4073292424)(0)]
+2014-06-21 09:36:32.615 (4796):         (count
+2014-06-21 09:36:32.615 (4796):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       ([TEMP(Imports, Exports, and Balance)(868169711)(0)]
+2014-06-21 09:36:32.615 (4796):         (sum
+2014-06-21 09:36:32.615 (4796):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.615 (4796):           )
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       ([sum:Reserves (thousand barrels):ok]
+2014-06-21 09:36:32.615 (4796):         (sum [Reserves (thousand barrels)])
+2014-06-21 09:36:32.615 (4796):         )
+2014-06-21 09:36:32.615 (4796):       )
+2014-06-21 09:36:32.615 (4796):     )
+2014-06-21 09:36:32.615 (4796):   ([none:Country:nk] [none:Year:nk] [TEMP(Imports, Exports, and Balance)(1532628511)(0)] [TEMP(Imports, Exports, and Balance)(1778149691)(0)] [TEMP(Imports, Exports, and Balance)(4073292424)(0)] [TEMP(Imports, Exports, and Balance)(868169711)(0)] [sum:Reserves (thousand barrels):ok])
+2014-06-21 09:36:32.615 (4796):   )
+2014-06-21 09:36:32.615 (4796): 
+2014-06-21 09:36:32.647 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:32.647 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=7
+2014-06-21 09:36:32.715 (1712): Session1: StatementExecute: OK rowset_guid=8 n_columns=7
+2014-06-21 09:36:32.715 (1712): Elapsed time:0.099 sec
+2014-06-21 09:36:32.715 (1712): Compilation time:0.031 sec
+2014-06-21 09:36:32.715 (1712): Execution time:0.068 sec
+2014-06-21 09:36:32.717 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=7
+2014-06-21 09:36:32.819 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=9
+2014-06-21 09:36:32.819 (1712): (restrict
+2014-06-21 09:36:32.819 (1712):   (aggregate
+2014-06-21 09:36:32.819 (1712):     (select
+2014-06-21 09:36:32.819 (1712):       (project
+2014-06-21 09:36:32.819 (1712):         (restrict
+2014-06-21 09:36:32.819 (1712):           (project
+2014-06-21 09:36:32.819 (1712):             (project
+2014-06-21 09:36:32.819 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:32.819 (1712):               (
+2014-06-21 09:36:32.819 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:32.819 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:32.819 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:32.819 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:32.819 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:32.819 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:32.819 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:32.819 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:32.819 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:32.819 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:32.819 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:32.819 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:32.819 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:32.819 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:32.819 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:32.819 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:32.819 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:32.819 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:32.819 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               )
+2014-06-21 09:36:32.819 (1712):             (
+2014-06-21 09:36:32.819 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:32.819 (1712):               ([Country] [Country])
+2014-06-21 09:36:32.819 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:32.819 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:32.819 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:32.819 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:32.819 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:32.819 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:32.819 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:32.819 (1712):               ([Population] [Population])
+2014-06-21 09:36:32.819 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:32.819 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:32.819 (1712):               ([Region] [Region])
+2014-06-21 09:36:32.819 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:32.819 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:32.819 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:32.819 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:32.819 (1712):               ([Year]
+2014-06-21 09:36:32.819 (1712):                 (to_str [Year])
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               )
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         (
+2014-06-21 09:36:32.819 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:32.819 (1712):           ([none:Year Shown:nk]
+2014-06-21 09:36:32.819 (1712):             (case
+2014-06-21 09:36:32.819 (1712):               (= "2009"
+2014-06-21 09:36:32.819 (1712):                 (to_str [Year])
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               (to_str [Year])
+2014-06-21 09:36:32.819 (1712):               null)
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           ([none:Year:nk]
+2014-06-21 09:36:32.819 (1712):             (to_str [Year])
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       (and
+2014-06-21 09:36:32.819 (1712):         (not
+2014-06-21 09:36:32.819 (1712):           (or
+2014-06-21 09:36:32.819 (1712):             (or
+2014-06-21 09:36:32.819 (1712):               (= [none:Country:nk] "American Samoa")
+2014-06-21 09:36:32.819 (1712):               (or
+2014-06-21 09:36:32.819 (1712):                 (= [none:Country:nk] "Cook Islands")
+2014-06-21 09:36:32.819 (1712):                 (= [none:Country:nk] "French Polynesia")
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               )
+2014-06-21 09:36:32.819 (1712):             (or
+2014-06-21 09:36:32.819 (1712):               (= [none:Country:nk] "Kiribati")
+2014-06-21 09:36:32.819 (1712):               (or
+2014-06-21 09:36:32.819 (1712):                 (= [none:Country:nk] "Samoa")
+2014-06-21 09:36:32.819 (1712):                 (= [none:Country:nk] "Tonga")
+2014-06-21 09:36:32.819 (1712):                 )
+2014-06-21 09:36:32.819 (1712):               )
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         (not
+2014-06-21 09:36:32.819 (1712):           (isnull [none:Year Shown:nk])
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       )
+2014-06-21 09:36:32.819 (1712):     (
+2014-06-21 09:36:32.819 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:32.819 (1712):       ([none:Year:nk] [none:Year:nk])
+2014-06-21 09:36:32.819 (1712):       )
+2014-06-21 09:36:32.819 (1712):     (
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Exported Refined Bar (copy))(2091196854)(0)]
+2014-06-21 09:36:32.819 (1712):         (max
+2014-06-21 09:36:32.819 (1712):           (+
+2014-06-21 09:36:32.819 (1712):             (iif
+2014-06-21 09:36:32.819 (1712):               (isnull [Imports (Refined)])
+2014-06-21 09:36:32.819 (1712):               0 [Imports (Refined)])
+2014-06-21 09:36:32.819 (1712):             (iif
+2014-06-21 09:36:32.819 (1712):               (isnull [Imports (Crude)])
+2014-06-21 09:36:32.819 (1712):               0 [Imports (Crude)])
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Exported Refined Bar (copy))(2777619170)(0)]
+2014-06-21 09:36:32.819 (1712):         (max
+2014-06-21 09:36:32.819 (1712):           (+
+2014-06-21 09:36:32.819 (1712):             (iif
+2014-06-21 09:36:32.819 (1712):               (isnull [Exports (Refined)])
+2014-06-21 09:36:32.819 (1712):               0 [Exports (Refined)])
+2014-06-21 09:36:32.819 (1712):             (iif
+2014-06-21 09:36:32.819 (1712):               (isnull [Exports (Crude)])
+2014-06-21 09:36:32.819 (1712):               0 [Exports (Crude)])
+2014-06-21 09:36:32.819 (1712):             )
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Exported Refined Bar (copy))(3284538067)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum [Exports (Crude)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Exported Refined Bar (copy))(782670245)(0)]
+2014-06-21 09:36:32.819 (1712):         (max
+2014-06-21 09:36:32.819 (1712):           (case
+2014-06-21 09:36:32.819 (1712):             (= "2009"
+2014-06-21 09:36:32.819 (1712):               (to_str [Year])
+2014-06-21 09:36:32.819 (1712):               )
+2014-06-21 09:36:32.819 (1712):             (to_str [Year])
+2014-06-21 09:36:32.819 (1712):             null)
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imported Crude Bar (copy))(2953582636)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum [Imports (Refined)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imported Crude Bar)(2606857326)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum [Imports (Crude)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imported Refined Bar (copy))(2008492153)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum [Exports (Refined)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imports, Exports, and Balance)(1532628511)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum
+2014-06-21 09:36:32.819 (1712):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imports, Exports, and Balance)(1778149691)(0)]
+2014-06-21 09:36:32.819 (1712):         (count
+2014-06-21 09:36:32.819 (1712):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imports, Exports, and Balance)(4073292424)(0)]
+2014-06-21 09:36:32.819 (1712):         (count
+2014-06-21 09:36:32.819 (1712):           (/ [Exports (Crude)] 1)
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([TEMP(Imports, Exports, and Balance)(868169711)(0)]
+2014-06-21 09:36:32.819 (1712):         (sum
+2014-06-21 09:36:32.819 (1712):           (/ [Imports (Crude)] 1)
+2014-06-21 09:36:32.819 (1712):           )
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([sum:Exports (Crude):ok]
+2014-06-21 09:36:32.819 (1712):         (sum [Exports (Crude)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([sum:Exports (Refined):ok]
+2014-06-21 09:36:32.819 (1712):         (sum [Exports (Refined)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([sum:Imports (Crude):ok]
+2014-06-21 09:36:32.819 (1712):         (sum [Imports (Crude)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       ([sum:Imports (Refined):ok]
+2014-06-21 09:36:32.819 (1712):         (sum [Imports (Refined)])
+2014-06-21 09:36:32.819 (1712):         )
+2014-06-21 09:36:32.819 (1712):       )
+2014-06-21 09:36:32.819 (1712):     )
+2014-06-21 09:36:32.819 (1712):   ([none:Country:nk] [none:Year:nk] [TEMP(Exported Refined Bar (copy))(2091196854)(0)] [TEMP(Exported Refined Bar (copy))(2777619170)(0)] [TEMP(Exported Refined Bar (copy))(3284538067)(0)] [TEMP(Exported Refined Bar (copy))(782670245)(0)] [TEMP(Imported Crude Bar (copy))(2953582636)(0)] [TEMP(Imported Crude Bar)(2606857326)(0)] [TEMP(Imported Refined Bar (copy))(2008492153)(0)] [TEMP(Imports, Exports, and Balance)(1532628511)(0)] [TEMP(Imports, Exports, and Balance)(1778149691)(0)] [TEMP(Imports, Exports, and Balance)(4073292424)(0)] [TEMP(Imports, Exports, and Balance)(868169711)(0)] [sum:Exports (Crude):ok] [sum:Exports (Refined):ok] [sum:Imports (Crude):ok] [sum:Imports (Refined):ok])
+2014-06-21 09:36:32.819 (1712):   )
+2014-06-21 09:36:32.819 (1712): 
+2014-06-21 09:36:32.848 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:32.849 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=9
+2014-06-21 09:36:32.921 (4796): Session1: StatementExecute: OK rowset_guid=10 n_columns=17
+2014-06-21 09:36:32.921 (4796): Elapsed time:0.100 sec
+2014-06-21 09:36:32.921 (4796): Compilation time:0.029 sec
+2014-06-21 09:36:32.921 (4796): Execution time:0.072 sec
+2014-06-21 09:36:32.924 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=9
+2014-06-21 09:36:33.051 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=11
+2014-06-21 09:36:33.051 (4796): (restrict
+2014-06-21 09:36:33.051 (4796):   (order
+2014-06-21 09:36:33.051 (4796):     (aggregate
+2014-06-21 09:36:33.051 (4796):       (project
+2014-06-21 09:36:33.051 (4796):         (project
+2014-06-21 09:36:33.051 (4796):           (table [Extract].[Extract])
+2014-06-21 09:36:33.051 (4796):           (
+2014-06-21 09:36:33.051 (4796):             (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:33.051 (4796):             (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:33.051 (4796):             (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:33.051 (4796):             (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:33.051 (4796):             ([Country] [Country5])
+2014-06-21 09:36:33.051 (4796):             ([Population$_Country] [Country6])
+2014-06-21 09:36:33.051 (4796):             ([Production$_Country] [Country7])
+2014-06-21 09:36:33.051 (4796):             ([Region$_Country] [Country8])
+2014-06-21 09:36:33.051 (4796):             ([Reserves$_Country] [Country9])
+2014-06-21 09:36:33.051 (4796):             (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:33.051 (4796):             (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:33.051 (4796):             (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:33.051 (4796):             (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:33.051 (4796):             (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:33.051 (4796):             ([Population$_Year] [Year5])
+2014-06-21 09:36:33.051 (4796):             ([Production$_Year] [Year6])
+2014-06-21 09:36:33.051 (4796):             ([Reserves$_Year] [Year7])
+2014-06-21 09:36:33.051 (4796):             ([Year] [Year8])
+2014-06-21 09:36:33.051 (4796):             (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:33.051 (4796):             )
+2014-06-21 09:36:33.051 (4796):           )
+2014-06-21 09:36:33.051 (4796):         (
+2014-06-21 09:36:33.051 (4796):           ([none:Region:nk] [Region])
+2014-06-21 09:36:33.051 (4796):           )
+2014-06-21 09:36:33.051 (4796):         )
+2014-06-21 09:36:33.051 (4796):       (
+2014-06-21 09:36:33.051 (4796):         ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:33.051 (4796):         )
+2014-06-21 09:36:33.051 (4796):       ()
+2014-06-21 09:36:33.051 (4796):       )
+2014-06-21 09:36:33.051 (4796):     (
+2014-06-21 09:36:33.051 (4796):       ([none:Region:nk] asc)
+2014-06-21 09:36:33.051 (4796):       )
+2014-06-21 09:36:33.051 (4796):     )
+2014-06-21 09:36:33.051 (4796):   ([none:Region:nk])
+2014-06-21 09:36:33.051 (4796):   )
+2014-06-21 09:36:33.051 (4796): 
+2014-06-21 09:36:33.056 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:33.056 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=11
+2014-06-21 09:36:33.056 (1712): Session1: StatementExecute: OK rowset_guid=12 n_columns=1
+2014-06-21 09:36:33.057 (1712): Elapsed time:0.005 sec
+2014-06-21 09:36:33.057 (1712): Compilation time:0.005 sec
+2014-06-21 09:36:33.057 (1712): Execution time:0.000 sec
+2014-06-21 09:36:33.057 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=11
+2014-06-21 09:36:47.708 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=13
+2014-06-21 09:36:47.708 (1712): (restrict
+2014-06-21 09:36:47.708 (1712):   (aggregate
+2014-06-21 09:36:47.708 (1712):     (select
+2014-06-21 09:36:47.708 (1712):       (project
+2014-06-21 09:36:47.708 (1712):         (restrict
+2014-06-21 09:36:47.708 (1712):           (project
+2014-06-21 09:36:47.708 (1712):             (project
+2014-06-21 09:36:47.708 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:47.708 (1712):               (
+2014-06-21 09:36:47.708 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:47.708 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:47.708 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:47.708 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:47.708 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:47.708 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:47.708 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:47.708 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:47.708 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:47.708 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:47.708 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:47.708 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:47.708 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:47.708 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:47.708 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:47.708 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:47.708 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:47.708 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:47.708 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:47.708 (1712):                 )
+2014-06-21 09:36:47.708 (1712):               )
+2014-06-21 09:36:47.708 (1712):             (
+2014-06-21 09:36:47.708 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:47.708 (1712):               ([Country] [Country])
+2014-06-21 09:36:47.708 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:47.708 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:47.708 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:47.708 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:47.708 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:47.708 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:47.708 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:47.708 (1712):               ([Population] [Population])
+2014-06-21 09:36:47.708 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:47.708 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:47.708 (1712):               ([Region] [Region])
+2014-06-21 09:36:47.708 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:47.708 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:47.708 (1712):                 )
+2014-06-21 09:36:47.708 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:47.708 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:47.708 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:47.708 (1712):               ([Year]
+2014-06-21 09:36:47.708 (1712):                 (to_str [Year])
+2014-06-21 09:36:47.708 (1712):                 )
+2014-06-21 09:36:47.708 (1712):               )
+2014-06-21 09:36:47.708 (1712):             )
+2014-06-21 09:36:47.708 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:47.708 (1712):           )
+2014-06-21 09:36:47.708 (1712):         (
+2014-06-21 09:36:47.708 (1712):           ([none:Population:ok] [Population])
+2014-06-21 09:36:47.708 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:47.708 (1712):           ([none:Region:nk] [Region])
+2014-06-21 09:36:47.708 (1712):           ([none:Year:nk]
+2014-06-21 09:36:47.708 (1712):             (to_str [Year])
+2014-06-21 09:36:47.708 (1712):             )
+2014-06-21 09:36:47.708 (1712):           )
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       (and
+2014-06-21 09:36:47.708 (1712):         (>= [none:Population:ok] 1.)
+2014-06-21 09:36:47.708 (1712):         (<= [none:Population:ok] 1330.14129)
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       )
+2014-06-21 09:36:47.708 (1712):     (
+2014-06-21 09:36:47.708 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:47.708 (1712):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:47.708 (1712):       ([none:Year:nk] [none:Year:nk])
+2014-06-21 09:36:47.708 (1712):       )
+2014-06-21 09:36:47.708 (1712):     (
+2014-06-21 09:36:47.708 (1712):       ([TEMP(Consumption per Population)(1033770462)(0)]
+2014-06-21 09:36:47.708 (1712):         (sum [Oil Consumption])
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       ([TEMP(Consumption per Population)(4139587409)(0)]
+2014-06-21 09:36:47.708 (1712):         (sum [Population])
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       ([sum:Oil Consumption:ok]
+2014-06-21 09:36:47.708 (1712):         (sum [Oil Consumption])
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       ([sum:Population:ok]
+2014-06-21 09:36:47.708 (1712):         (sum [Population])
+2014-06-21 09:36:47.708 (1712):         )
+2014-06-21 09:36:47.708 (1712):       )
+2014-06-21 09:36:47.708 (1712):     )
+2014-06-21 09:36:47.708 (1712):   ([none:Country:nk] [none:Region:nk] [none:Year:nk] [TEMP(Consumption per Population)(1033770462)(0)] [TEMP(Consumption per Population)(4139587409)(0)] [sum:Oil Consumption:ok] [sum:Population:ok])
+2014-06-21 09:36:47.708 (1712):   )
+2014-06-21 09:36:47.708 (1712): 
+2014-06-21 09:36:47.721 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:47.722 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=13
+2014-06-21 09:36:47.725 (4796): Session1: StatementExecute: OK rowset_guid=14 n_columns=7
+2014-06-21 09:36:47.725 (4796): Elapsed time:0.017 sec
+2014-06-21 09:36:47.725 (4796): Compilation time:0.013 sec
+2014-06-21 09:36:47.725 (4796): Execution time:0.004 sec
+2014-06-21 09:36:47.728 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=13
+2014-06-21 09:36:47.786 (4924): tdeserver: open session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=3
+2014-06-21 09:36:47.787 (1712): Session3: QueryExecute:
+2014-06-21 09:36:47.787 (1712): (database "C:\\Users\\John\\AppData\\Local\\Temp\\TableauTemp\\1ipgpzx1agavqm15rzkcs0qm9f5r\\Data\\OECD\\Energy.tde")
+2014-06-21 09:36:47.787 (1712): Session3: QueryExecute: OK
+2014-06-21 09:36:47.787 (4924): tdeserver: open session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=4
+2014-06-21 09:36:49.065 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=15
+2014-06-21 09:36:49.065 (1712): (restrict
+2014-06-21 09:36:49.065 (1712):   (aggregate
+2014-06-21 09:36:49.065 (1712):     (select
+2014-06-21 09:36:49.065 (1712):       (project
+2014-06-21 09:36:49.065 (1712):         (restrict
+2014-06-21 09:36:49.065 (1712):           (project
+2014-06-21 09:36:49.065 (1712):             (project
+2014-06-21 09:36:49.065 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:49.065 (1712):               (
+2014-06-21 09:36:49.065 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.065 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.065 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.065 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.065 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:49.065 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:49.065 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:49.065 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:49.065 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.065 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.065 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.065 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.065 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.065 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.065 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:49.065 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:49.065 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.065 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:49.065 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.065 (1712):                 )
+2014-06-21 09:36:49.065 (1712):               )
+2014-06-21 09:36:49.065 (1712):             (
+2014-06-21 09:36:49.065 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:49.065 (1712):               ([Country] [Country])
+2014-06-21 09:36:49.065 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.065 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.065 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.065 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.065 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.065 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.065 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.065 (1712):               ([Population] [Population])
+2014-06-21 09:36:49.065 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.065 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.065 (1712):               ([Region] [Region])
+2014-06-21 09:36:49.065 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:49.065 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.065 (1712):                 )
+2014-06-21 09:36:49.065 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.065 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.065 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:49.065 (1712):               ([Year]
+2014-06-21 09:36:49.065 (1712):                 (to_str [Year])
+2014-06-21 09:36:49.065 (1712):                 )
+2014-06-21 09:36:49.065 (1712):               )
+2014-06-21 09:36:49.065 (1712):             )
+2014-06-21 09:36:49.065 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.065 (1712):           )
+2014-06-21 09:36:49.065 (1712):         (
+2014-06-21 09:36:49.065 (1712):           ([none:Year:nk]
+2014-06-21 09:36:49.065 (1712):             (to_str [Year])
+2014-06-21 09:36:49.065 (1712):             )
+2014-06-21 09:36:49.065 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:49.065 (1712):           ([none:Region:nk] [Region])
+2014-06-21 09:36:49.065 (1712):           )
+2014-06-21 09:36:49.065 (1712):         )
+2014-06-21 09:36:49.065 (1712):       (= [none:Year:nk] "2009")
+2014-06-21 09:36:49.065 (1712):       )
+2014-06-21 09:36:49.065 (1712):     (
+2014-06-21 09:36:49.065 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:49.065 (1712):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:49.065 (1712):       )
+2014-06-21 09:36:49.065 (1712):     (
+2014-06-21 09:36:49.065 (1712):       ([TEMP(Reserve Years with Export)(1033770462)(0)]
+2014-06-21 09:36:49.065 (1712):         (sum [Oil Consumption])
+2014-06-21 09:36:49.065 (1712):         )
+2014-06-21 09:36:49.065 (1712):       ([TEMP(Reserve Years with Export)(1488418192)(0)]
+2014-06-21 09:36:49.065 (1712):         (sum [Reserves])
+2014-06-21 09:36:49.065 (1712):         )
+2014-06-21 09:36:49.065 (1712):       ([sum:Reserves (thousand barrels):ok]
+2014-06-21 09:36:49.065 (1712):         (sum [Reserves (thousand barrels)])
+2014-06-21 09:36:49.065 (1712):         )
+2014-06-21 09:36:49.065 (1712):       )
+2014-06-21 09:36:49.065 (1712):     )
+2014-06-21 09:36:49.065 (1712):   ([none:Country:nk] [none:Region:nk] [TEMP(Reserve Years with Export)(1033770462)(0)] [TEMP(Reserve Years with Export)(1488418192)(0)] [sum:Reserves (thousand barrels):ok])
+2014-06-21 09:36:49.065 (1712):   )
+2014-06-21 09:36:49.065 (1712): 
+2014-06-21 09:36:49.079 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.079 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=15
+2014-06-21 09:36:49.118 (4796): Session1: StatementExecute: OK rowset_guid=16 n_columns=5
+2014-06-21 09:36:49.118 (4796): Elapsed time:0.053 sec
+2014-06-21 09:36:49.118 (4796): Compilation time:0.014 sec
+2014-06-21 09:36:49.118 (4796): Execution time:0.039 sec
+2014-06-21 09:36:49.121 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=15
+2014-06-21 09:36:49.241 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=17
+2014-06-21 09:36:49.241 (4796): (restrict
+2014-06-21 09:36:49.241 (4796):   (aggregate
+2014-06-21 09:36:49.241 (4796):     (project
+2014-06-21 09:36:49.241 (4796):       (restrict
+2014-06-21 09:36:49.241 (4796):         (project
+2014-06-21 09:36:49.241 (4796):           (project
+2014-06-21 09:36:49.241 (4796):             (table [Extract].[Extract])
+2014-06-21 09:36:49.241 (4796):             (
+2014-06-21 09:36:49.241 (4796):               (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.241 (4796):               (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.241 (4796):               (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.241 (4796):               (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.241 (4796):               ([Country] [Country5])
+2014-06-21 09:36:49.241 (4796):               ([Population$_Country] [Country6])
+2014-06-21 09:36:49.241 (4796):               ([Production$_Country] [Country7])
+2014-06-21 09:36:49.241 (4796):               ([Region$_Country] [Country8])
+2014-06-21 09:36:49.241 (4796):               ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.241 (4796):               (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.241 (4796):               (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.241 (4796):               (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.241 (4796):               (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.241 (4796):               (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.241 (4796):               ([Population$_Year] [Year5])
+2014-06-21 09:36:49.241 (4796):               ([Production$_Year] [Year6])
+2014-06-21 09:36:49.241 (4796):               ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.241 (4796):               ([Year] [Year8])
+2014-06-21 09:36:49.241 (4796):               (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.241 (4796):               )
+2014-06-21 09:36:49.241 (4796):             )
+2014-06-21 09:36:49.241 (4796):           (
+2014-06-21 09:36:49.241 (4796):             ([none:Region:nk] [Region])
+2014-06-21 09:36:49.241 (4796):             ([Country] [Country])
+2014-06-21 09:36:49.241 (4796):             ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.241 (4796):             ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.241 (4796):             ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.241 (4796):             ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.241 (4796):             ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.241 (4796):             ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.241 (4796):             ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.241 (4796):             ([Population] [Population])
+2014-06-21 09:36:49.241 (4796):             ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.241 (4796):             ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.241 (4796):             ([Region] [Region])
+2014-06-21 09:36:49.241 (4796):             ([Renewable Energy Production]
+2014-06-21 09:36:49.241 (4796):               (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.241 (4796):               )
+2014-06-21 09:36:49.241 (4796):             ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.241 (4796):             ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.241 (4796):             ([Reserves] [Reserves])
+2014-06-21 09:36:49.241 (4796):             ([Year]
+2014-06-21 09:36:49.241 (4796):               (to_str [Year])
+2014-06-21 09:36:49.241 (4796):               )
+2014-06-21 09:36:49.241 (4796):             )
+2014-06-21 09:36:49.241 (4796):           )
+2014-06-21 09:36:49.241 (4796):         ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.241 (4796):         )
+2014-06-21 09:36:49.241 (4796):       (
+2014-06-21 09:36:49.241 (4796):         ([none:Region:nk] [Region])
+2014-06-21 09:36:49.241 (4796):         ([none:Year:nk]
+2014-06-21 09:36:49.241 (4796):           (to_str [Year])
+2014-06-21 09:36:49.241 (4796):           )
+2014-06-21 09:36:49.241 (4796):         )
+2014-06-21 09:36:49.241 (4796):       )
+2014-06-21 09:36:49.241 (4796):     (
+2014-06-21 09:36:49.241 (4796):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:49.241 (4796):       ([none:Year:nk] [none:Year:nk])
+2014-06-21 09:36:49.241 (4796):       )
+2014-06-21 09:36:49.241 (4796):     (
+2014-06-21 09:36:49.241 (4796):       ([sum:Reserves:ok]
+2014-06-21 09:36:49.241 (4796):         (sum [Reserves])
+2014-06-21 09:36:49.241 (4796):         )
+2014-06-21 09:36:49.241 (4796):       )
+2014-06-21 09:36:49.241 (4796):     )
+2014-06-21 09:36:49.241 (4796):   ([none:Region:nk] [none:Year:nk] [sum:Reserves:ok])
+2014-06-21 09:36:49.241 (4796):   )
+2014-06-21 09:36:49.241 (4796): 
+2014-06-21 09:36:49.252 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.253 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=17
+2014-06-21 09:36:49.257 (1712): Session1: StatementExecute: OK rowset_guid=18 n_columns=3
+2014-06-21 09:36:49.257 (1712): Elapsed time:0.015 sec
+2014-06-21 09:36:49.257 (1712): Compilation time:0.011 sec
+2014-06-21 09:36:49.257 (1712): Execution time:0.004 sec
+2014-06-21 09:36:49.258 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=17
+2014-06-21 09:36:49.300 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=19
+2014-06-21 09:36:49.300 (1712): (restrict
+2014-06-21 09:36:49.300 (1712):   (aggregate
+2014-06-21 09:36:49.300 (1712):     (select
+2014-06-21 09:36:49.300 (1712):       (project
+2014-06-21 09:36:49.300 (1712):         (restrict
+2014-06-21 09:36:49.300 (1712):           (project
+2014-06-21 09:36:49.300 (1712):             (project
+2014-06-21 09:36:49.300 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:49.300 (1712):               (
+2014-06-21 09:36:49.300 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.300 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.300 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.300 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.300 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:49.300 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:49.300 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:49.300 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:49.300 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.300 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.300 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.300 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.300 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.300 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.300 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:49.300 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:49.300 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.300 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:49.300 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.300 (1712):                 )
+2014-06-21 09:36:49.300 (1712):               )
+2014-06-21 09:36:49.300 (1712):             (
+2014-06-21 09:36:49.300 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:49.300 (1712):               ([Country] [Country])
+2014-06-21 09:36:49.300 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.300 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.300 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.300 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.300 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.300 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.300 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.300 (1712):               ([Population] [Population])
+2014-06-21 09:36:49.300 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.300 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.300 (1712):               ([Region] [Region])
+2014-06-21 09:36:49.300 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:49.300 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.300 (1712):                 )
+2014-06-21 09:36:49.300 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.300 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.300 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:49.300 (1712):               ([Year]
+2014-06-21 09:36:49.300 (1712):                 (to_str [Year])
+2014-06-21 09:36:49.300 (1712):                 )
+2014-06-21 09:36:49.300 (1712):               )
+2014-06-21 09:36:49.300 (1712):             )
+2014-06-21 09:36:49.300 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.300 (1712):           )
+2014-06-21 09:36:49.300 (1712):         (
+2014-06-21 09:36:49.300 (1712):           ([none:Year:nk]
+2014-06-21 09:36:49.300 (1712):             (to_str [Year])
+2014-06-21 09:36:49.300 (1712):             )
+2014-06-21 09:36:49.300 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:49.300 (1712):           ([none:Region:nk] [Region])
+2014-06-21 09:36:49.300 (1712):           )
+2014-06-21 09:36:49.300 (1712):         )
+2014-06-21 09:36:49.300 (1712):       (= [none:Year:nk] "2009")
+2014-06-21 09:36:49.300 (1712):       )
+2014-06-21 09:36:49.300 (1712):     (
+2014-06-21 09:36:49.300 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:49.300 (1712):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:49.300 (1712):       ([none:Year:nk] [none:Year:nk])
+2014-06-21 09:36:49.300 (1712):       )
+2014-06-21 09:36:49.300 (1712):     (
+2014-06-21 09:36:49.300 (1712):       ([TEMP(Reserve Years with Export)(1033770462)(0)]
+2014-06-21 09:36:49.300 (1712):         (sum [Oil Consumption])
+2014-06-21 09:36:49.300 (1712):         )
+2014-06-21 09:36:49.300 (1712):       ([TEMP(Total Reserves or Years Left)(1488418192)(0)]
+2014-06-21 09:36:49.300 (1712):         (sum [Reserves])
+2014-06-21 09:36:49.300 (1712):         )
+2014-06-21 09:36:49.300 (1712):       )
+2014-06-21 09:36:49.300 (1712):     )
+2014-06-21 09:36:49.300 (1712):   ([none:Country:nk] [none:Region:nk] [none:Year:nk] [TEMP(Reserve Years with Export)(1033770462)(0)] [TEMP(Total Reserves or Years Left)(1488418192)(0)])
+2014-06-21 09:36:49.300 (1712):   )
+2014-06-21 09:36:49.300 (1712): 
+2014-06-21 09:36:49.313 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.314 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=19
+2014-06-21 09:36:49.318 (4796): Session1: StatementExecute: OK rowset_guid=20 n_columns=5
+2014-06-21 09:36:49.318 (4796): Elapsed time:0.017 sec
+2014-06-21 09:36:49.319 (4796): Compilation time:0.013 sec
+2014-06-21 09:36:49.319 (4796): Execution time:0.005 sec
+2014-06-21 09:36:49.320 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=19
+2014-06-21 09:36:49.328 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=21
+2014-06-21 09:36:49.328 (4796): (restrict
+2014-06-21 09:36:49.328 (4796):   (aggregate
+2014-06-21 09:36:49.328 (4796):     (select
+2014-06-21 09:36:49.328 (4796):       (project
+2014-06-21 09:36:49.328 (4796):         (restrict
+2014-06-21 09:36:49.328 (4796):           (project
+2014-06-21 09:36:49.328 (4796):             (project
+2014-06-21 09:36:49.328 (4796):               (table [Extract].[Extract])
+2014-06-21 09:36:49.328 (4796):               (
+2014-06-21 09:36:49.328 (4796):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.328 (4796):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.328 (4796):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.328 (4796):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.328 (4796):                 ([Country] [Country5])
+2014-06-21 09:36:49.328 (4796):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:49.328 (4796):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:49.328 (4796):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:49.328 (4796):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.328 (4796):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.328 (4796):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.328 (4796):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.328 (4796):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.328 (4796):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.328 (4796):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:49.328 (4796):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:49.328 (4796):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.328 (4796):                 ([Year] [Year8])
+2014-06-21 09:36:49.328 (4796):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.328 (4796):                 )
+2014-06-21 09:36:49.328 (4796):               )
+2014-06-21 09:36:49.328 (4796):             (
+2014-06-21 09:36:49.328 (4796):               ([none:Region:nk] [Region])
+2014-06-21 09:36:49.328 (4796):               ([Country] [Country])
+2014-06-21 09:36:49.328 (4796):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.328 (4796):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.328 (4796):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.328 (4796):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.328 (4796):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.328 (4796):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.328 (4796):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.328 (4796):               ([Population] [Population])
+2014-06-21 09:36:49.328 (4796):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.328 (4796):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.328 (4796):               ([Region] [Region])
+2014-06-21 09:36:49.328 (4796):               ([Renewable Energy Production]
+2014-06-21 09:36:49.328 (4796):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.328 (4796):                 )
+2014-06-21 09:36:49.328 (4796):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.328 (4796):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.328 (4796):               ([Reserves] [Reserves])
+2014-06-21 09:36:49.328 (4796):               ([Year]
+2014-06-21 09:36:49.328 (4796):                 (to_str [Year])
+2014-06-21 09:36:49.328 (4796):                 )
+2014-06-21 09:36:49.328 (4796):               )
+2014-06-21 09:36:49.328 (4796):             )
+2014-06-21 09:36:49.328 (4796):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.328 (4796):           )
+2014-06-21 09:36:49.328 (4796):         (
+2014-06-21 09:36:49.328 (4796):           ([none:Year:nk]
+2014-06-21 09:36:49.328 (4796):             (to_str [Year])
+2014-06-21 09:36:49.328 (4796):             )
+2014-06-21 09:36:49.328 (4796):           ([none:Country:nk] [Country])
+2014-06-21 09:36:49.328 (4796):           ([none:Region:nk] [Region])
+2014-06-21 09:36:49.328 (4796):           )
+2014-06-21 09:36:49.328 (4796):         )
+2014-06-21 09:36:49.328 (4796):       (= [none:Year:nk] "2009")
+2014-06-21 09:36:49.328 (4796):       )
+2014-06-21 09:36:49.328 (4796):     (
+2014-06-21 09:36:49.328 (4796):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:49.328 (4796):       )
+2014-06-21 09:36:49.328 (4796):     (
+2014-06-21 09:36:49.328 (4796):       ([usr:Total Reserves or Years Left:ok]
+2014-06-21 09:36:49.328 (4796):         (sum [Reserves])
+2014-06-21 09:36:49.328 (4796):         )
+2014-06-21 09:36:49.328 (4796):       )
+2014-06-21 09:36:49.328 (4796):     )
+2014-06-21 09:36:49.328 (4796):   ([none:Country:nk] [usr:Total Reserves or Years Left:ok])
+2014-06-21 09:36:49.328 (4796):   )
+2014-06-21 09:36:49.328 (4796): 
+2014-06-21 09:36:49.339 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.339 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=21
+2014-06-21 09:36:49.342 (1712): Session1: StatementExecute: OK rowset_guid=22 n_columns=2
+2014-06-21 09:36:49.342 (1712): Elapsed time:0.014 sec
+2014-06-21 09:36:49.342 (1712): Compilation time:0.011 sec
+2014-06-21 09:36:49.342 (1712): Execution time:0.003 sec
+2014-06-21 09:36:49.343 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=21
+2014-06-21 09:36:49.385 (1712): Session1: StatementPrepare: sess_guid=1 stmt_guid=23
+2014-06-21 09:36:49.385 (1712): (restrict
+2014-06-21 09:36:49.385 (1712):   (aggregate
+2014-06-21 09:36:49.385 (1712):     (select
+2014-06-21 09:36:49.385 (1712):       (project
+2014-06-21 09:36:49.385 (1712):         (restrict
+2014-06-21 09:36:49.385 (1712):           (project
+2014-06-21 09:36:49.385 (1712):             (project
+2014-06-21 09:36:49.385 (1712):               (table [Extract].[Extract])
+2014-06-21 09:36:49.385 (1712):               (
+2014-06-21 09:36:49.385 (1712):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.385 (1712):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.385 (1712):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.385 (1712):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.385 (1712):                 ([Country] [Country5])
+2014-06-21 09:36:49.385 (1712):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:49.385 (1712):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:49.385 (1712):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:49.385 (1712):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.385 (1712):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.385 (1712):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.385 (1712):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.385 (1712):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.385 (1712):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.385 (1712):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:49.385 (1712):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:49.385 (1712):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.385 (1712):                 ([Year] [Year8])
+2014-06-21 09:36:49.385 (1712):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.385 (1712):                 )
+2014-06-21 09:36:49.385 (1712):               )
+2014-06-21 09:36:49.385 (1712):             (
+2014-06-21 09:36:49.385 (1712):               ([none:Region:nk] [Region])
+2014-06-21 09:36:49.385 (1712):               ([Country] [Country])
+2014-06-21 09:36:49.385 (1712):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.385 (1712):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.385 (1712):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.385 (1712):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.385 (1712):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.385 (1712):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.385 (1712):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.385 (1712):               ([Population] [Population])
+2014-06-21 09:36:49.385 (1712):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.385 (1712):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.385 (1712):               ([Region] [Region])
+2014-06-21 09:36:49.385 (1712):               ([Renewable Energy Production]
+2014-06-21 09:36:49.385 (1712):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.385 (1712):                 )
+2014-06-21 09:36:49.385 (1712):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.385 (1712):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.385 (1712):               ([Reserves] [Reserves])
+2014-06-21 09:36:49.385 (1712):               ([Year]
+2014-06-21 09:36:49.385 (1712):                 (to_str [Year])
+2014-06-21 09:36:49.385 (1712):                 )
+2014-06-21 09:36:49.385 (1712):               )
+2014-06-21 09:36:49.385 (1712):             )
+2014-06-21 09:36:49.385 (1712):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.385 (1712):           )
+2014-06-21 09:36:49.385 (1712):         (
+2014-06-21 09:36:49.385 (1712):           ([none:Year:nk]
+2014-06-21 09:36:49.385 (1712):             (to_str [Year])
+2014-06-21 09:36:49.385 (1712):             )
+2014-06-21 09:36:49.385 (1712):           ([none:Country:nk] [Country])
+2014-06-21 09:36:49.385 (1712):           ([none:Region:nk] [Region])
+2014-06-21 09:36:49.385 (1712):           )
+2014-06-21 09:36:49.385 (1712):         )
+2014-06-21 09:36:49.385 (1712):       (= [none:Year:nk] "2009")
+2014-06-21 09:36:49.385 (1712):       )
+2014-06-21 09:36:49.385 (1712):     (
+2014-06-21 09:36:49.385 (1712):       ([none:Country:nk] [none:Country:nk])
+2014-06-21 09:36:49.385 (1712):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:49.385 (1712):       )
+2014-06-21 09:36:49.385 (1712):     (
+2014-06-21 09:36:49.385 (1712):       ([TEMP(Reserve Years with Export)(1033770462)(0)]
+2014-06-21 09:36:49.385 (1712):         (sum [Oil Consumption])
+2014-06-21 09:36:49.385 (1712):         )
+2014-06-21 09:36:49.385 (1712):       ([TEMP(Total Reserves or Years Left)(1488418192)(0)]
+2014-06-21 09:36:49.385 (1712):         (sum [Reserves])
+2014-06-21 09:36:49.385 (1712):         )
+2014-06-21 09:36:49.385 (1712):       )
+2014-06-21 09:36:49.385 (1712):     )
+2014-06-21 09:36:49.385 (1712):   ([none:Country:nk] [none:Region:nk] [TEMP(Reserve Years with Export)(1033770462)(0)] [TEMP(Total Reserves or Years Left)(1488418192)(0)])
+2014-06-21 09:36:49.385 (1712):   )
+2014-06-21 09:36:49.385 (1712): 
+2014-06-21 09:36:49.397 (1712): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.398 (4796): Session1: StatementExecute: sess_guid=1 stmt_guid=23
+2014-06-21 09:36:49.401 (4796): Session1: StatementExecute: OK rowset_guid=24 n_columns=4
+2014-06-21 09:36:49.401 (4796): Elapsed time:0.016 sec
+2014-06-21 09:36:49.401 (4796): Compilation time:0.012 sec
+2014-06-21 09:36:49.401 (4796): Execution time:0.004 sec
+2014-06-21 09:36:49.402 (1712): Session1: StatementClose: sess_guid=1 stmt_guid=23
+2014-06-21 09:36:49.410 (4796): Session1: StatementPrepare: sess_guid=1 stmt_guid=25
+2014-06-21 09:36:49.410 (4796): (restrict
+2014-06-21 09:36:49.410 (4796):   (aggregate
+2014-06-21 09:36:49.410 (4796):     (select
+2014-06-21 09:36:49.410 (4796):       (project
+2014-06-21 09:36:49.410 (4796):         (restrict
+2014-06-21 09:36:49.410 (4796):           (project
+2014-06-21 09:36:49.410 (4796):             (project
+2014-06-21 09:36:49.410 (4796):               (table [Extract].[Extract])
+2014-06-21 09:36:49.410 (4796):               (
+2014-06-21 09:36:49.410 (4796):                 (['Exports (Refined)$'_Country] [Country1])
+2014-06-21 09:36:49.410 (4796):                 (['Imports (Crude)$'_Country] [Country2])
+2014-06-21 09:36:49.410 (4796):                 (['Imports (Refined)$'_Country] [Country3])
+2014-06-21 09:36:49.410 (4796):                 (['Renewable Energy Production$'_Country] [Country4])
+2014-06-21 09:36:49.410 (4796):                 ([Country] [Country5])
+2014-06-21 09:36:49.410 (4796):                 ([Population$_Country] [Country6])
+2014-06-21 09:36:49.410 (4796):                 ([Production$_Country] [Country7])
+2014-06-21 09:36:49.410 (4796):                 ([Region$_Country] [Country8])
+2014-06-21 09:36:49.410 (4796):                 ([Reserves$_Country] [Country9])
+2014-06-21 09:36:49.410 (4796):                 (['Exports (Crude)$'_Country] [Country])
+2014-06-21 09:36:49.410 (4796):                 (['Exports (Refined)$'_Year] [Year1])
+2014-06-21 09:36:49.410 (4796):                 (['Imports (Crude)$'_Year] [Year2])
+2014-06-21 09:36:49.410 (4796):                 (['Imports (Refined)$'_Year] [Year3])
+2014-06-21 09:36:49.410 (4796):                 (['Renewable Energy Production$'_Year] [Year4])
+2014-06-21 09:36:49.410 (4796):                 ([Population$_Year] [Year5])
+2014-06-21 09:36:49.410 (4796):                 ([Production$_Year] [Year6])
+2014-06-21 09:36:49.410 (4796):                 ([Reserves$_Year] [Year7])
+2014-06-21 09:36:49.410 (4796):                 ([Year] [Year8])
+2014-06-21 09:36:49.410 (4796):                 (['Exports (Crude)$'_Year] [Year])
+2014-06-21 09:36:49.410 (4796):                 )
+2014-06-21 09:36:49.410 (4796):               )
+2014-06-21 09:36:49.410 (4796):             (
+2014-06-21 09:36:49.410 (4796):               ([none:Region:nk] [Region])
+2014-06-21 09:36:49.410 (4796):               ([Country] [Country])
+2014-06-21 09:36:49.410 (4796):               ([Exports (Crude)] [Exports (Crude)])
+2014-06-21 09:36:49.410 (4796):               ([Exports (Refined)] [Exports (Refined)])
+2014-06-21 09:36:49.410 (4796):               ([Imports (Crude)] [Imports (Crude)])
+2014-06-21 09:36:49.410 (4796):               ([Imports (Refined)] [Imports (Refined)])
+2014-06-21 09:36:49.410 (4796):               ([Number of Records] [Number of Records])
+2014-06-21 09:36:49.410 (4796):               ([Oil Consumption] [Oil Consumption])
+2014-06-21 09:36:49.410 (4796):               ([Oil Production] [Oil Production])
+2014-06-21 09:36:49.410 (4796):               ([Population] [Population])
+2014-06-21 09:36:49.410 (4796):               ([Production$_Country] [Production$_Country])
+2014-06-21 09:36:49.410 (4796):               ([Production$_Year] [Production$_Year])
+2014-06-21 09:36:49.410 (4796):               ([Region] [Region])
+2014-06-21 09:36:49.410 (4796):               ([Renewable Energy Production]
+2014-06-21 09:36:49.410 (4796):                 (to_real [Renewable Energy Production])
+2014-06-21 09:36:49.410 (4796):                 )
+2014-06-21 09:36:49.410 (4796):               ([Reserves (thousand barrels)] [Reserves (thousand barrels)])
+2014-06-21 09:36:49.410 (4796):               ([Reserves$_Year] [Reserves$_Year])
+2014-06-21 09:36:49.410 (4796):               ([Reserves] [Reserves])
+2014-06-21 09:36:49.410 (4796):               ([Year]
+2014-06-21 09:36:49.410 (4796):                 (to_str [Year])
+2014-06-21 09:36:49.410 (4796):                 )
+2014-06-21 09:36:49.410 (4796):               )
+2014-06-21 09:36:49.410 (4796):             )
+2014-06-21 09:36:49.410 (4796):           ([Country] [Exports (Crude)] [Exports (Refined)] [Imports (Crude)] [Imports (Refined)] [Number of Records] [Oil Consumption] [Oil Production] [Population] [Production$_Country] [Production$_Year] [Region] [Renewable Energy Production] [Reserves (thousand barrels)] [Reserves$_Year] [Reserves] [Year])
+2014-06-21 09:36:49.410 (4796):           )
+2014-06-21 09:36:49.410 (4796):         (
+2014-06-21 09:36:49.410 (4796):           ([none:Year:nk]
+2014-06-21 09:36:49.410 (4796):             (to_str [Year])
+2014-06-21 09:36:49.410 (4796):             )
+2014-06-21 09:36:49.410 (4796):           ([none:Country:nk] [Country])
+2014-06-21 09:36:49.410 (4796):           ([none:Region:nk] [Region])
+2014-06-21 09:36:49.410 (4796):           )
+2014-06-21 09:36:49.410 (4796):         )
+2014-06-21 09:36:49.410 (4796):       (= [none:Year:nk] "2009")
+2014-06-21 09:36:49.410 (4796):       )
+2014-06-21 09:36:49.410 (4796):     (
+2014-06-21 09:36:49.410 (4796):       ([none:Region:nk] [none:Region:nk])
+2014-06-21 09:36:49.410 (4796):       )
+2014-06-21 09:36:49.410 (4796):     (
+2014-06-21 09:36:49.410 (4796):       ([usr:Total Reserves or Years Left:ok]
+2014-06-21 09:36:49.410 (4796):         (sum [Reserves])
+2014-06-21 09:36:49.410 (4796):         )
+2014-06-21 09:36:49.410 (4796):       )
+2014-06-21 09:36:49.410 (4796):     )
+2014-06-21 09:36:49.410 (4796):   ([none:Region:nk] [usr:Total Reserves or Years Left:ok])
+2014-06-21 09:36:49.410 (4796):   )
+2014-06-21 09:36:49.410 (4796): 
+2014-06-21 09:36:49.421 (4796): Session1: StatementPrepare: OK
+2014-06-21 09:36:49.422 (1712): Session1: StatementExecute: sess_guid=1 stmt_guid=25
+2014-06-21 09:36:49.425 (1712): Session1: StatementExecute: OK rowset_guid=26 n_columns=2
+2014-06-21 09:36:49.425 (1712): Elapsed time:0.013 sec
+2014-06-21 09:36:49.425 (1712): Compilation time:0.011 sec
+2014-06-21 09:36:49.425 (1712): Execution time:0.003 sec
+2014-06-21 09:36:49.426 (4796): Session1: StatementClose: sess_guid=1 stmt_guid=25
+2014-06-21 21:31:08.598 (4796): Session3: QueryExecute:
+2014-06-21 21:31:08.598 (4796): (database null)
+2014-06-21 21:31:08.598 (4796): Session3: QueryExecute: OK
+2014-06-21 21:31:08.598 (4924): tdeserver: close session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=3
+2014-06-21 21:31:08.598 (1712): Session4: QueryExecute:
+2014-06-21 21:31:08.598 (1712): (database null)
+2014-06-21 21:31:08.598 (1712): Session4: QueryExecute: OK
+2014-06-21 21:31:08.598 (4924): tdeserver: close session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=4
+2014-06-21 21:31:08.600 (4796): Session1: QueryExecute:
+2014-06-21 21:31:08.600 (4796): (database null)
+2014-06-21 21:31:08.600 (4796): Session1: QueryExecute: OK
+2014-06-21 21:31:08.600 (4924): tdeserver: close session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=1
+2014-06-21 21:31:08.600 (1712): Session2: QueryExecute:
+2014-06-21 21:31:08.600 (1712): (database null)
+2014-06-21 21:31:08.600 (1712): Session2: QueryExecute: OK
+2014-06-21 21:31:08.600 (4924): tdeserver: close session, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}, sess_guid=2
+2014-06-21 21:31:08.601 (4924): tdeserver: connection dead: The pipe has been ended.
+2014-06-21 21:31:08.601 (4924):  - IPC_NamedPipe::Recv(ReadFile)
+2014-06-21 21:31:08.601 (4924): tdeserver: closing connection, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 21:31:08.601 (4924): endthread: recv, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 21:31:08.601 (4144): endthread: send, connection=tab.pipe://./pipe/{4F08EC72-A00A-48A1-93F0-D9BEB847DBA3}
+2014-06-21 21:31:08.727 (2916): tdeserver: exit (0)
